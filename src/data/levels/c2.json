@@ -70,5 +70,1733 @@
       "question": "Is leadership interested in our proposal?",
       "answer": "Yes, it's gaining traction with senior leadership. I think they'll approve phase two soon."
     }
+  },
+  {
+    "expression": "cogent",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/ˈkoʊdʒənt/",
+    "meaningEn": "clear, logical, and convincing",
+    "meaningVi": "thuyết phục, sắc bén",
+    "examples": [
+      "Her cogent analysis persuaded the committee.",
+      "The report offers a cogent critique of current policy.",
+      "I found his rebuttal cogent despite my initial skepticism."
+    ],
+    "conversation": {
+      "question": "Was the committee convinced by her analysis?",
+      "answer": "Yes, her cogent analysis persuaded them. The critique of current policy was especially hard to dismiss."
+    }
+  },
+  {
+    "expression": "perspicacious",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/ˌpɜːrspɪˈkeɪʃəs/",
+    "meaningEn": "having keen insight and understanding",
+    "meaningVi": "sáng suốt, tinh tường",
+    "examples": [
+      "A perspicacious reviewer spotted the flaw in the methodology.",
+      "Her perspicacious reading of the market shaped our strategy.",
+      "Only a perspicacious observer would notice that subtle shift."
+    ],
+    "conversation": {
+      "question": "How did she anticipate the regulatory change?",
+      "answer": "She is perspicacious about policy signals. She read the draft guidance months before others did."
+    }
+  },
+  {
+    "expression": "trenchant",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/ˈtrentʃənt/",
+    "meaningEn": "keen, forceful, and sharply expressed",
+    "meaningVi": "sắc bén, mordant",
+    "examples": [
+      "The editorial offered a trenchant critique of the proposal.",
+      "His trenchant remarks unsettled the panel.",
+      "She is known for trenchant commentary on fiscal policy."
+    ],
+    "conversation": {
+      "question": "What did you think of the editorial?",
+      "answer": "It was trenchant. The critique of the proposal cut through the vague talking points."
+    }
+  },
+  {
+    "expression": "erudite",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/ˈerjədaɪt/",
+    "meaningEn": "showing extensive knowledge gained through study",
+    "meaningVi": "uyên bác, học thức",
+    "examples": [
+      "An erudite scholar opened the symposium with a historical overview.",
+      "Her erudite footnotes enriched the monograph.",
+      "The lecture was erudite yet accessible to graduate students."
+    ],
+    "conversation": {
+      "question": "Who should we invite to keynote?",
+      "answer": "Dr. Nguyen is erudite on constitutional history and speaks without condescension."
+    }
+  },
+  {
+    "expression": "salient",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/ˈseɪliənt/",
+    "meaningEn": "most noticeable or important",
+    "meaningVi": "nổi bật, đáng chú ý nhất",
+    "examples": [
+      "The salient point is that costs exceed projected revenue.",
+      "Highlight the salient findings on the first slide.",
+      "What remains salient after the debate is the funding gap."
+    ],
+    "conversation": {
+      "question": "What should we emphasize in the executive summary?",
+      "answer": "The salient point is the funding gap. Everything else supports that conclusion."
+    }
+  },
+  {
+    "expression": "inveterate",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/ɪnˈvetərət/",
+    "meaningEn": "deeply established and unlikely to change",
+    "meaningVi": "lâu đời, ăn sâu",
+    "examples": [
+      "He is an inveterate skeptic of unverified claims.",
+      "Inveterate habits die hard even after formal training.",
+      "She remained an inveterate advocate for open data."
+    ],
+    "conversation": {
+      "question": "Will he ever accept the new framework?",
+      "answer": "He is an inveterate skeptic of unverified claims. Evidence will have to be overwhelming."
+    }
+  },
+  {
+    "expression": "inimical",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/ɪˈnɪmɪkl/",
+    "meaningEn": "harmful or unfriendly; tending to obstruct",
+    "meaningVi": "có hại, bất lợi",
+    "examples": [
+      "The clause is inimical to small suppliers.",
+      "Such rhetoric is inimical to constructive dialogue.",
+      "Conditions inimical to research persisted for years."
+    ],
+    "conversation": {
+      "question": "Why did suppliers reject the contract?",
+      "answer": "Several clauses are inimical to small suppliers. They asked for a revised liability section."
+    }
+  },
+  {
+    "expression": "recalcitrant",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/rɪˈkælsɪtrənt/",
+    "meaningEn": "uncooperative and resistant to authority",
+    "meaningVi": "cương quyết, ngoan cố",
+    "examples": [
+      "Recalcitrant departments delayed the compliance rollout.",
+      "The recalcitrant witness refused to answer directly.",
+      "Managers struggled with recalcitrant vendors."
+    ],
+    "conversation": {
+      "question": "Why is compliance taking so long?",
+      "answer": "Two recalcitrant departments still refuse to adopt the controls."
+    }
+  },
+  {
+    "expression": "perfunctory",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/pərˈfʌŋktəri/",
+    "meaningEn": "carried out with minimal effort or interest",
+    "meaningVi": "qua loa, chiếu lệ",
+    "examples": [
+      "The audit was perfunctory and missed obvious gaps.",
+      "He gave a perfunctory nod and returned to his phone.",
+      "Perfunctory reviews undermine quality assurance."
+    ],
+    "conversation": {
+      "question": "Did the external audit catch the issue?",
+      "answer": "No, it was perfunctory. They never tested access controls properly."
+    }
+  },
+  {
+    "expression": "ineffable",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/ɪnˈefəbl/",
+    "meaningEn": "too great or extreme to be expressed in words",
+    "meaningVi": "không thể diễn tả",
+    "examples": [
+      "The report captured an ineffable sense of institutional drift.",
+      "Some ethical dilemmas remain ineffable in policy language.",
+      "There is an ineffable quality to well-run deliberative forums."
+    ],
+    "conversation": {
+      "question": "Can the report convey what residents felt?",
+      "answer": "Only partly. The sense of loss is ineffable, though the testimony comes close."
+    }
+  },
+  {
+    "expression": "obdurate",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/ˈɒbdjərət/",
+    "meaningEn": "stubbornly refusing to change one's opinion",
+    "meaningVi": "cứng đầu, ngoan cố",
+    "examples": [
+      "Obdurate opposition blocked the amendment.",
+      "He remained obdurate despite new evidence.",
+      "An obdurate stance on pricing stalled negotiations."
+    ],
+    "conversation": {
+      "question": "Will the union accept the revised offer?",
+      "answer": "They have been obdurate so far. New evidence may soften their position."
+    }
+  },
+  {
+    "expression": "mendacious",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/menˈdeɪʃəs/",
+    "meaningEn": "not telling the truth; lying",
+    "meaningVi": "dối trá, không trung thực",
+    "examples": [
+      "The mendacious affidavit triggered a criminal inquiry.",
+      "Mendacious statistics appeared in the campaign brochure.",
+      "Counsel called the witness mendacious under cross-examination."
+    ],
+    "conversation": {
+      "question": "Why was the witness discredited?",
+      "answer": "Counsel showed the affidavit was mendacious. Several dates contradicted bank records."
+    }
+  },
+  {
+    "expression": "perfidious",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/pərˈfɪdiəs/",
+    "meaningEn": "deceitful and untrustworthy",
+    "meaningVi": "phản bội, không trung thành",
+    "examples": [
+      "A perfidious partner leaked the term sheet.",
+      "The treaty was abandoned after perfidious conduct.",
+      "Perfidious agents undermined the negotiation."
+    ],
+    "conversation": {
+      "question": "Who leaked the term sheet?",
+      "answer": "We suspect a perfidious partner who stood to gain from the collapse of talks."
+    }
+  },
+  {
+    "expression": "sagacious",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/səˈɡeɪʃəs/",
+    "meaningEn": "having or showing keen mental discernment",
+    "meaningVi": "khôn ngoan, sáng suốt",
+    "examples": [
+      "A sagacious mentor guided her through the tenure process.",
+      "His sagacious counsel prevented a costly lawsuit.",
+      "Sagacious investors hedged before the downturn."
+    ],
+    "conversation": {
+      "question": "How did she avoid the lawsuit?",
+      "answer": "A sagacious mentor advised her to document every decision. That counsel proved decisive."
+    }
+  },
+  {
+    "expression": "vicarious",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/vaɪˈkeəriəs/",
+    "meaningEn": "experienced through another person rather than directly",
+    "meaningVi": "gián tiếp, thay cho",
+    "examples": [
+      "Readers sought vicarious thrill in the memoir.",
+      "Managers gain vicarious learning from case studies.",
+      "The policy debate offered vicarious insight into rural life."
+    ],
+    "conversation": {
+      "question": "Why assign the case study?",
+      "answer": "It gives vicarious insight into decisions managers may never face directly."
+    }
+  },
+  {
+    "expression": "quotidian",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/kwoʊˈtɪdiən/",
+    "meaningEn": "belonging to everyday life; ordinary",
+    "meaningVi": "hàng ngày, tầm thường",
+    "examples": [
+      "The essay elevates quotidian rituals into social commentary.",
+      "Quotidian bureaucracy slowed the relief effort.",
+      "She documented quotidian inequalities in urban transit."
+    ],
+    "conversation": {
+      "question": "What makes the essay compelling?",
+      "answer": "It treats quotidian rituals as evidence of deeper inequality. That lens feels fresh."
+    }
+  },
+  {
+    "expression": "sanguine",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/ˈsæŋɡwɪn/",
+    "meaningEn": "optimistic or positive, especially in a difficult situation",
+    "meaningVi": "lạc quan",
+    "examples": [
+      "Analysts are less sanguine about Q4 margins.",
+      "She remained sanguine despite the setback.",
+      "I am not sanguine that consensus will emerge quickly."
+    ],
+    "conversation": {
+      "question": "Are you optimistic about Q4?",
+      "answer": "I am not sanguine about margins. Input costs are still rising."
+    }
+  },
+  {
+    "expression": "tendentious",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/tenˈdenʃəs/",
+    "meaningEn": "expressing a strong opinion that others are likely to disagree with",
+    "meaningVi": "có thiên kiến, mang tính tranh luận",
+    "examples": [
+      "The tendentious framing skewed the survey results.",
+      "Critics called the white paper tendentious.",
+      "A tendentious headline distorted the findings."
+    ],
+    "conversation": {
+      "question": "Why did the white paper draw criticism?",
+      "answer": "It is tendentious. The framing presumes the policy already succeeded."
+    }
+  },
+  {
+    "expression": "invidious",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/ɪnˈvɪdiəs/",
+    "meaningEn": "likely to arouse resentment or anger; unfairly discriminating",
+    "meaningVi": "gây bất mãn, bất công",
+    "examples": [
+      "The invidious comparison pit teams against one another.",
+      "Invidious distinctions in pay eroded morale.",
+      "An invidious clause exempted legacy clients."
+    ],
+    "conversation": {
+      "question": "Why did morale drop after the reorg?",
+      "answer": "Leadership drew invidious comparisons between teams. People felt set up to fail."
+    }
+  },
+  {
+    "expression": "inscrutable",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/ɪnˈskruːtəbl/",
+    "meaningEn": "impossible to understand or interpret",
+    "meaningVi": "khó hiểu, bí ẩn",
+    "examples": [
+      "The regulator's inscrutable guidance confused banks.",
+      "He wore an inscrutable expression throughout the hearing.",
+      "Inscrutable voting patterns defied simple models."
+    ],
+    "conversation": {
+      "question": "Why can't banks comply yet?",
+      "answer": "The regulator's guidance remains inscrutable. Legal teams are still parsing one footnote."
+    }
+  },
+  {
+    "expression": "prolix",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/ˈproʊlɪks/",
+    "meaningEn": "using too many words; tediously lengthy",
+    "meaningVi": "dài dòng, lan man",
+    "examples": [
+      "The prolix contract buried key obligations.",
+      "Reviewers asked the author to trim prolix passages.",
+      "Prolix testimony exhausted the committee."
+    ],
+    "conversation": {
+      "question": "Can we sign the contract today?",
+      "answer": "Not until counsel trims the prolix indemnity section. It runs twelve pages."
+    }
+  },
+  {
+    "expression": "laconic",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/ləˈkɒnɪk/",
+    "meaningEn": "using very few words",
+    "meaningVi": "ngắn gọn, cô đọng",
+    "examples": [
+      "Her laconic reply ended the exchange.",
+      "The memo was laconic yet decisive.",
+      "A laconic press release announced the merger."
+    ],
+    "conversation": {
+      "question": "How did she respond to the accusation?",
+      "answer": "With a laconic denial. She offered no further comment."
+    }
+  },
+  {
+    "expression": "prescient",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/ˈpresiənt/",
+    "meaningEn": "having knowledge of events before they take place",
+    "meaningVi": "tiên tri, có foresight",
+    "examples": [
+      "A prescient memo warned about liquidity risk.",
+      "Her prescient forecast shaped the hedge strategy.",
+      "Prescient analysts flagged supply-chain fragility early."
+    ],
+    "conversation": {
+      "question": "Who warned about liquidity risk?",
+      "answer": "Finance issued a prescient memo last spring. We should have acted on it."
+    }
+  },
+  {
+    "expression": "recondite",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/ˈrekəndaɪt/",
+    "meaningEn": "little known; abstruse and difficult to understand",
+    "meaningVi": "huyền bí, khó hiểu",
+    "examples": [
+      "The journal publishes recondite research in epistemology.",
+      "Recondite jargon alienated the general audience.",
+      "She specializes in recondite archival sources."
+    ],
+    "conversation": {
+      "question": "Is the paper suitable for a general audience?",
+      "answer": "No, it is recondite. The argument assumes graduate-level logic."
+    }
+  },
+  {
+    "expression": "abstruse",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/æbˈstruːs/",
+    "meaningEn": "difficult to understand; obscure",
+    "meaningVi": "trừu tượng, khó hiểu",
+    "examples": [
+      "The theorem rests on abstruse lemmas.",
+      "Abstruse legal doctrine shaped the ruling.",
+      "He avoided abstruse notation in the textbook."
+    ],
+    "conversation": {
+      "question": "Why did students struggle with the chapter?",
+      "answer": "The proofs rely on abstruse lemmas. We need a supplementary guide."
+    }
+  },
+  {
+    "expression": "specious",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/ˈspiːʃəs/",
+    "meaningEn": "superficially plausible but actually wrong",
+    "meaningVi": "hư danh, có vẻ đúng nhưng sai",
+    "examples": [
+      "The specious argument appealed to cherry-picked data.",
+      "Specious correlations misled the board.",
+      "Counsel dismantled a specious claim of immunity."
+    ],
+    "conversation": {
+      "question": "Did the immunity claim hold up?",
+      "answer": "No, it was specious. Counsel showed the precedent did not apply."
+    }
+  },
+  {
+    "expression": "heterodox",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/ˈhetərədɒks/",
+    "meaningEn": "not conforming to accepted standards or beliefs",
+    "meaningVi": "dị giáo, không chính thống",
+    "examples": [
+      "A heterodox approach revived the stalled project.",
+      "Heterodox economists challenged the baseline model.",
+      "The panel welcomed heterodox methodologies."
+    ],
+    "conversation": {
+      "question": "Why did the project restart?",
+      "answer": "A heterodox approach reframed the problem. It unlocked options we had dismissed."
+    }
+  },
+  {
+    "expression": "assiduous",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/əˈsɪdjuəs/",
+    "meaningEn": "showing great care and perseverance",
+    "meaningVi": "cần mẫn, siêng năng",
+    "examples": [
+      "Assiduous note-taking preserved institutional memory.",
+      "She was assiduous in verifying every citation.",
+      "Assiduous reviewers caught subtle inconsistencies."
+    ],
+    "conversation": {
+      "question": "How did the team avoid citation errors?",
+      "answer": "An assiduous reviewer verified every source. Nothing slipped through."
+    }
+  },
+  {
+    "expression": "pernicious",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/pərˈnɪʃəs/",
+    "meaningEn": "having a harmful effect, especially in a gradual or subtle way",
+    "meaningVi": "nguy hiểm, có hại âm thầm",
+    "examples": [
+      "Pernicious bias crept into the training data.",
+      "The pernicious myth persists despite evidence.",
+      "A pernicious clause eroded worker protections."
+    ],
+    "conversation": {
+      "question": "Why is the dataset unreliable?",
+      "answer": "Pernicious bias crept in during labeling. It skews downstream models."
+    }
+  },
+  {
+    "expression": "insidious",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/ɪnˈsɪdiəs/",
+    "meaningEn": "proceeding in a gradual, subtle way but with harmful effects",
+    "meaningVi": "ngấm ngầm, giấu mặt",
+    "examples": [
+      "Insidious drift in metrics went unnoticed for quarters.",
+      "The insidious effect of burnout reduced retention.",
+      "An insidious conflict of interest tainted the review."
+    ],
+    "conversation": {
+      "question": "When did the metrics problem start?",
+      "answer": "It was insidious. Drift accumulated for quarters before anyone alarmed."
+    }
+  },
+  {
+    "expression": "anodyne",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/ˈænədaɪn/",
+    "meaningEn": "not likely to provoke disagreement; blandly inoffensive",
+    "meaningVi": "nhạt nhẽo, an toàn",
+    "examples": [
+      "The communique was deliberately anodyne.",
+      "Anodyne statements failed to reassure markets.",
+      "She replaced fiery rhetoric with anodyne platitudes."
+    ],
+    "conversation": {
+      "question": "Why didn't markets react to the statement?",
+      "answer": "It was anodyne. There was no concrete commitment on rates."
+    }
+  },
+  {
+    "expression": "jejune",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/dʒɪˈdʒuːn/",
+    "meaningEn": "naive, simplistic, and uninteresting",
+    "meaningVi": "non nớt, sơ sài",
+    "examples": [
+      "The jejune analysis ignored structural constraints.",
+      "Reviewers found the proposal jejune and repetitive.",
+      "Jejune slogans cannot substitute for policy design."
+    ],
+    "conversation": {
+      "question": "What was wrong with the proposal?",
+      "answer": "It was jejune. It ignored structural constraints entirely."
+    }
+  },
+  {
+    "expression": "vapid",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/ˈvæpɪd/",
+    "meaningEn": "offering nothing stimulating or challenging; insipid",
+    "meaningVi": "vô vị, nhạt nhẽo",
+    "examples": [
+      "The vapid keynote disappointed senior attendees.",
+      "Vapid talking points filled the press briefing.",
+      "Critics dismissed the essay as vapid and derivative."
+    ],
+    "conversation": {
+      "question": "How was the keynote received?",
+      "answer": "Poorly. Attendees called it vapid. There was no actionable insight."
+    }
+  },
+  {
+    "expression": "iconoclastic",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/ˌaɪkəˈnɒklæstɪk/",
+    "meaningEn": "attacking cherished beliefs or institutions",
+    "meaningVi": "phá cách, phá bỏ dogma",
+    "examples": [
+      "An iconoclastic director reshaped the curriculum.",
+      "Iconoclastic research challenged canonical theories.",
+      "Her iconoclastic style unsettled traditionalists."
+    ],
+    "conversation": {
+      "question": "Why did traditionalists oppose her appointment?",
+      "answer": "She is iconoclastic. She openly challenges canonical theories in the field."
+    }
+  },
+  {
+    "expression": "querulous",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/ˈkwerələs/",
+    "meaningEn": "complaining in a petulant way",
+    "meaningVi": "hay cau có, phàn nàn",
+    "examples": [
+      "A querulous minority stalled the vote.",
+      "Querulous emails flooded the help desk.",
+      "His querulous tone undermined coalition building."
+    ],
+    "conversation": {
+      "question": "Why is the vote delayed?",
+      "answer": "A querulous minority keeps raising procedural objections."
+    }
+  },
+  {
+    "expression": "obfuscate",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C2",
+    "ipa": "/ˈɒbfəskeɪt/",
+    "meaningEn": "to make something unclear or difficult to understand",
+    "meaningVi": "làm mờ, che giấu",
+    "examples": [
+      "Vendors obfuscate pricing in lengthy appendices.",
+      "Do not obfuscate the limitations of the study.",
+      "Lobbyists obfuscated the bill's fiscal impact."
+    ],
+    "conversation": {
+      "question": "Why can't finance model total cost?",
+      "answer": "Vendors obfuscate pricing in appendices. We need a standardized quote template."
+    }
+  },
+  {
+    "expression": "promulgate",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C2",
+    "ipa": "/ˈprɒməlɡeɪt/",
+    "meaningEn": "to promote or make widely known a law, idea, or belief",
+    "meaningVi": "ban hành, phổ biến",
+    "examples": [
+      "The agency will promulgate revised standards next month.",
+      "Scholars promulgate findings through open repositories.",
+      "Leaders promulgated a code of research ethics."
+    ],
+    "conversation": {
+      "question": "When will the new standards take effect?",
+      "answer": "The agency will promulgate them next month. Training starts immediately after."
+    }
+  },
+  {
+    "expression": "vitiate",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C2",
+    "ipa": "/ˈvɪʃieɪt/",
+    "meaningEn": "to spoil or impair the quality or effectiveness of something",
+    "meaningVi": "làm hỏng, phá hoại",
+    "examples": [
+      "Procedural errors vitiate the entire audit.",
+      "Conflicts of interest vitiate peer review.",
+      "A single forged signature can vitiate a contract."
+    ],
+    "conversation": {
+      "question": "Can we still rely on the audit?",
+      "answer": "No. Procedural errors vitiate it. We need a fresh review."
+    }
+  },
+  {
+    "expression": "attenuate",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C2",
+    "ipa": "/əˈtenjueɪt/",
+    "meaningEn": "to reduce the force, effect, or value of something",
+    "meaningVi": "làm suy yếu, giảm bớt",
+    "examples": [
+      "Filters attenuate high-frequency noise in the signal.",
+      "Policy may attenuate but not eliminate risk.",
+      "Mediation attenuated the worst effects of the dispute."
+    ],
+    "conversation": {
+      "question": "Will the new policy eliminate risk?",
+      "answer": "It will attenuate the worst effects. Elimination is unrealistic."
+    }
+  },
+  {
+    "expression": "equivocate",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C2",
+    "ipa": "/ɪˈkwɪvəkeɪt/",
+    "meaningEn": "to use ambiguous language to conceal the truth or avoid commitment",
+    "meaningVi": "nói nước đôi, lập lờ",
+    "examples": [
+      "Witnesses equivocate under sustained questioning.",
+      "Do not equivocate when reporting safety incidents.",
+      "The CEO equivocated on succession planning."
+    ],
+    "conversation": {
+      "question": "Did the CEO commit to a timeline?",
+      "answer": "No, she equivocated on succession planning. Investors wanted clarity."
+    }
+  },
+  {
+    "expression": "impugn",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C2",
+    "ipa": "/ɪmˈpjuːn/",
+    "meaningEn": "to dispute the truth, validity, or honesty of something",
+    "meaningVi": "nghi ngờ, chất vấn",
+    "examples": [
+      "Opponents impugn the integrity of the sample.",
+      "Counsel impugned the witness's credibility.",
+      "Do not impugn motives without evidence."
+    ],
+    "conversation": {
+      "question": "How did defense respond to the sample?",
+      "answer": "They impugn its integrity, claiming selection bias throughout."
+    }
+  },
+  {
+    "expression": "repudiate",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C2",
+    "ipa": "/rɪˈpjuːdieɪt/",
+    "meaningEn": "to refuse to accept or be associated with",
+    "meaningVi": "từ chối, bác bỏ",
+    "examples": [
+      "The board repudiated the unsigned agreement.",
+      "She repudiated claims of negligence.",
+      "Member states repudiated the annex."
+    ],
+    "conversation": {
+      "question": "Will the board honor the unsigned agreement?",
+      "answer": "No, they repudiated it yesterday. Negotiations restart from scratch."
+    }
+  },
+  {
+    "expression": "abrogate",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C2",
+    "ipa": "/ˈæbrəɡeɪt/",
+    "meaningEn": "to repeal or do away with a law, right, or agreement",
+    "meaningVi": "hủy bỏ, bãi bỏ",
+    "examples": [
+      "Parliament voted to abrogate the treaty.",
+      "The decree abrogated prior exemptions.",
+      "Courts may abrogate unconstitutional provisions."
+    ],
+    "conversation": {
+      "question": "What happened to the treaty?",
+      "answer": "Parliament voted to abrogate it. Implementation stops immediately."
+    }
+  },
+  {
+    "expression": "enjoin",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C2",
+    "ipa": "/ɪnˈdʒɔɪn/",
+    "meaningEn": "to order someone to do or not do something by law",
+    "meaningVi": "ra lệnh, cấm",
+    "examples": [
+      "The court enjoined the company from exporting the data.",
+      "Judges may enjoin publication pending review.",
+      "Regulators enjoined misleading advertising."
+    ],
+    "conversation": {
+      "question": "Can the company still export the data?",
+      "answer": "No. The court enjoined it from doing so pending appeal."
+    }
+  },
+  {
+    "expression": "enunciate",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C2",
+    "ipa": "/ɪˈnʌnsieɪt/",
+    "meaningEn": "to express an idea clearly and precisely",
+    "meaningVi": "phát âm rõ, trình bày rõ ràng",
+    "examples": [
+      "The chair enunciated criteria for funding.",
+      "Please enunciate assumptions in the model.",
+      "She enunciated a doctrine of proportionality."
+    ],
+    "conversation": {
+      "question": "What did the chair clarify?",
+      "answer": "She enunciated criteria for funding. Teams finally know what counts."
+    }
+  },
+  {
+    "expression": "demur",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C2",
+    "ipa": "/dɪˈmɜːr/",
+    "meaningEn": "to raise objections or show reluctance",
+    "meaningVi": "phản đối nhẹ, ngần ngại",
+    "examples": [
+      "Several directors demurred at the accelerated timeline.",
+      "Counsel demurred when asked to waive privilege.",
+      "I demur to the characterization of our intent."
+    ],
+    "conversation": {
+      "question": "Did the board accept the timeline?",
+      "answer": "Several directors demurred. We may need a phased rollout instead."
+    }
+  },
+  {
+    "expression": "gainsay",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C2",
+    "ipa": "/ˌɡeɪnˈseɪ/",
+    "meaningEn": "to deny or contradict a fact or statement",
+    "meaningVi": "phủ nhận, bác bỏ",
+    "examples": [
+      "Few analysts could gainsay the quarterly results.",
+      "No witness gainsaid the timeline.",
+      "It is hard to gainsay the epidemiological data."
+    ],
+    "conversation": {
+      "question": "Is anyone disputing the results?",
+      "answer": "Not credibly. Few analysts can gainsay the quarterly figures."
+    }
+  },
+  {
+    "expression": "forestall",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C2",
+    "ipa": "/fɔːrˈstɔːl/",
+    "meaningEn": "to prevent or obstruct an anticipated event by taking advance action",
+    "meaningVi": "ngăn chặn trước",
+    "examples": [
+      "Early outreach forestalled a public relations crisis.",
+      "Capital reserves forestalled a liquidity shortfall.",
+      "Negotiations forestalled a strike."
+    ],
+    "conversation": {
+      "question": "How did PR avoid a crisis?",
+      "answer": "Early outreach forestalled it. Stakeholders heard our side first."
+    }
+  },
+  {
+    "expression": "inculcate",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C2",
+    "ipa": "/ˈɪnkʌlkeɪt/",
+    "meaningEn": "to instill an attitude or idea by persistent instruction",
+    "meaningVi": "thấm nhuần, khắc sâu",
+    "examples": [
+      "Training programs inculcate a culture of disclosure.",
+      "Mentors inculcate rigorous citation habits.",
+      "Schools inculcate norms of civil debate."
+    ],
+    "conversation": {
+      "question": "How do you build a disclosure culture?",
+      "answer": "We inculcate it through training and consistent enforcement."
+    }
+  },
+  {
+    "expression": "bandy about",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C2",
+    "ipa": "/ˈbændi əˈbaʊt/",
+    "meaningEn": "to discuss or mention something casually or repeatedly",
+    "meaningVi": "bàn tán, lặp lại",
+    "examples": [
+      "Speculation was bandied about in the press.",
+      "Do not bandy about unverified casualty figures.",
+      "Terms were bandied about without legal review."
+    ],
+    "conversation": {
+      "question": "Where did the leak story start?",
+      "answer": "It was bandied about in the press before we confirmed anything. We should not bandy about unverified figures."
+    }
+  },
+  {
+    "expression": "buy into",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C2",
+    "ipa": "/baɪ ˈɪntuː/",
+    "meaningEn": "to accept an idea, theory, or plan as valid or worthwhile",
+    "meaningVi": "tin tưởng, chấp nhận",
+    "examples": [
+      "Investors won't buy into the roadmap without metrics.",
+      "Teams must buy into the change before rollout.",
+      "She never bought into the hype around the tool."
+    ],
+    "conversation": {
+      "question": "Will investors support the roadmap?",
+      "answer": "Only if we show metrics. They won't buy into vision alone."
+    }
+  },
+  {
+    "expression": "ferret out",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C2",
+    "ipa": "/ˈferɪt aʊt/",
+    "meaningEn": "to discover something after careful searching",
+    "meaningVi": "lần ra, tìm ra",
+    "examples": [
+      "Auditors ferreted out duplicate reimbursements.",
+      "Journalists ferreted out conflicts of interest.",
+      "We ferreted out the root misconfiguration."
+    ],
+    "conversation": {
+      "question": "How did auditors find the fraud?",
+      "answer": "They ferreted out duplicate reimbursements during sampling. We need controls so no one can ferret out loopholes again."
+    }
+  },
+  {
+    "expression": "parlay into",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C2",
+    "ipa": "/pɑːrˈleɪ ˈɪntuː/",
+    "meaningEn": "to use something to obtain something else of greater value",
+    "meaningVi": "tận dụng để đạt được",
+    "examples": [
+      "She parlayed a pilot grant into a major program.",
+      "The firm parlayed niche expertise into consulting revenue.",
+      "He parlayed media attention into policy influence."
+    ],
+    "conversation": {
+      "question": "How did the pilot become a program?",
+      "answer": "She parlayed the initial grant into sustained funding. That is how you parlay into a major program."
+    }
+  },
+  {
+    "expression": "tease out",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C2",
+    "ipa": "/tiːz aʊt/",
+    "meaningEn": "to gradually separate or extract information or meaning",
+    "meaningVi": "lần lượt làm rõ, tách ra",
+    "examples": [
+      "Interviews teased out nuanced attitudes toward reform.",
+      "Analysts teased out seasonal effects from the data.",
+      "Counsel teased out inconsistencies in testimony."
+    ],
+    "conversation": {
+      "question": "How did you capture attitudes toward reform?",
+      "answer": "We teased out nuanced views through long-form interviews. Surveys alone cannot tease out that depth."
+    }
+  },
+  {
+    "expression": "double down on",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C2",
+    "ipa": "/ˈdʌbl daʊn ɒn/",
+    "meaningEn": "to strengthen one's commitment to a strategy in the face of criticism",
+    "meaningVi": "tăng cường cam kết",
+    "examples": [
+      "Leadership doubled down on open-source adoption.",
+      "The campaign doubled down on rural outreach.",
+      "We doubled down on quality after the recall."
+    ],
+    "conversation": {
+      "question": "Will leadership retreat after the criticism?",
+      "answer": "No, they doubled down on open-source adoption. Leadership will double down on that strategy despite pushback."
+    }
+  },
+  {
+    "expression": "play down",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C2",
+    "ipa": "/pleɪ daʊn/",
+    "meaningEn": "to make something appear less important than it is",
+    "meaningVi": "hạ thấp, giảm nhẹ",
+    "examples": [
+      "Spokespersons played down the severity of the breach.",
+      "Do not play down known limitations in the study.",
+      "Management played down layoff rumors."
+    ],
+    "conversation": {
+      "question": "Why weren't customers notified sooner?",
+      "answer": "The company played down the breach publicly. They should not play down known security incidents."
+    }
+  },
+  {
+    "expression": "wade into",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C2",
+    "ipa": "/weɪd ˈɪntuː/",
+    "meaningEn": "to begin forcefully or decisively dealing with a difficult situation",
+    "meaningVi": "lao vào, can thiệp mạnh",
+    "examples": [
+      "The regulator waded into the pricing dispute.",
+      "She waded into a contentious ethics debate.",
+      "Do not wade into litigation without counsel."
+    ],
+    "conversation": {
+      "question": "Who resolved the pricing dispute?",
+      "answer": "The regulator waded into the pricing dispute last week. Only a regulator can wade into it credibly."
+    }
+  },
+  {
+    "expression": "sound out",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C2",
+    "ipa": "/saʊnd aʊt/",
+    "meaningEn": "to cautiously try to discover someone's opinions or intentions",
+    "meaningVi": "dò ý, thăm dò",
+    "examples": [
+      "We sounded out allies before filing the motion.",
+      "HR sounded out managers about flexible schedules.",
+      "Diplomats sounded out counterparts on a ceasefire."
+    ],
+    "conversation": {
+      "question": "Did you file the motion immediately?",
+      "answer": "No, we sounded out allies first. You should always sound out key partners before filing."
+    }
+  },
+  {
+    "expression": "tamp down",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C2",
+    "ipa": "/tæmp daʊn/",
+    "meaningEn": "to suppress or reduce the intensity of something",
+    "meaningVi": "dập tắt, giảm bớt",
+    "examples": [
+      "Central banks moved to tamp down inflation expectations.",
+      "Communications tamped down rumors of a merger.",
+      "Mediators tamped down rhetoric before talks."
+    ],
+    "conversation": {
+      "question": "How did the bank respond to inflation fears?",
+      "answer": "It issued guidance to tamp down expectations. Markets stabilized briefly."
+    }
+  },
+  {
+    "expression": "latch onto",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C2",
+    "ipa": "/lætʃ ˈɒntuː/",
+    "meaningEn": "to attach oneself to an idea or cause enthusiastically",
+    "meaningVi": "bám víu, theo đuổi",
+    "examples": [
+      "Media latched onto a minor discrepancy.",
+      "Investors latched onto the growth narrative.",
+      "Opponents latched onto a single out-of-context quote."
+    ],
+    "conversation": {
+      "question": "Why did the story spread so fast?",
+      "answer": "Media latched onto a minor discrepancy. Once they latch onto a narrative, context disappears."
+    }
+  },
+  {
+    "expression": "riff on",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C2",
+    "ipa": "/rɪf ɒn/",
+    "meaningEn": "to develop or expand on a theme or idea creatively",
+    "meaningVi": "phát triển ý tưởng",
+    "examples": [
+      "The keynote riffed on themes from last year's report.",
+      "Designers riffed on archival typography.",
+      "Panelists riffed on regulatory uncertainty."
+    ],
+    "conversation": {
+      "question": "What made the keynote memorable?",
+      "answer": "She chose to riff on themes from last year's report. Few speakers riff on policy with that clarity."
+    }
+  },
+  {
+    "expression": "gin up",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C2",
+    "ipa": "/dʒɪn ʌp/",
+    "meaningEn": "to create or generate something, often artificially or hastily",
+    "meaningVi": "dựng lên, khơi dậy",
+    "examples": [
+      "Campaigns ginned up outrage over the ruling.",
+      "Analysts ginned up demand forecasts.",
+      "Do not gin up metrics to hit targets."
+    ],
+    "conversation": {
+      "question": "Were the demand forecasts realistic?",
+      "answer": "No, someone ginned up the forecasts. Never gin up metrics to justify expansion."
+    }
+  },
+  {
+    "expression": "bear out",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C2",
+    "ipa": "/beər aʊt/",
+    "meaningEn": "to support or confirm something",
+    "meaningVi": "chứng minh, xác nhận",
+    "examples": [
+      "Longitudinal data bear out the hypothesis.",
+      "Field tests bore out lab findings.",
+      "Subsequent audits bore out initial concerns."
+    ],
+    "conversation": {
+      "question": "Did the hypothesis hold?",
+      "answer": "Yes, longitudinal data bear out the hypothesis. Few datasets bear out a claim this cleanly."
+    }
+  },
+  {
+    "expression": "factor in",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C2",
+    "ipa": "/ˈfæktər ɪn/",
+    "meaningEn": "to include a particular fact or situation when making a decision",
+    "meaningVi": "tính đến, đưa vào",
+    "examples": [
+      "Models must factor in regulatory lag.",
+      "We factored in seasonal volatility.",
+      "Budgets rarely factor in currency risk adequately."
+    ],
+    "conversation": {
+      "question": "Did the model miss the delay?",
+      "answer": "It failed to factor in regulatory lag. We are revising assumptions."
+    }
+  },
+  {
+    "expression": "prima facie",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C2",
+    "ipa": "/ˌpraɪmə ˈfeɪʃi/",
+    "meaningEn": "based on the first impression; accepted as correct until proved otherwise",
+    "meaningVi": "sơ bộ, trên mặt",
+    "examples": [
+      "There is a prima facie case for negligence.",
+      "Prima facie evidence supports the injunction.",
+      "The claim appears prima facie admissible."
+    ],
+    "conversation": {
+      "question": "Is there enough evidence to proceed?",
+      "answer": "Yes, we have a prima facie case for negligence. Discovery comes next."
+    }
+  },
+  {
+    "expression": "ipso facto",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C2",
+    "ipa": "/ˌɪpsoʊ ˈfæktoʊ/",
+    "meaningEn": "by that very fact or act",
+    "meaningVi": "vì thế, do đó",
+    "examples": [
+      "Resignation ipso facto voids certain benefits.",
+      "Membership ipso facto implies consent to bylaws.",
+      "A breach ipso facto triggers review."
+    ],
+    "conversation": {
+      "question": "Does resignation affect benefits?",
+      "answer": "Ipso facto it voids several clauses. HR sent the list."
+    }
+  },
+  {
+    "expression": "sine qua non",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C2",
+    "ipa": "/ˌsaɪni kwɑː ˈnoʊn/",
+    "meaningEn": "an essential condition; something indispensable",
+    "meaningVi": "điều kiện cần thiết",
+    "examples": [
+      "Transparency is a sine qua non of credible research.",
+      "Consent is a sine qua non for data sharing.",
+      "Independent audit is a sine qua non for release."
+    ],
+    "conversation": {
+      "question": "What must the study include to be credible?",
+      "answer": "Transparency is a sine qua non. Without open methods, reviewers will reject it."
+    }
+  },
+  {
+    "expression": "modus operandi",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C2",
+    "ipa": "/ˌmoʊdəs ɒpəˈrændi/",
+    "meaningEn": "a particular way of doing something; a method of operating",
+    "meaningVi": "cách thức hoạt động",
+    "examples": [
+      "The fraudster's modus operandi involved shell vendors.",
+      "Their modus operandi favors rapid prototyping.",
+      "Investigators documented the group's modus operandi."
+    ],
+    "conversation": {
+      "question": "How did the fraud work?",
+      "answer": "The modus operandi involved shell vendors and duplicate invoices."
+    }
+  },
+  {
+    "expression": "status quo",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C2",
+    "ipa": "/ˌsteɪtəs ˈkwoʊ/",
+    "meaningEn": "the existing state of affairs",
+    "meaningVi": "hiện trạng",
+    "examples": [
+      "Stakeholders defended the status quo.",
+      "The proposal disrupts the status quo in lending.",
+      "Reformers challenge the regulatory status quo."
+    ],
+    "conversation": {
+      "question": "Why is there resistance to reform?",
+      "answer": "Many stakeholders defend the status quo. Change threatens entrenched fees."
+    }
+  },
+  {
+    "expression": "de facto",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C2",
+    "ipa": "/deɪ ˈfæktoʊ/",
+    "meaningEn": "in fact, whether by right or not",
+    "meaningVi": "thực tế, trên thực tế",
+    "examples": [
+      "She became the de facto leader during the crisis.",
+      "A de facto embargo slowed imports.",
+      "De facto standards often precede formal regulation."
+    ],
+    "conversation": {
+      "question": "Who led during the crisis?",
+      "answer": "She was the de facto leader. The title came months later."
+    }
+  },
+  {
+    "expression": "per se",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C2",
+    "ipa": "/pɜːr ˈseɪ/",
+    "meaningEn": "by or in itself; intrinsically",
+    "meaningVi": "về bản chất, tự nó",
+    "examples": [
+      "The tool is not dangerous per se.",
+      "Remote work is not inefficient per se.",
+      "The clause is not unlawful per se."
+    ],
+    "conversation": {
+      "question": "Is remote work the problem?",
+      "answer": "Remote work is not inefficient per se. Poor coordination is."
+    }
+  },
+  {
+    "expression": "carte blanche",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C2",
+    "ipa": "/ˌkɑːrt ˈblɒ̃ʃ/",
+    "meaningEn": "complete freedom to act as one wishes",
+    "meaningVi": "toàn quyền",
+    "examples": [
+      "The board gave her carte blanche to restructure.",
+      "Researchers rarely receive carte blanche funding.",
+      "Do not grant vendors carte blanche over data."
+    ],
+    "conversation": {
+      "question": "How much authority does she have?",
+      "answer": "The board gave her carte blanche to restructure. Budget caps still apply."
+    }
+  },
+  {
+    "expression": "raison d'être",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C2",
+    "ipa": "/ˌreɪzɒ̃ ˈdetrə/",
+    "meaningEn": "the most important reason for someone's or something's existence",
+    "meaningVi": "lý do tồn tại",
+    "examples": [
+      "Public access is the archive's raison d'être.",
+      "Patient safety remains our raison d'être.",
+      "The lab lost its raison d'être after funding cuts."
+    ],
+    "conversation": {
+      "question": "Why does the archive still matter?",
+      "answer": "Public access is its raison d'être. Without that mission, it is just storage."
+    }
+  },
+  {
+    "expression": "fait accompli",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C2",
+    "ipa": "/ˌfeɪt əˈkɒmpli/",
+    "meaningEn": "something that has already happened and is unlikely to be reversed",
+    "meaningVi": "việc đã rồi",
+    "examples": [
+      "The merger was presented as a fait accompli.",
+      "Shutdown felt like a fait accompli after the memo.",
+      "Treat annexation as a fait accompli at your peril."
+    ],
+    "conversation": {
+      "question": "Can we still block the merger?",
+      "answer": "Leadership presented it as a fait accompli. Reversal looks unlikely."
+    }
+  },
+  {
+    "expression": "quid pro quo",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C2",
+    "ipa": "/ˌkwɪd proʊ ˈkwoʊ/",
+    "meaningEn": "a favor or advantage granted in return for something",
+    "meaningVi": "trao đổi quid pro quo",
+    "examples": [
+      "Investigators examined a suspected quid pro quo.",
+      "The contract avoids implicit quid pro quo.",
+      "Quid pro quo arrangements raise ethics flags."
+    ],
+    "conversation": {
+      "question": "Why is the contract under review?",
+      "answer": "Counsel flagged a suspected quid pro quo between the vendor and a director."
+    }
+  },
+  {
+    "expression": "ad hoc",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C2",
+    "ipa": "/æd ˈhɒk/",
+    "meaningEn": "created or done for a particular purpose as necessary",
+    "meaningVi": "tạm thời, đặc biệt",
+    "examples": [
+      "An ad hoc committee reviewed the breach.",
+      "Ad hoc fixes created technical debt.",
+      "We formed an ad hoc task force overnight."
+    ],
+    "conversation": {
+      "question": "Who handled the breach review?",
+      "answer": "An ad hoc committee convened last week. Findings land Friday."
+    }
+  },
+  {
+    "expression": "inter alia",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C2",
+    "ipa": "/ˌɪntər ˈeɪliə/",
+    "meaningEn": "among other things",
+    "meaningVi": "trong số những thứ khác",
+    "examples": [
+      "The decree addressed, inter alia, data retention.",
+      "The report discusses, inter alia, sampling bias.",
+      "Sanctions target, inter alia, export controls."
+    ],
+    "conversation": {
+      "question": "What does the decree cover?",
+      "answer": "It addresses, inter alia, data retention and cross-border transfers."
+    }
+  },
+  {
+    "expression": "in abeyance",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C2",
+    "ipa": "/ɪn əˈbeɪəns/",
+    "meaningEn": "temporarily suspended or set aside",
+    "meaningVi": "tạm hoãn, treo",
+    "examples": [
+      "The appeal remains in abeyance pending mediation.",
+      "Hiring is in abeyance until budget approval.",
+      "Rules stayed in abeyance during the pilot."
+    ],
+    "conversation": {
+      "question": "Can we proceed with hiring?",
+      "answer": "Not yet. Hiring is in abeyance until the board approves the budget."
+    }
+  },
+  {
+    "expression": "writ large",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C2",
+    "ipa": "/rɪt lɑːrdʒ/",
+    "meaningEn": "clearly and unmistakably evident on a large scale",
+    "meaningVi": "thể hiện rõ ràng",
+    "examples": [
+      "The pilot is democracy writ large.",
+      "Corporate politics writ large played out in the merger.",
+      "The crisis was inequality writ large."
+    ],
+    "conversation": {
+      "question": "What did the merger reveal?",
+      "answer": "Corporate politics writ large. Every faction fought for control."
+    }
+  },
+  {
+    "expression": "beg the question",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C2",
+    "ipa": "/beɡ ðə ˈkwestʃən/",
+    "meaningEn": "to assume the truth of what you are trying to prove",
+    "meaningVi": "lấy kết luận làm tiền đề",
+    "examples": [
+      "That argument begs the question of causality.",
+      "The survey begs the question by leading respondents.",
+      "Policy briefs should not beg the question."
+    ],
+    "conversation": {
+      "question": "What's wrong with their causal claim?",
+      "answer": "It begs the question of causality. Briefs that beg the question this openly fail review."
+    }
+  },
+  {
+    "expression": "straw man argument",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C2",
+    "ipa": "/strɔː mæn ˈɑːɡjumənt/",
+    "meaningEn": "a misrepresentation of an opponent's position to make it easier to attack",
+    "meaningVi": "lập luận ngụy biện straw man",
+    "examples": [
+      "The rebuttal dismantled a straw man argument.",
+      "Debate devolved into straw man arguments.",
+      "Avoid straw man arguments in peer review."
+    ],
+    "conversation": {
+      "question": "Why did the debate go nowhere?",
+      "answer": "Each side attacked a straw man argument instead of the actual proposal."
+    }
+  },
+  {
+    "expression": "burden of proof",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C2",
+    "ipa": "/ˈbɜːrdn əv pruːf/",
+    "meaningEn": "the obligation to prove one's assertion in dispute",
+    "meaningVi": "gánh nặng chứng minh",
+    "examples": [
+      "The burden of proof rests with the claimant.",
+      "Regulators shifted the burden of proof to issuers.",
+      "Courts clarified the burden of proof in fraud cases."
+    ],
+    "conversation": {
+      "question": "Who must prove the claim?",
+      "answer": "The burden of proof rests with the claimant. They need primary records."
+    }
+  },
+  {
+    "expression": "line of reasoning",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C2",
+    "ipa": "/laɪn əv ˈriːzənɪŋ/",
+    "meaningEn": "a connected series of thoughts leading to a conclusion",
+    "meaningVi": "lối lập luận",
+    "examples": [
+      "Follow her line of reasoning in section three.",
+      "The line of reasoning collapses without that premise.",
+      "Reviewers praised the line of reasoning."
+    ],
+    "conversation": {
+      "question": "Where is the argument strongest?",
+      "answer": "Section three. Her line of reasoning is tight and well sourced."
+    }
+  },
+  {
+    "expression": "hold sway",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C2",
+    "ipa": "/hoʊld sweɪ/",
+    "meaningEn": "to have great influence or power",
+    "meaningVi": "nắm quyền lực, chi phối",
+    "examples": [
+      "Traditional vendors still hold sway in procurement.",
+      "Ideology holds sway over evidence in the debate.",
+      "Regional managers hold sway on pricing."
+    ],
+    "conversation": {
+      "question": "Why is procurement slow to change?",
+      "answer": "Traditional vendors still hold sway. Incumbents block new entrants."
+    }
+  },
+  {
+    "expression": "render moot",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C2",
+    "ipa": "/ˈrendər muːt/",
+    "meaningEn": "to make something irrelevant or no longer applicable",
+    "meaningVi": "làm mất giá trị, vô hiệu hóa",
+    "examples": [
+      "The settlement rendered moot the appeal.",
+      "New data may render moot earlier forecasts.",
+      "Automation rendered moot several manual checks."
+    ],
+    "conversation": {
+      "question": "Do we still need the appeal?",
+      "answer": "The settlement will render moot the appeal. Once courts render moot a case, we withdraw."
+    }
+  },
+  {
+    "expression": "lend weight to",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C2",
+    "ipa": "/lend weɪt tuː/",
+    "meaningEn": "to make an argument or claim seem more credible",
+    "meaningVi": "làm tăng sức thuyết phục",
+    "examples": [
+      "Independent replication lends weight to the finding.",
+      "Testimony lends weight to the whistleblower's account.",
+      "Meta-analyses lend weight to cautious conclusions."
+    ],
+    "conversation": {
+      "question": "Does the whistleblower stand alone?",
+      "answer": "No. Testimony from two engineers lends weight to the account. Independent records lend weight to any serious claim."
+    }
+  },
+  {
+    "expression": "at cross purposes",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C2",
+    "ipa": "/æt krɒs ˈpɜːpəsɪz/",
+    "meaningEn": "working against each other with conflicting goals",
+    "meaningVi": "mâu thuẫn mục tiêu",
+    "examples": [
+      "Teams worked at cross purposes during the launch.",
+      "Policy and sales were at cross purposes.",
+      "Agencies at cross purposes delayed relief."
+    ],
+    "conversation": {
+      "question": "Why did the launch fail?",
+      "answer": "Teams worked at cross purposes. Sales promised features engineering had deprecated."
+    }
+  },
+  {
+    "expression": "exercise discretion",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C2",
+    "ipa": "/ˈeksərsaɪz dɪsˈkreʃn/",
+    "meaningEn": "to use judgment to decide what should be done in a particular situation",
+    "meaningVi": "sử dụng quyền tự quyết",
+    "examples": [
+      "Judges exercise discretion when sentencing.",
+      "Managers may exercise discretion on refunds.",
+      "Auditors exercise discretion in sampling."
+    ],
+    "conversation": {
+      "question": "Can managers approve refunds over the limit?",
+      "answer": "Yes, they may exercise discretion when documentation supports it."
+    }
+  },
+  {
+    "expression": "invite scrutiny",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C2",
+    "ipa": "/ɪnˈvaɪt ˈskruːtini/",
+    "meaningEn": "to attract close examination or criticism",
+    "meaningVi": "mời gọi sự giám sát",
+    "examples": [
+      "Opaque pricing invites scrutiny from regulators.",
+      "Large donations invite scrutiny in election years.",
+      "The revision invites scrutiny from peer reviewers."
+    ],
+    "conversation": {
+      "question": "Why are regulators asking questions?",
+      "answer": "Opaque pricing invites scrutiny from regulators. Any hidden fee structure will invite scrutiny."
+    }
+  },
+  {
+    "expression": "advance a thesis",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C2",
+    "ipa": "/ədˈvæns ə ˈθiːsɪs/",
+    "meaningEn": "to put forward a theory or argument for consideration",
+    "meaningVi": "đưa ra luận điểm",
+    "examples": [
+      "The paper advances a thesis about institutional decay.",
+      "She advanced a thesis linking trade policy to inequality.",
+      "Reviewers asked her to advance a thesis more clearly."
+    ],
+    "conversation": {
+      "question": "What does the paper contribute?",
+      "answer": "It advances a thesis about institutional decay. Strong papers advance a thesis with archival evidence."
+    }
+  },
+  {
+    "expression": "stake a claim",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C2",
+    "ipa": "/steɪk ə kleɪm/",
+    "meaningEn": "to assert ownership or a right to something",
+    "meaningVi": "khẳng định quyền, chiếm chỗ",
+    "examples": [
+      "Startups stake a claim in crowded markets.",
+      "Researchers stake a claim with novel datasets.",
+      "The union staked a claim to profit sharing."
+    ],
+    "conversation": {
+      "question": "How did the startup enter the market?",
+      "answer": "It staked a claim with a niche compliance tool. Startups must stake a claim before incumbents react."
+    }
+  },
+  {
+    "expression": "brook no dissent",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C2",
+    "ipa": "/brʊk nəʊ dɪˈsent/",
+    "meaningEn": "to refuse to tolerate any disagreement",
+    "meaningVi": "không dung thứ phản đối",
+    "examples": [
+      "The chair brooked no dissent during the vote.",
+      "Authoritarian cultures brook no dissent.",
+      "The memo brooked no dissent on timeline."
+    ],
+    "conversation": {
+      "question": "Could anyone challenge the timeline?",
+      "answer": "No. Leadership brooked no dissent once the memo went out. Cultures that brook no dissent rarely adapt."
+    }
+  },
+  {
+    "expression": "beyond reproach",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C2",
+    "ipa": "/bɪˈjɒnd rɪˈproʊtʃ/",
+    "meaningEn": "so good that no criticism can be made",
+    "meaningVi": "không thể chê trách",
+    "examples": [
+      "Procurement must be beyond reproach.",
+      "Her ethics record is beyond reproach.",
+      "Processes should be beyond reproach before audit."
+    ],
+    "conversation": {
+      "question": "Is the procurement process defensible?",
+      "answer": "It must be beyond reproach. Any appearance of bias will trigger inquiry."
+    }
+  },
+  {
+    "expression": "court controversy",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C2",
+    "ipa": "/kɔːrt ˈkɒntrəvɜːrsi/",
+    "meaningEn": "to deliberately attract public disagreement or debate",
+    "meaningVi": "mời gọi tranh cãi",
+    "examples": [
+      "The op-ed courted controversy with provocative claims.",
+      "Policy shifts court controversy during elections.",
+      "Do not court controversy without a communications plan."
+    ],
+    "conversation": {
+      "question": "Why publish before the election?",
+      "answer": "They chose to court controversy deliberately. Do not court controversy without a communications plan."
+    }
+  },
+  {
+    "expression": "circumspect",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C2",
+    "ipa": "/ˈsɜːrkəmspekt/",
+    "meaningEn": "wary and unwilling to take risks",
+    "meaningVi": "thận trọng, dè dặt",
+    "examples": [
+      "Investors grew circumspect after the guidance revision.",
+      "A circumspect approach preserved diplomatic options.",
+      "She remained circumspect when commenting on the inquiry."
+    ],
+    "conversation": {
+      "question": "Why didn't she comment on the inquiry?",
+      "answer": "She stayed circumspect. Commenting prematurely could complicate the investigation."
+    }
+  },
+  {
+    "expression": "fall into disrepute",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C2",
+    "ipa": "/fɔːl ˈɪntuː dɪsˈrɪpjuːt/",
+    "meaningEn": "to lose respect or good reputation",
+    "meaningVi": "rơi vào vùng đáng ngờ",
+    "examples": [
+      "The metric fell into disrepute after manipulation scandals.",
+      "Such benchmarks fall into disrepute when gamed.",
+      "The theory fell into disrepute among econometricians."
+    ],
+    "conversation": {
+      "question": "Do analysts still use that metric?",
+      "answer": "It fell into disrepute after the manipulation scandals. Any gamed benchmark can fall into disrepute quickly."
+    }
   }
 ]

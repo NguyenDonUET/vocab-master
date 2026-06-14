@@ -1,23 +1,5 @@
 [
   {
-    "expression": "come up with",
-    "category": "phrasal-verb",
-    "partOfSpeech": "phrasal-verb",
-    "level": "B2",
-    "ipa": "/kʌm ʌp wɪð/",
-    "meaningEn": "to think of an idea, plan, or solution",
-    "meaningVi": "nghĩ ra, đưa ra ý tưởng",
-    "examples": [
-      "We need to come up with a better plan.",
-      "She came up with a creative solution during the brainstorming session.",
-      "I couldn't come up with a good answer during the interview."
-    ],
-    "conversation": {
-      "question": "We need a better plan by Friday.",
-      "answer": "I'll try to come up with something during tomorrow's brainstorming session."
-    }
-  },
-  {
     "expression": "significant",
     "category": "word",
     "partOfSpeech": "adjective",
@@ -90,21 +72,1461 @@
     }
   },
   {
-    "expression": "keep in mind",
+    "expression": "take into account",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/teɪk ˈɪntu əˈkaʊnt/",
+    "meaningEn": "to consider something when making a decision or judgment",
+    "meaningVi": "tính đến, cân nhắc",
+    "examples": [
+      "We need to take into account the team's workload before setting deadlines.",
+      "The budget proposal didn't take into account rising software costs.",
+      "When you assess performance, take into account each person's experience level."
+    ],
+    "conversation": {
+      "question": "Can we launch next week?",
+      "answer": "We should take into account the open bugs first. A rushed release could hurt user trust."
+    }
+  },
+  {
+    "expression": "highly likely",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/ˈhaɪli ˈlaɪkli/",
+    "meaningEn": "very probable; almost certain to happen",
+    "meaningVi": "rất có khả năng, gần như chắc chắn",
+    "examples": [
+      "It's highly likely that the client will request changes after the demo.",
+      "Given the traffic spike, a server slowdown is highly likely.",
+      "She's highly likely to pass the certification exam based on her practice scores."
+    ],
+    "conversation": {
+      "question": "Will the client accept the first draft?",
+      "answer": "It's highly likely they'll request changes after the demo. Let's prepare a revision plan."
+    }
+  },
+  {
+    "expression": "work around",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/wɜːk əˈraʊnd/",
+    "meaningEn": "to find a way to deal with a problem or limitation",
+    "meaningVi": "tìm cách xử lý, vượt qua hạn chế",
+    "examples": [
+      "We had to work around the API limit by caching responses locally.",
+      "The team worked around the missing data by using estimates.",
+      "She found a way to work around the scheduling conflict for the workshop."
+    ],
+    "conversation": {
+      "question": "The API rate limit is blocking our tests.",
+      "answer": "We can work around it by caching responses locally. That should keep us under the limit."
+    }
+  },
+  {
+    "expression": "get across",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/ɡet əˈkrɒs/",
+    "meaningEn": "to communicate an idea clearly so others understand it",
+    "meaningVi": "truyền đạt, làm cho hiểu",
+    "examples": [
+      "I struggled to get my point across during the presentation.",
+      "Use simple charts to get the key message across to stakeholders.",
+      "She got across the importance of testing before the release."
+    ],
+    "conversation": {
+      "question": "Did the stakeholders understand the risks?",
+      "answer": "I used simple charts to get the key message across. They seemed to grasp the trade-offs."
+    }
+  },
+  {
+    "expression": "take over",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/teɪk ˈəʊvər/",
+    "meaningEn": "to assume control or responsibility for something",
+    "meaningVi": "tiếp quản, đảm nhận",
+    "examples": [
+      "Maria will take over the project while Tom is on leave.",
+      "The new manager took over the team last month.",
+      "Can you take over the client call at 3 p.m.?"
+    ],
+    "conversation": {
+      "question": "Who's leading the project while Tom is away?",
+      "answer": "Maria will take over the project while he's on leave. She's already reviewing the backlog."
+    }
+  },
+  {
+    "expression": "hand over",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/hænd ˈəʊvər/",
+    "meaningEn": "to give something to someone else, especially duties or documents",
+    "meaningVi": "bàn giao, chuyển giao",
+    "examples": [
+      "Please hand over the project documentation before you leave.",
+      "He handed over responsibility for the codebase to the senior developer.",
+      "I'll hand over my notes after the training session."
+    ],
+    "conversation": {
+      "question": "Did you finish the handover before your last day?",
+      "answer": "Yes, I handed over all project documentation and walked the team through the open tickets."
+    }
+  },
+  {
+    "expression": "stay on top of",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/steɪ ɒn tɒp ɒv/",
+    "meaningEn": "to keep informed and in control of a situation or task",
+    "meaningVi": "theo dõi sát, nắm bắt tình hình",
+    "examples": [
+      "I use a dashboard to stay on top of support tickets.",
+      "You need to stay on top of your assignments during the course.",
+      "Our PM stays on top of deadlines by checking progress daily."
+    ],
+    "conversation": {
+      "question": "How do you manage so many support tickets?",
+      "answer": "I use a dashboard to stay on top of them. It shows priority and response times at a glance."
+    }
+  },
+  {
+    "expression": "from my perspective",
     "category": "fixed-expression",
     "partOfSpeech": "expression",
     "level": "B2",
-    "ipa": "/kiːp ɪn maɪnd/",
-    "meaningEn": "to remember something important when making a decision",
-    "meaningVi": "ghi nhớ, lưu ý",
+    "ipa": "/frɒm maɪ pərˈspektɪv/",
+    "meaningEn": "from my point of view; as I see the situation",
+    "meaningVi": "theo quan điểm của tôi",
     "examples": [
-      "Keep in mind that the store closes at 9 p.m.",
-      "Keep in mind our budget when you suggest new features.",
-      "I want to keep in mind that not everyone learns at the same pace."
+      "From my perspective, the timeline is too aggressive.",
+      "From my perspective, we should prioritize stability over new features.",
+      "From my perspective, the training was well structured and practical."
     ],
     "conversation": {
-      "question": "Can we add more features before launch?",
-      "answer": "Keep in mind our budget is tight. Let's focus on what we can ship now."
+      "question": "Is the timeline realistic?",
+      "answer": "From my perspective, it's too aggressive. We'd need more QA time to ship something reliable."
+    }
+  },
+  {
+    "expression": "in contrast",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B2",
+    "ipa": "/ɪn ˈkɒntræst/",
+    "meaningEn": "used to show a clear difference between two things",
+    "meaningVi": "trái ngược, ngược lại",
+    "examples": [
+      "The old system was slow; in contrast, the new one loads in seconds.",
+      "In contrast to last quarter, revenue grew steadily this year.",
+      "In contrast, the remote team reported higher satisfaction scores."
+    ],
+    "conversation": {
+      "question": "How does the new app compare to the old one?",
+      "answer": "The old system was painfully slow. In contrast, the new one loads in seconds."
+    }
+  },
+  {
+    "expression": "to some extent",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B2",
+    "ipa": "/tu sʌm ɪkˈstent/",
+    "meaningEn": "partly; to a certain degree but not completely",
+    "meaningVi": "ở một mức độ, phần nào",
+    "examples": [
+      "To some extent, the delay was caused by unclear requirements.",
+      "I agree with your proposal to some extent, but we need more data.",
+      "Automation helps to some extent, but manual review is still necessary."
+    ],
+    "conversation": {
+      "question": "Was the delay entirely our fault?",
+      "answer": "To some extent, unclear requirements caused it. The client also changed scope mid-sprint."
+    }
+  },
+  {
+    "expression": "roughly speaking",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B2",
+    "ipa": "/ˈrʌfli ˈspiːkɪŋ/",
+    "meaningEn": "approximately; used when giving an estimate that is not exact",
+    "meaningVi": "nói sơ bộ, xấp xỉ",
+    "examples": [
+      "Roughly speaking, the project will take three months.",
+      "Roughly speaking, half of our users access the app on mobile.",
+      "Roughly speaking, we spend about 20% of time on meetings."
+    ],
+    "conversation": {
+      "question": "How long will the migration take?",
+      "answer": "Roughly speaking, about three months. We'll refine the estimate after the discovery phase."
+    }
+  },
+  {
+    "expression": "bring about",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/brɪŋ əˈbaʊt/",
+    "meaningEn": "to cause something to happen",
+    "meaningVi": "gây ra, mang lại",
+    "examples": [
+      "The new policy brought about significant changes in workflow.",
+      "Good mentoring can bring about lasting improvement in performance.",
+      "The update brought about a noticeable drop in error rates."
+    ],
+    "conversation": {
+      "question": "Did the mentoring program help?",
+      "answer": "Yes, it brought about lasting improvement in how junior developers handle code reviews."
+    }
+  },
+  {
+    "expression": "call off",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/kɔːl ɒf/",
+    "meaningEn": "to cancel a planned event or activity",
+    "meaningVi": "hủy bỏ, gọi hủy",
+    "examples": [
+      "We had to call off the workshop due to a power outage.",
+      "The manager called off the meeting because key people were absent.",
+      "They called off the release after finding a critical bug."
+    ],
+    "conversation": {
+      "question": "Is the workshop still happening tomorrow?",
+      "answer": "No, we called it off because of the power outage. We'll reschedule for next week."
+    }
+  },
+  {
+    "expression": "come to terms with",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/kʌm tu tɜːmz wɪð/",
+    "meaningEn": "to accept and deal with a difficult situation",
+    "meaningVi": "chấp nhận và đối phó với",
+    "examples": [
+      "The team had to come to terms with the delayed launch.",
+      "She came to terms with the fact that she needed more practice.",
+      "We must come to terms with limited resources this quarter."
+    ],
+    "conversation": {
+      "question": "How is the team handling the delayed launch?",
+      "answer": "We're coming to terms with it and focusing on what we can ship in the next sprint."
+    }
+  },
+  {
+    "expression": "draw attention to",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/drɔ əˈtenʃən tu/",
+    "meaningEn": "to make people notice or focus on something",
+    "meaningVi": "làm nổi bật, chỉ ra",
+    "examples": [
+      "The report draws attention to gaps in our security practices.",
+      "She drew attention to the need for better documentation.",
+      "The audit drew attention to several compliance issues."
+    ],
+    "conversation": {
+      "question": "What did the security audit highlight?",
+      "answer": "It drew attention to gaps in our access controls. We're prioritizing those fixes this sprint."
+    }
+  },
+  {
+    "expression": "fall short of",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/fɔːl ʃɔːt ɒv/",
+    "meaningEn": "to fail to reach a required level or expectation",
+    "meaningVi": "không đạt, thiếu hụt so với",
+    "examples": [
+      "The prototype fell short of the performance targets.",
+      "Our sales fell short of the quarterly goal.",
+      "The training materials fell short of what new hires needed."
+    ],
+    "conversation": {
+      "question": "Did the prototype meet the performance targets?",
+      "answer": "It fell short of them. We need another optimization round before the client review."
+    }
+  },
+  {
+    "expression": "give rise to",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/ɡɪv raɪz tu/",
+    "meaningEn": "to cause something to happen or exist",
+    "meaningVi": "gây ra, dẫn đến",
+    "examples": [
+      "Poor communication can give rise to misunderstandings.",
+      "The policy change gave rise to concerns among staff.",
+      "Unclear specs often give rise to rework later in the project."
+    ],
+    "conversation": {
+      "question": "Why are there so many misunderstandings on this project?",
+      "answer": "Poor communication gave rise to them. We need clearer status updates and written decisions."
+    }
+  },
+  {
+    "expression": "lay the groundwork",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/leɪ ðə ˈɡraʊndwɜːk/",
+    "meaningEn": "to create the basic conditions for something to develop",
+    "meaningVi": "chuẩn bị nền tảng, đặt nền móng",
+    "examples": [
+      "This sprint will lay the groundwork for the migration.",
+      "The pilot study laid the groundwork for a larger rollout.",
+      "Good onboarding lays the groundwork for long-term success."
+    ],
+    "conversation": {
+      "question": "What's the goal of this sprint?",
+      "answer": "We're laying the groundwork for the migration — setting up infrastructure and test environments."
+    }
+  },
+  {
+    "expression": "put forward",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/pʊt ˈfɔːwəd/",
+    "meaningEn": "to suggest an idea or proposal for consideration",
+    "meaningVi": "đề xuất, đưa ra",
+    "examples": [
+      "She put forward a plan to reduce meeting time.",
+      "The committee put forward several options for the budget.",
+      "I'd like to put forward a different approach to testing."
+    ],
+    "conversation": {
+      "question": "Any ideas to cut down on meetings?",
+      "answer": "I put forward a plan to replace weekly syncs with async updates. The team is reviewing it."
+    }
+  },
+  {
+    "expression": "rule out",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/ruːl aʊt/",
+    "meaningEn": "to decide that something is not possible or not the cause",
+    "meaningVi": "loại trừ, bác bỏ",
+    "examples": [
+      "We ruled out a hardware issue after checking the logs.",
+      "The doctor ruled out infection before prescribing treatment.",
+      "We can't rule out a delay until testing is complete."
+    ],
+    "conversation": {
+      "question": "Could it be a server hardware problem?",
+      "answer": "We ruled that out after checking the logs. The issue seems to be in the application layer."
+    }
+  },
+  {
+    "expression": "shed light on",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/ʃed laɪt ɒn/",
+    "meaningEn": "to help explain or clarify something unclear",
+    "meaningVi": "làm sáng tỏ, giúp hiểu rõ",
+    "examples": [
+      "The user survey shed light on why retention dropped.",
+      "New data shed light on the root cause of the outage.",
+      "Her analysis shed light on patterns we had missed."
+    ],
+    "conversation": {
+      "question": "Why did user retention drop last month?",
+      "answer": "The survey shed light on it — people found the new onboarding flow confusing."
+    }
+  },
+  {
+    "expression": "cut corners",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B2",
+    "ipa": "/kʌt ˈkɔːnəz/",
+    "meaningEn": "to do something in the easiest or cheapest way, often sacrificing quality",
+    "meaningVi": "làm ẩu, tiết kiệm sai chỗ",
+    "examples": [
+      "We can't cut corners on security testing.",
+      "The vendor cut corners and delivered substandard work.",
+      "Cutting corners on documentation will cost us time later."
+    ],
+    "conversation": {
+      "question": "Can we skip full regression testing to ship faster?",
+      "answer": "We shouldn't cut corners on security testing. A breach would cost far more than a delay."
+    }
+  },
+  {
+    "expression": "stand out",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/stænd aʊt/",
+    "meaningEn": "to be noticeably better or more prominent than others",
+    "meaningVi": "nổi bật, lọt ra",
+    "examples": [
+      "Her presentation stood out because of its clear structure.",
+      "This candidate stands out for her problem-solving skills.",
+      "The app's design stands out in a crowded market."
+    ],
+    "conversation": {
+      "question": "Which candidate impressed you most?",
+      "answer": "The one with strong React experience stood out. Her portfolio showed clean, maintainable code."
+    }
+  },
+  {
+    "expression": "step up",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/step ʌp/",
+    "meaningEn": "to increase effort or take on more responsibility",
+    "meaningVi": "nỗ lực hơn, đảm nhận thêm",
+    "examples": [
+      "The team stepped up when the deadline moved closer.",
+      "We need to step up our testing before the release.",
+      "She stepped up to lead the project after the manager left."
+    ],
+    "conversation": {
+      "question": "How did the team handle the tighter deadline?",
+      "answer": "Everyone stepped up. We added extra QA sessions and shipped on time."
+    }
+  },
+  {
+    "expression": "take for granted",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/teɪk fər ˈɡræntɪd/",
+    "meaningEn": "to assume something is true without questioning or appreciating it",
+    "meaningVi": "coi như đương nhiên, không trân trọng",
+    "examples": [
+      "Don't take for granted that everyone has fast internet.",
+      "We took stable servers for granted until the outage happened.",
+      "Many learners take for granted how much practice speaking requires."
+    ],
+    "conversation": {
+      "question": "Should we assume all users have fast connections?",
+      "answer": "We can't take that for granted. We should test on slower networks and optimize accordingly."
+    }
+  },
+  {
+    "expression": "bear in mind",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B2",
+    "ipa": "/beər ɪn maɪnd/",
+    "meaningEn": "to remember and consider something important",
+    "meaningVi": "ghi nhớ, lưu ý",
+    "examples": [
+      "Bear in mind that the contract renews in six months.",
+      "Bear in mind our budget limits when proposing features.",
+      "Bear in mind that not all students learn at the same pace."
+    ],
+    "conversation": {
+      "question": "Can we add more premium features this quarter?",
+      "answer": "Bear in mind our budget limits. Let's prioritize what drives the most user value."
+    }
+  },
+  {
+    "expression": "in light of",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B2",
+    "ipa": "/ɪn laɪt ɒv/",
+    "meaningEn": "because of new information or a changed situation",
+    "meaningVi": "xét trong hoàn cảnh, căn cứ vào",
+    "examples": [
+      "In light of the feedback, we revised the proposal.",
+      "In light of recent events, we postponed the office event.",
+      "In light of the test results, we changed our study plan."
+    ],
+    "conversation": {
+      "question": "Why did you revise the proposal?",
+      "answer": "In light of the client feedback, we adjusted the scope and timeline. It should align better now."
+    }
+  },
+  {
+    "expression": "with regard to",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B2",
+    "ipa": "/wɪð rɪˈɡɑːd tu/",
+    "meaningEn": "concerning; in relation to a particular subject",
+    "meaningVi": "liên quan đến, về vấn đề",
+    "examples": [
+      "With regard to the budget, we need approval from finance.",
+      "With regard to your application, we'll reply within a week.",
+      "With regard to training, the company offers several online courses."
+    ],
+    "conversation": {
+      "question": "Who approves the project budget?",
+      "answer": "With regard to the budget, we need sign-off from finance. I'll send them the breakdown today."
+    }
+  },
+  {
+    "expression": "as opposed to",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B2",
+    "ipa": "/æz əˈpəʊzd tu/",
+    "meaningEn": "in contrast to; rather than",
+    "meaningVi": "thay vì, trái với",
+    "examples": [
+      "We chose async updates as opposed to daily meetings.",
+      "She prefers written feedback as opposed to verbal criticism.",
+      "We deploy on Fridays as opposed to Mondays to allow recovery time."
+    ],
+    "conversation": {
+      "question": "Why async updates instead of daily standups?",
+      "answer": "We chose async updates as opposed to daily meetings. The team is distributed and saves focus time."
+    }
+  },
+  {
+    "expression": "in the long run",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B2",
+    "ipa": "/ɪn ðə lɒŋ rʌn/",
+    "meaningEn": "over a long period of time in the future",
+    "meaningVi": "về lâu dài, trong dài hạn",
+    "examples": [
+      "Good documentation saves time in the long run.",
+      "Investing in training pays off in the long run.",
+      "Cutting quality may hurt us in the long run."
+    ],
+    "conversation": {
+      "question": "Is it worth spending time on documentation now?",
+      "answer": "Yes, it saves time in the long run. New hires onboard faster and we spend less on support."
+    }
+  },
+  {
+    "expression": "on balance",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B2",
+    "ipa": "/ɒn ˈbæləns/",
+    "meaningEn": "considering everything; after weighing pros and cons",
+    "meaningVi": "nhìn chung, xét trên mọi mặt",
+    "examples": [
+      "On balance, the migration was worth the effort.",
+      "On balance, remote work improved our team's productivity.",
+      "On balance, the course met my expectations despite a few gaps."
+    ],
+    "conversation": {
+      "question": "Was the database migration worth it?",
+      "answer": "On balance, yes. It was painful for two weeks, but performance and reliability improved significantly."
+    }
+  },
+  {
+    "expression": "draw a distinction",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/drɔ ə dɪˈstɪŋkʃən/",
+    "meaningEn": "to show or recognize a difference between two things",
+    "meaningVi": "phân biệt, làm rõ sự khác biệt",
+    "examples": [
+      "It's important to draw a distinction between bugs and feature requests.",
+      "The lecture drew a distinction between formal and informal writing.",
+      "We should draw a distinction between urgent and important tasks."
+    ],
+    "conversation": {
+      "question": "Should we treat every ticket the same?",
+      "answer": "We need to draw a distinction between bugs and feature requests. Bugs should get priority in the queue."
+    }
+  },
+  {
+    "expression": "account for",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/əˈkaʊnt fər/",
+    "meaningEn": "to explain the reason for something; to form a particular amount",
+    "meaningVi": "giải thích, chiếm (tỷ lệ)",
+    "examples": [
+      "Server costs account for 40% of our monthly budget.",
+      "Can you account for the drop in conversion rates?",
+      "The report accounts for all expenses from last quarter."
+    ],
+    "conversation": {
+      "question": "What's driving most of our cloud spend?",
+      "answer": "Server costs account for about 40% of the budget. We're reviewing instance sizing to reduce it."
+    }
+  },
+  {
+    "expression": "stem from",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/stem frɒm/",
+    "meaningEn": "to originate from or be caused by something",
+    "meaningVi": "bắt nguồn từ, do từ",
+    "examples": [
+      "Many delays stem from unclear requirements.",
+      "The conflict stemmed from a misunderstanding about roles.",
+      "User complaints often stem from poor onboarding."
+    ],
+    "conversation": {
+      "question": "Why do we keep missing deadlines?",
+      "answer": "Many delays stem from unclear requirements. We need tighter definition before development starts."
+    }
+  },
+  {
+    "expression": "align with",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/əˈlaɪn wɪð/",
+    "meaningEn": "to be in agreement with goals, values, or plans",
+    "meaningVi": "phù hợp với, đồng bộ với",
+    "examples": [
+      "Our roadmap should align with company strategy.",
+      "The proposal doesn't align with our security standards.",
+      "Her career goals align with the training program we offer."
+    ],
+    "conversation": {
+      "question": "Does this feature fit our product strategy?",
+      "answer": "It aligns with our focus on retention. Leadership approved adding it to the roadmap."
+    }
+  },
+  {
+    "expression": "build on",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/bɪld ɒn/",
+    "meaningEn": "to use something as a basis for further development",
+    "meaningVi": "xây dựng tiếp, phát triển từ",
+    "examples": [
+      "We'll build on the MVP and add analytics next sprint.",
+      "She built on her internship experience to land a full-time role.",
+      "The course builds on concepts from the previous module."
+    ],
+    "conversation": {
+      "question": "What's next after the MVP launch?",
+      "answer": "We'll build on it by adding analytics and user feedback tools in the next sprint."
+    }
+  },
+  {
+    "expression": "contribute to",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/kənˈtrɪbjuːt tu/",
+    "meaningEn": "to help cause or bring about a result",
+    "meaningVi": "đóng góp vào, góp phần",
+    "examples": [
+      "Poor sleep can contribute to lower productivity.",
+      "Each team member should contribute to the retrospective.",
+      "Technical debt contributed to the slow release cycle."
+    ],
+    "conversation": {
+      "question": "Why is our release cycle so slow?",
+      "answer": "Technical debt contributed to it. We need dedicated time to refactor critical modules."
+    }
+  },
+  {
+    "expression": "adhere to",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/ədˈhɪər tu/",
+    "meaningEn": "to follow rules, standards, or principles consistently",
+    "meaningVi": "tuân thủ, bám sát",
+    "examples": [
+      "All code must adhere to our style guidelines.",
+      "We adhere to industry best practices for data handling.",
+      "Students must adhere to the course attendance policy."
+    ],
+    "conversation": {
+      "question": "Do we follow a coding standard?",
+      "answer": "Yes, all code must adhere to our style guidelines. CI checks enforce them on every pull request."
+    }
+  },
+  {
+    "expression": "comply with",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/kəmˈplaɪ wɪð/",
+    "meaningEn": "to act according to laws, rules, or requirements",
+    "meaningVi": "tuân thủ (quy định, luật)",
+    "examples": [
+      "The app must comply with data protection regulations.",
+      "Vendors must comply with our security checklist.",
+      "We comply with ISO standards for quality management."
+    ],
+    "conversation": {
+      "question": "Are we ready for the compliance audit?",
+      "answer": "We're updating logging so the app complies with data protection regulations. Audit is in two weeks."
+    }
+  },
+  {
+    "expression": "assess risk",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/əˈses rɪsk/",
+    "meaningEn": "to evaluate the likelihood and impact of potential problems",
+    "meaningVi": "đánh giá rủi ro",
+    "examples": [
+      "We assess risk before every major release.",
+      "The committee will assess risk related to the merger.",
+      "Project managers should assess risk early in planning."
+    ],
+    "conversation": {
+      "question": "What's on the agenda before the release?",
+      "answer": "We'll assess risk for the deployment — rollback plan, monitoring, and known edge cases."
+    }
+  },
+  {
+    "expression": "mitigate risk",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/ˈmɪtɪɡeɪt rɪsk/",
+    "meaningEn": "to reduce the severity or likelihood of a risk",
+    "meaningVi": "giảm thiểu rủi ro",
+    "examples": [
+      "We mitigate risk by running tests in a staging environment.",
+      "Backup systems help mitigate risk during migrations.",
+      "Training staff mitigates risk when new tools are introduced."
+    ],
+    "conversation": {
+      "question": "How do we reduce deployment risk?",
+      "answer": "We mitigate risk by testing in staging first and keeping a rollback plan ready."
+    }
+  },
+  {
+    "expression": "formulate a plan",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/ˈfɔːmjuleɪt ə plæn/",
+    "meaningEn": "to develop a clear and structured plan",
+    "meaningVi": "lập kế hoạch, xây dựng kế hoạch",
+    "examples": [
+      "The team formulated a plan to fix the performance issues.",
+      "We need to formulate a plan before the client meeting.",
+      "She formulated a plan to improve her study habits."
+    ],
+    "conversation": {
+      "question": "What are we doing about the performance issues?",
+      "answer": "We formulated a plan yesterday — index optimization, caching, and load testing over two sprints."
+    }
+  },
+  {
+    "expression": "address an issue",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/əˈdres ən ˈɪʃuː/",
+    "meaningEn": "to deal with or try to solve a problem",
+    "meaningVi": "giải quyết vấn đề, xử lý sự cố",
+    "examples": [
+      "We addressed the issue within 24 hours of the report.",
+      "The workshop will address issues with team communication.",
+      "Please address the issue in your next standup update."
+    ],
+    "conversation": {
+      "question": "Did we fix the login bug users reported?",
+      "answer": "We addressed the issue within 24 hours. A patch went out last night."
+    }
+  },
+  {
+    "expression": "trade-off",
+    "category": "word",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "ipa": "/ˈtreɪd ɒf/",
+    "meaningEn": "a balance between two competing factors where gaining one means losing another",
+    "meaningVi": "sự đánh đổi, cân bằng lợi hại",
+    "examples": [
+      "There's a trade-off between speed and code quality.",
+      "We discussed the trade-off between cost and reliability.",
+      "Every design choice involves some trade-off."
+    ],
+    "conversation": {
+      "question": "Can we ship fast without sacrificing quality?",
+      "answer": "There's always a trade-off. We can ship sooner if we scope down features, not if we skip testing."
+    }
+  },
+  {
+    "expression": "edge case",
+    "category": "word",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "ipa": "/edʒ keɪs/",
+    "meaningEn": "a problem or situation that occurs only in extreme or unusual conditions",
+    "meaningVi": "trường hợp biên, tình huống ngoại lệ",
+    "examples": [
+      "We found an edge case when the input field was empty.",
+      "Good tests should cover common scenarios and edge cases.",
+      "The bug only appeared in an edge case with concurrent users."
+    ],
+    "conversation": {
+      "question": "Why did the bug only show up in production?",
+      "answer": "It was an edge case with concurrent users. Our tests didn't cover that scenario."
+    }
+  },
+  {
+    "expression": "root cause",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/ruːt kɔːz/",
+    "meaningEn": "the fundamental reason why a problem occurred",
+    "meaningVi": "nguyên nhân gốc",
+    "examples": [
+      "We need to find the root cause, not just patch the symptom.",
+      "The postmortem identified the root cause of the outage.",
+      "Understanding the root cause prevents the issue from recurring."
+    ],
+    "conversation": {
+      "question": "Did we fix the outage or just restart the servers?",
+      "answer": "The postmortem found the root cause — a misconfigured cache TTL. We fixed that, not just restarted."
+    }
+  },
+  {
+    "expression": "learning curve",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/ˈlɜːnɪŋ kɜːv/",
+    "meaningEn": "the rate at which someone learns a new skill; often steep means difficult to learn quickly",
+    "meaningVi": "đường cong học tập, mức độ khó khi học",
+    "examples": [
+      "The new framework has a steep learning curve.",
+      "There's a short learning curve for our internal tools.",
+      "Pair programming flattens the learning curve for new hires."
+    ],
+    "conversation": {
+      "question": "Is the new framework hard to pick up?",
+      "answer": "It has a steep learning curve at first. Pair programming helped our juniors flatten it quickly."
+    }
+  },
+  {
+    "expression": "best practice",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/best ˈpræktɪs/",
+    "meaningEn": "a method or technique that is widely accepted as the most effective",
+    "meaningVi": "thực hành tốt, phương pháp hay nhất",
+    "examples": [
+      "Code reviews are a best practice in our engineering team.",
+      "The guide summarizes best practices for API design.",
+      "Following best practices reduces bugs in production."
+    ],
+    "conversation": {
+      "question": "How do we keep code quality high?",
+      "answer": "We follow best practices like code reviews and automated tests. They've cut production bugs significantly."
+    }
+  },
+  {
+    "expression": "significant improvement",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/sɪɡˈnɪfɪkənt ɪmˈpruːvmənt/",
+    "meaningEn": "a noticeable and meaningful positive change",
+    "meaningVi": "cải thiện đáng kể",
+    "examples": [
+      "We saw a significant improvement in page load times.",
+      "There was a significant improvement in her writing after the course.",
+      "The refactor led to a significant improvement in maintainability."
+    ],
+    "conversation": {
+      "question": "Did the optimization work help?",
+      "answer": "Yes, we saw a significant improvement in page load times. Average load dropped from four seconds to under one."
+    }
+  },
+  {
+    "expression": "major concern",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/ˈmeɪdʒər kənˈsɜːn/",
+    "meaningEn": "an important worry or problem that needs attention",
+    "meaningVi": "mối lo ngại lớn, vấn đề nghiêm trọng",
+    "examples": [
+      "Data security is a major concern for our clients.",
+      "The lack of testing is a major concern before release.",
+      "Staff turnover became a major concern for the department."
+    ],
+    "conversation": {
+      "question": "What worries clients most about our product?",
+      "answer": "Data security is a major concern. We're adding encryption and clearer privacy docs to address it."
+    }
+  },
+  {
+    "expression": "reasonable approach",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/ˈriːzənəbəl əˈprəʊtʃ/",
+    "meaningEn": "a sensible and fair way of dealing with something",
+    "meaningVi": "cách tiếp cận hợp lý",
+    "examples": [
+      "Phased rollout is a reasonable approach for this update.",
+      "Her proposal offers a reasonable approach to the budget issue.",
+      "Starting with a pilot is a reasonable approach for new software."
+    ],
+    "conversation": {
+      "question": "How should we roll out the major update?",
+      "answer": "A phased rollout is a reasonable approach. We can limit risk and gather feedback before full release."
+    }
+  },
+  {
+    "expression": "long-term benefit",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/lɒŋ tɜːm ˈbenɪfɪt/",
+    "meaningEn": "an advantage that becomes clear over an extended period",
+    "meaningVi": "lợi ích dài hạn",
+    "examples": [
+      "Refactoring offers long-term benefits despite short-term cost.",
+      "Learning English has long-term benefits for your career.",
+      "Investing in employee training brings long-term benefits."
+    ],
+    "conversation": {
+      "question": "Is refactoring worth the sprint time?",
+      "answer": "Yes, it has long-term benefits. We'll ship faster and with fewer bugs once the codebase is cleaner."
+    }
+  },
+  {
+    "expression": "short-term solution",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/ʃɔːt tɜːm səˈluːʃən/",
+    "meaningEn": "a fix that works now but may not solve the problem permanently",
+    "meaningVi": "giải pháp ngắn hạn",
+    "examples": [
+      "Restarting the server is only a short-term solution.",
+      "We need a short-term solution until the patch is ready.",
+      "Hiring contractors was a short-term solution to the staffing gap."
+    ],
+    "conversation": {
+      "question": "Can we just restart the server to fix the errors?",
+      "answer": "That's only a short-term solution. We need to fix the memory leak before the next traffic spike."
+    }
+  },
+  {
+    "expression": "underlying issue",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/ˈʌndəlaɪɪŋ ˈɪʃuː/",
+    "meaningEn": "the deeper problem that causes visible symptoms",
+    "meaningVi": "vấn đề cốt lõi, vấn đề nền",
+    "examples": [
+      "Slow queries point to an underlying issue with database design.",
+      "We fixed the bug but didn't address the underlying issue.",
+      "Team conflict often has an underlying issue with communication."
+    ],
+    "conversation": {
+      "question": "Why do queries keep slowing down?",
+      "answer": "There's an underlying issue with our database design. We need normalization, not just query tweaks."
+    }
+  },
+  {
+    "expression": "feasible solution",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/ˈfiːzəbəl səˈluːʃən/",
+    "meaningEn": "a solution that is practical and possible to achieve",
+    "meaningVi": "giải pháp khả thi",
+    "examples": [
+      "We need a feasible solution within our current budget.",
+      "Migrating in stages is the most feasible solution.",
+      "The team proposed a feasible solution by reusing existing APIs."
+    ],
+    "conversation": {
+      "question": "Can we rebuild the whole system this quarter?",
+      "answer": "A full rebuild isn't feasible. Migrating in stages is the most feasible solution with our budget."
+    }
+  },
+  {
+    "expression": "crucial factor",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/ˈkruːʃəl ˈfæktər/",
+    "meaningEn": "an extremely important element that affects an outcome",
+    "meaningVi": "yếu tố then chốt, yếu tố quan trọng",
+    "examples": [
+      "User feedback is a crucial factor in product decisions.",
+      "Timing was a crucial factor in the project's success.",
+      "Consistent practice is a crucial factor in language learning."
+    ],
+    "conversation": {
+      "question": "What matters most when prioritizing features?",
+      "answer": "User feedback is a crucial factor. We weight requests from active customers heavily in planning."
+    }
+  },
+  {
+    "expression": "widespread",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "ipa": "/ˈwaɪdspred/",
+    "meaningEn": "existing or happening in many places or among many people",
+    "meaningVi": "rộng rãi, phổ biến",
+    "examples": [
+      "There is widespread support for the new remote-work policy.",
+      "The outage caused widespread disruption across all regions.",
+      "Widespread adoption of the tool took about six months."
+    ],
+    "conversation": {
+      "question": "How did staff react to the remote-work policy?",
+      "answer": "There was widespread support for it. Most teams reported better work-life balance after the change."
+    }
+  },
+  {
+    "expression": "accountable",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "ipa": "/əˈkaʊntəbl/",
+    "meaningEn": "required to explain your actions or decisions to someone",
+    "meaningVi": "chịu trách nhiệm giải trình",
+    "examples": [
+      "Each team lead is accountable for meeting quarterly targets.",
+      "Managers should be accountable when projects miss key deadlines.",
+      "We need a clear owner who is accountable for data quality."
+    ],
+    "conversation": {
+      "question": "Who owns the reporting errors?",
+      "answer": "The analytics lead is accountable for data quality. She'll present a fix plan on Friday."
+    }
+  },
+  {
+    "expression": "ambiguous",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "ipa": "/æmˈbɪɡjuəs/",
+    "meaningEn": "having more than one possible meaning; not clear",
+    "meaningVi": "mơ hồ, không rõ ràng",
+    "examples": [
+      "The client brief was ambiguous about the delivery date.",
+      "Ambiguous instructions caused confusion during the onboarding process.",
+      "We should rewrite this policy because several clauses are ambiguous."
+    ],
+    "conversation": {
+      "question": "Why did the team build the wrong feature?",
+      "answer": "The brief was ambiguous about priorities. We need clearer acceptance criteria next time."
+    }
+  },
+  {
+    "expression": "viable",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "ipa": "/ˈvaɪəbl/",
+    "meaningEn": "capable of working successfully; practical and realistic",
+    "meaningVi": "khả thi, có thể thực hiện được",
+    "examples": [
+      "After the review, only two options remained viable.",
+      "The proposal is viable if we secure additional funding.",
+      "We need a viable plan before presenting to the board."
+    ],
+    "conversation": {
+      "question": "Can we launch in six weeks?",
+      "answer": "Only if we cut two features. Otherwise, a six-week launch isn't viable with our current team."
+    }
+  },
+  {
+    "expression": "oversee",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "ipa": "/ˌəʊvəˈsiː/",
+    "meaningEn": "to watch and direct work to make sure it is done correctly",
+    "meaningVi": "giám sát, điều hành",
+    "examples": [
+      "She was hired to oversee the migration to a new platform.",
+      "The director will oversee training for all new hires.",
+      "Someone senior needs to oversee quality checks before release."
+    ],
+    "conversation": {
+      "question": "Who is managing the platform migration?",
+      "answer": "Maria will oversee it. She handled a similar rollout at her last company."
+    }
+  },
+  {
+    "expression": "streamline",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "ipa": "/ˈstriːmlaɪn/",
+    "meaningEn": "to make a process simpler and more efficient",
+    "meaningVi": "tinh gọn, đơn giản hóa quy trình",
+    "examples": [
+      "We streamlined the approval process to save time.",
+      "The team streamlined onboarding by combining three forms into one.",
+      "Automating reports helped streamline monthly reporting."
+    ],
+    "conversation": {
+      "question": "How did you cut approval time in half?",
+      "answer": "We streamlined the workflow by removing two redundant sign-off steps."
+    }
+  },
+  {
+    "expression": "allocate",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "ipa": "/ˈæləkeɪt/",
+    "meaningEn": "to distribute resources or time for a specific purpose",
+    "meaningVi": "phân bổ, cấp phát",
+    "examples": [
+      "We need to allocate more budget to user research.",
+      "The manager allocated two engineers to the security project.",
+      "Please allocate time this week to review the documentation."
+    ],
+    "conversation": {
+      "question": "Do we have engineers for the security audit?",
+      "answer": "Yes, I allocated two engineers to it starting Monday."
+    }
+  },
+  {
+    "expression": "implement",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "ipa": "/ˈɪmplɪment/",
+    "meaningEn": "to put a plan, system, or decision into effect",
+    "meaningVi": "triển khai, thực hiện",
+    "examples": [
+      "The IT team will implement the new access policy next month.",
+      "We implemented feedback from the pilot group before the full rollout.",
+      "It took three sprints to implement the redesigned checkout flow."
+    ],
+    "conversation": {
+      "question": "When will the new access policy take effect?",
+      "answer": "IT will implement it next month. Training sessions start two weeks before launch."
+    }
+  },
+  {
+    "expression": "negotiate",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "B2",
+    "ipa": "/nɪˈɡəʊʃieɪt/",
+    "meaningEn": "to discuss something formally to reach an agreement",
+    "meaningVi": "đàm phán, thương lượng",
+    "examples": [
+      "We negotiated a later deadline with the client.",
+      "She negotiated better terms for the software license.",
+      "The union is negotiating pay increases with management."
+    ],
+    "conversation": {
+      "question": "Can we still deliver by March?",
+      "answer": "We negotiated a later deadline with the client. The new target is mid-April."
+    }
+  },
+  {
+    "expression": "follow through",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/ˈfɒləʊ θruː/",
+    "meaningEn": "to complete an action or promise that was started",
+    "meaningVi": "theo sát đến cùng, hoàn tất cam kết",
+    "examples": [
+      "Please follow through on the action items from yesterday's meeting.",
+      "She always follows through when she commits to a deadline.",
+      "We failed to follow through on the customer feedback we collected."
+    ],
+    "conversation": {
+      "question": "Did anyone act on the meeting notes?",
+      "answer": "Not yet. We need to follow through on those action items before Friday."
+    }
+  },
+  {
+    "expression": "sign off on",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/saɪn ɒf ɒn/",
+    "meaningEn": "to give official approval for something",
+    "meaningVi": "phê duyệt chính thức",
+    "examples": [
+      "Legal must sign off on the revised contract.",
+      "The director signed off on the budget yesterday.",
+      "We cannot launch until QA signs off on the release."
+    ],
+    "conversation": {
+      "question": "Can we ship the update tomorrow?",
+      "answer": "Only after QA signs off on it. They're running final regression tests now."
+    }
+  },
+  {
+    "expression": "wrap up",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/ræp ʌp/",
+    "meaningEn": "to finish or complete something",
+    "meaningVi": "kết thúc, hoàn tất",
+    "examples": [
+      "Let's wrap up the discussion and move to action items.",
+      "She wrapped up the audit ahead of schedule.",
+      "We need to wrap up testing before the holiday break."
+    ],
+    "conversation": {
+      "question": "How much longer is the meeting?",
+      "answer": "Let's wrap up in ten minutes. I'll summarize decisions and owners at the end."
+    }
+  },
+  {
+    "expression": "brush up on",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/brʌʃ ʌp ɒn/",
+    "meaningEn": "to improve your knowledge or skill in something you have partly forgotten",
+    "meaningVi": "ôn lại, cải thiện kỹ năng",
+    "examples": [
+      "I need to brush up on my presentation skills before the conference.",
+      "She brushed up on SQL before joining the analytics team.",
+      "The course helps employees brush up on workplace communication."
+    ],
+    "conversation": {
+      "question": "Are you ready for the client presentation?",
+      "answer": "I'm brushing up on the demo flow tonight. I haven't presented this module in months."
+    }
+  },
+  {
+    "expression": "iron out",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/ˈaɪən aʊt/",
+    "meaningEn": "to resolve small problems or details in a plan or agreement",
+    "meaningVi": "giải quyết, tháo gỡ chi tiết còn vướng",
+    "examples": [
+      "We still need to iron out a few contract details.",
+      "The teams met to iron out differences in the project timeline.",
+      "Let's iron out the pricing questions before sending the proposal."
+    ],
+    "conversation": {
+      "question": "Is the contract ready to send?",
+      "answer": "Almost. Legal and finance still need to iron out two pricing clauses."
+    }
+  },
+  {
+    "expression": "hold off on",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/həʊld ɒf ɒn/",
+    "meaningEn": "to delay doing something until a later time",
+    "meaningVi": "hoãn lại, tạm trì hoãn",
+    "examples": [
+      "We decided to hold off on the redesign until Q3.",
+      "Please hold off on announcing the partnership until legal approves.",
+      "The committee held off on voting until more data was available."
+    ],
+    "conversation": {
+      "question": "Should we announce the partnership today?",
+      "answer": "Let's hold off on it until legal approves the press release."
+    }
+  },
+  {
+    "expression": "in due course",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B2",
+    "ipa": "/ɪn djuː kɔːs/",
+    "meaningEn": "at the appropriate time in the future; eventually",
+    "meaningVi": "đúng lúc, trong thời gian thích hợp",
+    "examples": [
+      "You will receive feedback in due course after the review panel meets.",
+      "The revised policy will be shared in due course.",
+      "Promotions are considered in due course based on performance and tenure."
+    ],
+    "conversation": {
+      "question": "When will I hear back about my promotion?",
+      "answer": "HR will contact you in due course after the review panel finishes this month."
+    }
+  },
+  {
+    "expression": "on short notice",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B2",
+    "ipa": "/ɒn ʃɔːt ˈnəʊtɪs/",
+    "meaningEn": "with very little time to prepare",
+    "meaningVi": "trong thời gian ngắn, đột xuất",
+    "examples": [
+      "Thanks for joining the call on short notice.",
+      "She prepared the report on short notice before the board meeting.",
+      "The team can deploy a hotfix on short notice if needed."
+    ],
+    "conversation": {
+      "question": "Can you present the numbers in an hour?",
+      "answer": "I can, though I'd normally need more time. I'll pull the slides together on short notice."
+    }
+  },
+  {
+    "expression": "to begin with",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B2",
+    "ipa": "/tu bɪˈɡɪn wɪð/",
+    "meaningEn": "at the start; used to introduce the first point in a list of reasons",
+    "meaningVi": "trước hết, để bắt đầu",
+    "examples": [
+      "To begin with, we need a clearer project scope.",
+      "The plan failed because, to begin with, the budget was unrealistic.",
+      "To begin with, let's review last quarter's results."
+    ],
+    "conversation": {
+      "question": "Why did the pilot project fail?",
+      "answer": "To begin with, the scope kept changing. We also lacked a dedicated project owner."
+    }
+  },
+  {
+    "expression": "at hand",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B2",
+    "ipa": "/æt hænd/",
+    "meaningEn": "existing or available now; needing attention at the present moment",
+    "meaningVi": "sẵn có, đang cần xử lý",
+    "examples": [
+      "Let's focus on the task at hand before discussing next year's budget.",
+      "All the documents you need are at hand in the shared folder.",
+      "With the launch at hand, the team worked late every evening."
+    ],
+    "conversation": {
+      "question": "Can we brainstorm ideas for next year now?",
+      "answer": "Let's focus on the task at hand first. We still have three blockers before launch."
+    }
+  },
+  {
+    "expression": "by no means",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B2",
+    "ipa": "/baɪ nəʊ miːnz/",
+    "meaningEn": "not at all; certainly not",
+    "meaningVi": "không hề, hoàn toàn không",
+    "examples": [
+      "The project is challenging, but by no means impossible.",
+      "This is by no means the final version of the report.",
+      "She is talented, but by no means ready to lead the department yet."
+    ],
+    "conversation": {
+      "question": "Is the migration too risky to attempt?",
+      "answer": "It's challenging, but by no means impossible. We just need a phased rollout."
+    }
+  },
+  {
+    "expression": "meet a deadline",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/miːt ə ˈdedlaɪn/",
+    "meaningEn": "to finish work by the agreed time",
+    "meaningVi": "đáp ứng hạn chót",
+    "examples": [
+      "The team worked overtime to meet the deadline.",
+      "Clear priorities help us meet deadlines without burning out.",
+      "We may not meet the deadline unless we reduce the scope."
+    ],
+    "conversation": {
+      "question": "Will the report be ready by Friday?",
+      "answer": "We'll meet the deadline if we drop the optional charts. Otherwise we need until Monday."
+    }
+  },
+  {
+    "expression": "reach consensus",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/riːtʃ kənˈsensəs/",
+    "meaningEn": "to arrive at an agreement that most people accept",
+    "meaningVi": "đạt được đồng thuận",
+    "examples": [
+      "The committee reached consensus on the new grading policy.",
+      "It took three workshops to reach consensus on the product roadmap.",
+      "We could not reach consensus without input from the finance team."
+    ],
+    "conversation": {
+      "question": "Did the committee agree on the grading policy?",
+      "answer": "Yes, they reached consensus after the third workshop. The policy takes effect next term."
+    }
+  },
+  {
+    "expression": "set expectations",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/set ˌekspekˈteɪʃnz/",
+    "meaningEn": "to clearly communicate what people should expect",
+    "meaningVi": "đặt ra kỳ vọng, thiết lập kỳ vọng",
+    "examples": [
+      "The manager set expectations during the first team meeting.",
+      "We need to set expectations with clients about response times.",
+      "Setting clear expectations early prevents misunderstandings later."
+    ],
+    "conversation": {
+      "question": "Why are clients frustrated with support?",
+      "answer": "We never set expectations about response times. I'll draft a service-level summary this week."
+    }
+  },
+  {
+    "expression": "conduct research",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/kənˈdʌkt rɪˈsɜːtʃ/",
+    "meaningEn": "to carry out a careful study to discover facts or test ideas",
+    "meaningVi": "tiến hành nghiên cứu",
+    "examples": [
+      "The lab will conduct research on renewable energy storage.",
+      "We conducted research before redesigning the onboarding flow.",
+      "Students must conduct research using credible academic sources."
+    ],
+    "conversation": {
+      "question": "What evidence supports the redesign?",
+      "answer": "We conducted research with twelve user interviews. Pain points were consistent across segments."
+    }
+  },
+  {
+    "expression": "submit a proposal",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/səbˈmɪt ə prəˈpəʊzl/",
+    "meaningEn": "to formally present a plan or offer for consideration",
+    "meaningVi": "nộp đề xuất",
+    "examples": [
+      "Please submit a proposal by the end of the month.",
+      "The vendor submitted a proposal with three pricing tiers.",
+      "She submitted a proposal to improve cross-team communication."
+    ],
+    "conversation": {
+      "question": "How do we apply for the innovation grant?",
+      "answer": "Submit a proposal by the 30th. Include budget, timeline, and expected outcomes."
     }
   }
 ]

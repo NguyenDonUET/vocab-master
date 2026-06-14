@@ -1,30 +1,15 @@
-import { readFileSync } from 'node:fs'
-import { join } from 'node:path'
-
-import type { CefrLevel } from '@prisma/client'
 import { PrismaClient } from '@prisma/client'
 
+import { loadRawDataset } from '../src/lib/vocabulary-index'
 import {
   PART_OF_SPEECH_TO_PRISMA,
   validateVocabularyDataset,
   VOCABULARY_CATEGORY_TO_PRISMA,
 } from '../src/lib/vocabulary-validation'
-import { CEFR_LEVELS, type VocabularyEntryInput } from '../src/types/vocabulary'
+import type { CefrLevel, VocabularyEntryInput } from '../src/types/vocabulary'
 
 const prisma = new PrismaClient()
 const UPDATE_BATCH_SIZE = 25
-
-const DATA_DIR = join(process.cwd(), 'src/data/levels')
-
-function loadRawDataset() {
-  const items = CEFR_LEVELS.flatMap((level) => {
-    const filePath = join(DATA_DIR, `${level.toLowerCase()}.json`)
-    const raw = readFileSync(filePath, 'utf-8')
-    return JSON.parse(raw) as unknown[]
-  })
-
-  return { version: 1, items }
-}
 
 function entryKey(expression: string, level: CefrLevel) {
   return `${level}::${expression}`

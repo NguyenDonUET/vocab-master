@@ -88,5 +88,1553 @@
       "question": "How do we reduce these performance issues?",
       "answer": "We added caching to mitigate them. The team also proposed steps for security risks."
     }
+  },
+  {
+    "expression": "articulate",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "ipa": "/ɑːrˈtɪkjuleɪt/",
+    "meaningEn": "to express an idea or feeling clearly in words",
+    "meaningVi": "diễn đạt rõ ràng, trình bày mạch lạc",
+    "examples": [
+      "She articulated her concerns during the faculty meeting.",
+      "The report fails to articulate why the methodology was changed.",
+      "I need time to articulate my position before the committee votes."
+    ],
+    "conversation": {
+      "question": "Did you explain your concerns to the dean?",
+      "answer": "Yes, I articulated my concerns during the faculty meeting. I wanted the committee to understand the impact on research funding."
+    }
+  },
+  {
+    "expression": "substantiate",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "ipa": "/səbˈstænʃieɪt/",
+    "meaningEn": "to provide evidence to support or prove a claim",
+    "meaningVi": "chứng minh, xác minh bằng bằng chứng",
+    "examples": [
+      "The audit could not substantiate the revenue figures in the proposal.",
+      "You need peer-reviewed data to substantiate that conclusion.",
+      "Each claim in the thesis must be substantiated with credible sources."
+    ],
+    "conversation": {
+      "question": "Can we trust the revenue projections?",
+      "answer": "Not yet. The audit could not substantiate the figures, so we need more documentation."
+    }
+  },
+  {
+    "expression": "pivotal",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C1",
+    "ipa": "/ˈpɪvətl/",
+    "meaningEn": "of crucial importance in relation to the development of something",
+    "meaningVi": "then chốt, mang tính quyết định",
+    "examples": [
+      "The pilot study played a pivotal role in securing grant approval.",
+      "This quarter will be pivotal for our expansion into new markets.",
+      "Her mentorship was pivotal to my decision to pursue academic research."
+    ],
+    "conversation": {
+      "question": "Why was the pilot study so important?",
+      "answer": "It played a pivotal role in securing grant approval. Without those results, the committee would have rejected our application."
+    }
+  },
+  {
+    "expression": "nuanced",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C1",
+    "ipa": "/ˈnuːɑːnst/",
+    "meaningEn": "characterized by subtle distinctions and variations",
+    "meaningVi": "tinh tế, có nhiều sắc thái",
+    "examples": [
+      "The policy requires a more nuanced understanding of regional differences.",
+      "Her feedback was nuanced, acknowledging strengths while noting gaps.",
+      "A nuanced analysis of the data reveals trends the summary overlooks."
+    ],
+    "conversation": {
+      "question": "Is a one-size-fits-all policy enough here?",
+      "answer": "No, this requires a more nuanced understanding of regional differences. We should tailor the guidelines accordingly."
+    }
+  },
+  {
+    "expression": "inconclusive",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C1",
+    "ipa": "/ˌɪnkənˈkluːsɪv/",
+    "meaningEn": "not leading to a definite conclusion or result",
+    "meaningVi": "chưa kết luận được, không rõ ràng",
+    "examples": [
+      "The trial results remain inconclusive after the first phase.",
+      "Early survey data is inconclusive, so we should extend the sample size.",
+      "The board found the evidence inconclusive and deferred the decision."
+    ],
+    "conversation": {
+      "question": "Can we approve the new treatment based on phase one?",
+      "answer": "The trial results remain inconclusive after the first phase. We need to wait for the full dataset."
+    }
+  },
+  {
+    "expression": "provisional",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C1",
+    "ipa": "/prəˈvɪʒənl/",
+    "meaningEn": "arranged or existing for the present, possibly to be changed later",
+    "meaningVi": "tạm thời, có thể thay đổi sau",
+    "examples": [
+      "We received provisional acceptance pending final document review.",
+      "The committee issued a provisional timetable for the accreditation visit.",
+      "These figures are provisional and may be revised after the audit."
+    ],
+    "conversation": {
+      "question": "Is our acceptance to the conference final?",
+      "answer": "It's provisional acceptance pending document review. We'll know for sure once they verify our abstract."
+    }
+  },
+  {
+    "expression": "empirical",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C1",
+    "ipa": "/ɪmˈpɪrɪkl/",
+    "meaningEn": "based on observation or experience rather than theory alone",
+    "meaningVi": "dựa trên thực nghiệm, quan sát thực tế",
+    "examples": [
+      "The study provides empirical support for the hypothesis.",
+      "We need empirical data before revising the curriculum.",
+      "His argument lacks empirical grounding and relies on anecdote."
+    ],
+    "conversation": {
+      "question": "Is there solid evidence for this hypothesis?",
+      "answer": "Yes, the study provides empirical support for it. The dataset covers three years of classroom observations."
+    }
+  },
+  {
+    "expression": "interdisciplinary",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C1",
+    "ipa": "/ˌɪntərˈdɪsəplɪneri/",
+    "meaningEn": "involving two or more academic disciplines or fields of study",
+    "meaningVi": "liên ngành, đa ngành",
+    "examples": [
+      "The program encourages interdisciplinary research across faculties.",
+      "An interdisciplinary team designed the urban sustainability project.",
+      "Her dissertation took an interdisciplinary approach to climate policy."
+    ],
+    "conversation": {
+      "question": "Who is working on the sustainability project?",
+      "answer": "An interdisciplinary team designed it, drawing on engineering, economics, and public policy."
+    }
+  },
+  {
+    "expression": "inadvertently",
+    "category": "word",
+    "partOfSpeech": "adverb",
+    "level": "C1",
+    "ipa": "/ˌɪnədˈvɜːrtntli/",
+    "meaningEn": "without intention; accidentally",
+    "meaningVi": "vô tình, không cố ý",
+    "examples": [
+      "The update inadvertently exposed confidential fields in the API.",
+      "She inadvertently omitted a key reference from the bibliography.",
+      "We inadvertently duplicated entries during the database migration."
+    ],
+    "conversation": {
+      "question": "How did confidential data get exposed?",
+      "answer": "The update inadvertently exposed those fields in the API. We've rolled back the release and patched the endpoint."
+    }
+  },
+  {
+    "expression": "circumvent",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "ipa": "/ˌsɜːrkəmˈvent/",
+    "meaningEn": "to find a way around an obstacle, rule, or problem",
+    "meaningVi": "lách luật, vượt qua bằng cách khác",
+    "examples": [
+      "Some vendors try to circumvent procurement rules through informal contracts.",
+      "The patch circumvents the bug without rewriting the entire module.",
+      "Students should not circumvent plagiarism checks by paraphrasing too lightly."
+    ],
+    "conversation": {
+      "question": "Can we fix the bug without a full rewrite?",
+      "answer": "Yes, the patch circumvents it without rewriting the entire module. We should still schedule a proper refactor."
+    }
+  },
+  {
+    "expression": "precipitate",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "ipa": "/prɪˈsɪpɪteɪt/",
+    "meaningEn": "to cause an event or situation to happen suddenly or sooner than expected",
+    "meaningVi": "thúc đẩy, gây ra đột ngột",
+    "examples": [
+      "The funding cut precipitated a restructuring of the department.",
+      "A single data breach can precipitate a loss of public trust.",
+      "The resignation precipitated urgent talks about succession planning."
+    ],
+    "conversation": {
+      "question": "Why did the department restructure so quickly?",
+      "answer": "The funding cut precipitated it. Leadership had to act before the next fiscal year."
+    }
+  },
+  {
+    "expression": "elucidate",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "ipa": "/ɪˈluːsɪdeɪt/",
+    "meaningEn": "to make something clear by explaining it in more detail",
+    "meaningVi": "làm sáng tỏ, giải thích rõ ràng",
+    "examples": [
+      "The appendix elucidates the statistical methods used in the study.",
+      "Could you elucidate how the scoring rubric applies to group work?",
+      "The keynote aimed to elucidate the ethical implications of AI in hiring."
+    ],
+    "conversation": {
+      "question": "The scoring rubric is confusing for group assignments.",
+      "answer": "I'll elucidate how it applies to group work in tomorrow's workshop. The appendix also walks through several examples."
+    }
+  },
+  {
+    "expression": "encompass",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "ipa": "/ɪnˈkʌmpəs/",
+    "meaningEn": "to include a wide range of ideas, subjects, or activities",
+    "meaningVi": "bao gồm, bao trùm",
+    "examples": [
+      "The course encompasses both qualitative and quantitative methods.",
+      "Our compliance framework encompasses data privacy and financial reporting.",
+      "The review will encompass all departments affected by the merger."
+    ],
+    "conversation": {
+      "question": "What does the compliance framework cover?",
+      "answer": "It encompasses data privacy and financial reporting. Legal is updating the documentation this month."
+    }
+  },
+  {
+    "expression": "enumerate",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "ipa": "/ɪˈnuːməreɪt/",
+    "meaningEn": "to mention things one by one in a list",
+    "meaningVi": "liệt kê từng mục, đếm chi tiết",
+    "examples": [
+      "The contract enumerates each deliverable and its deadline.",
+      "Please enumerate the risks you identified during the assessment.",
+      "The syllabus enumerates the learning outcomes for every module."
+    ],
+    "conversation": {
+      "question": "Where are the project deliverables defined?",
+      "answer": "The contract enumerates each deliverable and its deadline. Review section three before we sign."
+    }
+  },
+  {
+    "expression": "extrapolate",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "ipa": "/ɪkˈstræpəleɪt/",
+    "meaningEn": "to estimate or infer something unknown from known data or trends",
+    "meaningVi": "suy luận mở rộng, ngoại suy",
+    "examples": [
+      "We cannot extrapolate national trends from a single campus survey.",
+      "Analysts extrapolated quarterly growth from the first two months of data.",
+      "Be careful when you extrapolate pilot results to the full user base."
+    ],
+    "conversation": {
+      "question": "Can we apply the campus survey to the whole country?",
+      "answer": "We cannot extrapolate national trends from a single campus survey. We'd need a representative sample."
+    }
+  },
+  {
+    "expression": "corroborate",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "ipa": "/kəˈrɒbəreɪt/",
+    "meaningEn": "to confirm or support a statement or finding with additional evidence",
+    "meaningVi": "xác nhận, củng cố bằng chứng",
+    "examples": [
+      "Witness interviews corroborated the timeline in the incident report.",
+      "Independent labs were asked to corroborate the experimental results.",
+      "Email records corroborate her account of the negotiation."
+    ],
+    "conversation": {
+      "question": "Do we have evidence beyond the incident report?",
+      "answer": "Witness interviews corroborate the timeline. Email records support her account as well."
+    }
+  },
+  {
+    "expression": "scrutinize",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "ipa": "/ˈskruːtənaɪz/",
+    "meaningEn": "to examine something very carefully and critically",
+    "meaningVi": "xem xét kỹ lưỡng, soi xét",
+    "examples": [
+      "Regulators will scrutinize how personal data is stored and shared.",
+      "The peer reviewers scrutinized every assumption in the manuscript.",
+      "Investors scrutinize cash-flow projections before committing capital."
+    ],
+    "conversation": {
+      "question": "Will regulators review our data practices?",
+      "answer": "Yes, they will scrutinize how personal data is stored and shared. We should document our retention policy now."
+    }
+  },
+  {
+    "expression": "delineate",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "ipa": "/dɪˈlɪnieɪt/",
+    "meaningEn": "to describe or portray something precisely and in detail",
+    "meaningVi": "phác họa rõ ràng, mô tả chi tiết",
+    "examples": [
+      "The proposal must delineate the scope of work and exclusions.",
+      "The charter delineates roles and decision rights for each committee.",
+      "Her presentation delineated the phases of the research project clearly."
+    ],
+    "conversation": {
+      "question": "Is the project scope clear in the proposal?",
+      "answer": "It must delineate the scope of work and exclusions. I'll add a dedicated section before submission."
+    }
+  },
+  {
+    "expression": "ascertain",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "ipa": "/ˌæsərˈteɪn/",
+    "meaningEn": "to find out or learn something with certainty",
+    "meaningVi": "xác định, làm rõ",
+    "examples": [
+      "We need to ascertain whether the license covers commercial use.",
+      "The inquiry aims to ascertain the cause of the system outage.",
+      "HR must ascertain that all contractors have valid work permits."
+    ],
+    "conversation": {
+      "question": "Can we use this software in our product?",
+      "answer": "We need to ascertain whether the license covers commercial use. Legal is checking the terms now."
+    }
+  },
+  {
+    "expression": "contextualize",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "ipa": "/kənˈtekstʃuəlaɪz/",
+    "meaningEn": "to place information in a broader context so it can be properly understood",
+    "meaningVi": "đặt vào bối cảnh, giải thích trong ngữ cảnh",
+    "examples": [
+      "The introduction should contextualize the research within current policy debates.",
+      "Good mentors contextualize feedback so it feels constructive rather than punitive.",
+      "The dashboard contextualizes metrics by comparing them with industry benchmarks."
+    ],
+    "conversation": {
+      "question": "Why did the feedback feel harsh?",
+      "answer": "It wasn't contextualized. Good mentors contextualize feedback so it feels constructive rather than punitive."
+    }
+  },
+  {
+    "expression": "disseminate",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "ipa": "/dɪˈsemɪneɪt/",
+    "meaningEn": "to spread information or knowledge widely",
+    "meaningVi": "phổ biến, lan truyền thông tin",
+    "examples": [
+      "The journal disseminates findings to practitioners and policymakers.",
+      "We disseminate updates through the intranet and weekly briefings.",
+      "Universities have a duty to disseminate research beyond academic circles."
+    ],
+    "conversation": {
+      "question": "How will staff learn about the policy change?",
+      "answer": "We disseminate updates through the intranet and weekly briefings. Managers will reinforce key points in team meetings."
+    }
+  },
+  {
+    "expression": "preliminary findings",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C1",
+    "ipa": "/prɪˈlɪmɪneri ˈfaɪndɪŋz/",
+    "meaningEn": "early results from research or investigation, subject to revision",
+    "meaningVi": "phát hiện sơ bộ, kết quả ban đầu",
+    "examples": [
+      "Preliminary findings suggest a correlation between attendance and grades.",
+      "The panel reviewed preliminary findings before approving further funding.",
+      "We shared preliminary findings with stakeholders but flagged them as tentative."
+    ],
+    "conversation": {
+      "question": "Can we announce the research results yet?",
+      "answer": "We can share preliminary findings, but we should flag them as tentative until the full analysis is complete."
+    }
+  },
+  {
+    "expression": "overarching goal",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C1",
+    "ipa": "/ˌoʊvərˈɑːrtʃɪŋ ɡoʊl/",
+    "meaningEn": "the main or most important aim that guides a plan or organization",
+    "meaningVi": "mục tiêu tổng thể, mục tiêu xuyên suốt",
+    "examples": [
+      "The overarching goal of the initiative is to improve graduate employability.",
+      "Every workstream should align with the department's overarching goal.",
+      "Keep the overarching goal in mind when prioritizing competing tasks."
+    ],
+    "conversation": {
+      "question": "Why are we restructuring the curriculum?",
+      "answer": "The overarching goal is to improve graduate employability. Each module change should support that aim."
+    }
+  },
+  {
+    "expression": "empirical evidence",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C1",
+    "ipa": "/ɪmˈpɪrɪkl ˈevɪdəns/",
+    "meaningEn": "information gained through observation, measurement, or experiment",
+    "meaningVi": "bằng chứng thực nghiệm",
+    "examples": [
+      "The policy shift lacks empirical evidence from controlled studies.",
+      "Empirical evidence from the trial supports a cautious rollout.",
+      "Reviewers asked for empirical evidence rather than theoretical arguments alone."
+    ],
+    "conversation": {
+      "question": "Why did reviewers reject the policy paper?",
+      "answer": "It lacks empirical evidence from controlled studies. They want data, not theory alone."
+    }
+  },
+  {
+    "expression": "tangible outcome",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C1",
+    "ipa": "/ˈtændʒəbl ˈaʊtkʌm/",
+    "meaningEn": "a clear, measurable result that can be observed or documented",
+    "meaningVi": "kết quả cụ thể, có thể đo lường được",
+    "examples": [
+      "The internship should produce at least one tangible outcome for your portfolio.",
+      "Donors expect tangible outcomes within the first year of funding.",
+      "We defined tangible outcomes for each phase of the transformation program."
+    ],
+    "conversation": {
+      "question": "What should interns deliver by the end of the term?",
+      "answer": "The internship should produce at least one tangible outcome for their portfolio, such as a published case study."
+    }
+  },
+  {
+    "expression": "inherent limitation",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C1",
+    "ipa": "/ɪnˈhɪrənt ˌlɪmɪˈteɪʃn/",
+    "meaningEn": "a built-in weakness or constraint that cannot easily be removed",
+    "meaningVi": "hạn chế vốn có, giới hạn cố hữu",
+    "examples": [
+      "Self-reported surveys have an inherent limitation in measuring behavior.",
+      "The model has an inherent limitation when applied to small sample sizes.",
+      "Acknowledge the inherent limitation of the dataset in your discussion section."
+    ],
+    "conversation": {
+      "question": "Can we fully trust the survey results?",
+      "answer": "Self-reported surveys have an inherent limitation in measuring behavior. We should note that in the discussion."
+    }
+  },
+  {
+    "expression": "foster collaboration",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C1",
+    "ipa": "/ˈfɒstər kəˌlæbəˈreɪʃn/",
+    "meaningEn": "to encourage people or groups to work together effectively",
+    "meaningVi": "thúc đẩy hợp tác, khuyến khích cộng tác",
+    "examples": [
+      "Shared workspaces are designed to foster collaboration across teams.",
+      "The grant program aims to foster collaboration between universities and industry.",
+      "Regular retrospectives foster collaboration by surfacing blockers early."
+    ],
+    "conversation": {
+      "question": "Why did we redesign the office layout?",
+      "answer": "Shared workspaces are designed to foster collaboration across teams. We also added more breakout rooms."
+    }
+  },
+  {
+    "expression": "benchmark against",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C1",
+    "ipa": "/ˈbentʃmɑːrk əˈɡenst/",
+    "meaningEn": "to measure performance by comparing it with a standard or competitor",
+    "meaningVi": "đối chiếu chuẩn, so sánh với tiêu chuẩn",
+    "examples": [
+      "We benchmark our completion rates against peer institutions.",
+      "The report benchmarks salaries against regional industry averages.",
+      "You should benchmark against best-in-class vendors before selecting a platform."
+    ],
+    "conversation": {
+      "question": "How do our graduation rates compare?",
+      "answer": "We benchmark them against peer institutions. We're slightly above average but below the top quartile."
+    }
+  },
+  {
+    "expression": "paradigm shift",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C1",
+    "ipa": "/ˈpærədaɪm ʃɪft/",
+    "meaningEn": "a fundamental change in approach or underlying assumptions",
+    "meaningVi": "sự chuyển dịch mô hình, thay đổi tư duy căn bản",
+    "examples": [
+      "Remote work represented a paradigm shift in how teams coordinate.",
+      "The new framework marks a paradigm shift in assessment design.",
+      "Adopting open science requires a paradigm shift in research culture."
+    ],
+    "conversation": {
+      "question": "Is remote work just a temporary trend?",
+      "answer": "For many firms it was a paradigm shift in how teams coordinate. Hybrid models are now the default."
+    }
+  },
+  {
+    "expression": "preemptive measure",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C1",
+    "ipa": "/priːˈemptɪv ˈmeʒər/",
+    "meaningEn": "an action taken in advance to prevent a problem from occurring",
+    "meaningVi": "biện pháp phòng ngừa, hành động chủ động",
+    "examples": [
+      "Patching the server was a preemptive measure against the known vulnerability.",
+      "The university introduced preemptive measures before exam season.",
+      "Legal advised a preemptive measure to limit reputational damage."
+    ],
+    "conversation": {
+      "question": "Why did we patch production on a Friday?",
+      "answer": "It was a preemptive measure against the known vulnerability. Waiting until Monday would have been too risky."
+    }
+  },
+  {
+    "expression": "pivotal role",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C1",
+    "ipa": "/ˈpɪvətl roʊl/",
+    "meaningEn": "a central and decisive function in an process or outcome",
+    "meaningVi": "vai trò then chốt, vai trò quyết định",
+    "examples": [
+      "Mentors play a pivotal role in retaining first-year doctoral students.",
+      "Data governance plays a pivotal role in regulatory compliance.",
+      "The liaison officer had a pivotal role during the merger integration."
+    ],
+    "conversation": {
+      "question": "Why invest more in doctoral mentoring?",
+      "answer": "Mentors play a pivotal role in retaining first-year students. Dropout rates fall when pairing is structured."
+    }
+  },
+  {
+    "expression": "grapple with",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C1",
+    "ipa": "/ˈɡræpl wɪð/",
+    "meaningEn": "to struggle to deal with or understand a difficult problem",
+    "meaningVi": "vật lộn với, đối mặt khó khăn",
+    "examples": [
+      "Faculties continue to grapple with declining enrollment in some programs.",
+      "The team grappled with inconsistent data formats from legacy systems.",
+      "Policy makers grapple with balancing innovation and patient safety."
+    ],
+    "conversation": {
+      "question": "Why is enrollment falling in those programs?",
+      "answer": "Faculties continue to grapple with declining enrollment. Marketing and curriculum reviews are underway."
+    }
+  },
+  {
+    "expression": "hinge on",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C1",
+    "ipa": "/hɪndʒ ɒn/",
+    "meaningEn": "to depend entirely on a particular factor or event",
+    "meaningVi": "phụ thuộc hoàn toàn vào, quyết định bởi",
+    "examples": [
+      "The partnership hinges on regulatory approval by the end of the quarter.",
+      "Our timeline hinges on whether the vendor delivers the API on schedule.",
+      "Success hinges on sustained engagement from senior leadership."
+    ],
+    "conversation": {
+      "question": "Can we sign the partnership this month?",
+      "answer": "It hinges on regulatory approval by the end of the quarter. Legal is tracking the application daily."
+    }
+  },
+  {
+    "expression": "embark on",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C1",
+    "ipa": "/ɪmˈbɑːrk ɒn/",
+    "meaningEn": "to start a new project, journey, or course of action",
+    "meaningVi": "bắt đầu, khởi hành vào",
+    "examples": [
+      "The faculty will embark on a curriculum review next semester.",
+      "She embarked on a second master's degree while working full time.",
+      "Before we embark on a migration, we need a rollback plan."
+    ],
+    "conversation": {
+      "question": "When does the curriculum review start?",
+      "answer": "The faculty will embark on it next semester. Working groups are being formed now."
+    }
+  },
+  {
+    "expression": "reconcile differences",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C1",
+    "ipa": "/ˈrekənsaɪl ˈdɪfərənsɪz/",
+    "meaningEn": "to find a way to settle disagreements or make conflicting views compatible",
+    "meaningVi": "hòa giải khác biệt, dung hòa quan điểm",
+    "examples": [
+      "The mediator helped both sides reconcile differences over resource allocation.",
+      "We need to reconcile differences between the financial and operational reports.",
+      "The committee met to reconcile differences before publishing the final draft."
+    ],
+    "conversation": {
+      "question": "Finance and operations still disagree on the numbers.",
+      "answer": "We need to reconcile differences between their reports before the board meeting. I've asked for a joint review."
+    }
+  },
+  {
+    "expression": "expound on",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C1",
+    "ipa": "/ɪkˈspaʊnd ɒn/",
+    "meaningEn": "to explain or discuss something in detail and at length",
+    "meaningVi": "trình bày chi tiết, giải thích sâu",
+    "examples": [
+      "The professor expounded on the ethical limits of algorithmic decision-making.",
+      "He expounded on the methodology during the Q&A session.",
+      "I don't have time to expound on every clause in the contract today."
+    ],
+    "conversation": {
+      "question": "Did the Q&A go into the methodology?",
+      "answer": "Yes, he expounded on it at length. Several students asked follow-up questions afterward."
+    }
+  },
+  {
+    "expression": "iterate on",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C1",
+    "ipa": "/ˈɪtəreɪt ɒn/",
+    "meaningEn": "to make repeated improvements or refinements to something",
+    "meaningVi": "cải tiến liên tục, lặp lại và tinh chỉnh",
+    "examples": [
+      "We will iterate on the prototype based on user feedback each sprint.",
+      "Good thesis chapters iterate on earlier drafts rather than starting from scratch.",
+      "The design team iterated on the dashboard until metrics were easier to read."
+    ],
+    "conversation": {
+      "question": "Is the prototype final?",
+      "answer": "No, we'll iterate on it based on user feedback each sprint. Expect several revisions before launch."
+    }
+  },
+  {
+    "expression": "incumbent upon",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C1",
+    "ipa": "/ɪnˈkʌmbənt əˈpɒn/",
+    "meaningEn": "necessary as a moral or professional duty for someone",
+    "meaningVi": "là bổn phận, là trách nhiệm không thể tránh",
+    "examples": [
+      "It is incumbent upon researchers to disclose conflicts of interest.",
+      "It is incumbent upon managers to address harassment reports promptly.",
+      "It is incumbent upon the board to verify compliance before approval."
+    ],
+    "conversation": {
+      "question": "Must we disclose our industry partnerships?",
+      "answer": "Yes, it is incumbent upon researchers to disclose conflicts of interest. The ethics form requires full transparency."
+    }
+  },
+  {
+    "expression": "in hindsight",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C1",
+    "ipa": "/ɪn ˈhaɪndsaɪt/",
+    "meaningEn": "when looking back at a past event with knowledge of what happened later",
+    "meaningVi": "nhìn lại thì, xét về sau",
+    "examples": [
+      "In hindsight, we should have delayed the launch by two weeks.",
+      "In hindsight, the warning signs in the audit were clear.",
+      "In hindsight, investing in training would have reduced onboarding friction."
+    ],
+    "conversation": {
+      "question": "Was launching on that date a mistake?",
+      "answer": "In hindsight, we should have delayed by two weeks. The open bugs caused more support tickets than we expected."
+    }
+  },
+  {
+    "expression": "at the outset",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C1",
+    "ipa": "/æt ði ˈaʊtset/",
+    "meaningEn": "at the beginning of a process or undertaking",
+    "meaningVi": "ngay từ đầu, ban đầu",
+    "examples": [
+      "At the outset, we agreed on weekly status meetings with all stakeholders.",
+      "At the outset of the project, scope creep was our biggest concern.",
+      "The sponsor clarified expectations at the outset of the negotiation."
+    ],
+    "conversation": {
+      "question": "When did we agree on weekly status meetings?",
+      "answer": "At the outset, we agreed on them with all stakeholders. That rhythm has kept the project aligned."
+    }
+  },
+  {
+    "expression": "in retrospect",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C1",
+    "ipa": "/ɪn ˈretrəspekt/",
+    "meaningEn": "when reviewing a past situation with the benefit of later knowledge",
+    "meaningVi": "nhìn lại, xét về sau",
+    "examples": [
+      "In retrospect, the pilot was too small to detect meaningful effects.",
+      "In retrospect, hiring a dedicated project manager was the right call.",
+      "In retrospect, we underestimated the time needed for stakeholder buy-in."
+    ],
+    "conversation": {
+      "question": "Was the pilot sample large enough?",
+      "answer": "In retrospect, it was too small to detect meaningful effects. We're expanding the cohort for phase two."
+    }
+  },
+  {
+    "expression": "fall into place",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C1",
+    "ipa": "/fɔːl ˈɪntu pleɪs/",
+    "meaningEn": "to become clear, organized, or successful after a period of uncertainty",
+    "meaningVi": "dần ổn định, mọi thứ vào đúng chỗ",
+    "examples": [
+      "Once the data pipeline was fixed, the analysis began to fall into place.",
+      "Things started to fall into place after we assigned clear owners.",
+      "Her career plans fell into place after the internship converted to a full-time role."
+    ],
+    "conversation": {
+      "question": "Why did the project stall for so long?",
+      "answer": "Once we fixed the data pipeline, the analysis began to fall into place. Clear ownership helped too."
+    }
+  },
+  {
+    "expression": "zero in on",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C1",
+    "ipa": "/ˈzɪroʊ ɪn ɒn/",
+    "meaningEn": "to focus attention or effort on a specific target or problem",
+    "meaningVi": "tập trung vào, khoanh vùng",
+    "examples": [
+      "The review will zero in on departments with the highest error rates.",
+      "Let's zero in on the two assumptions that drive most of the variance.",
+      "Investigators zeroed in on a misconfigured access policy."
+    ],
+    "conversation": {
+      "question": "Which departments will the audit prioritize?",
+      "answer": "It will zero in on those with the highest error rates. We expect findings within six weeks."
+    }
+  },
+  {
+    "expression": "push back",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C1",
+    "ipa": "/pʊʃ bæk/",
+    "meaningEn": "to delay something to a later date or time",
+    "meaningVi": "hoãn lại, lùi thời hạn",
+    "examples": [
+      "The client asked us to push back the delivery date by one week.",
+      "We may need to push back the thesis submission if ethics approval is delayed.",
+      "Leadership agreed to push back the reorganization until after the audit."
+    ],
+    "conversation": {
+      "question": "Can we still deliver by Friday?",
+      "answer": "The client asked us to push back the delivery date by one week. That gives us time to fix the remaining defects."
+    }
+  },
+  {
+    "expression": "of paramount importance",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C1",
+    "ipa": "/əv ˈpærəmaʊnt ɪmˈpɔːrtns/",
+    "meaningEn": "more important than anything else in a particular situation",
+    "meaningVi": "cực kỳ quan trọng, tối quan trọng",
+    "examples": [
+      "Data integrity is of paramount importance in clinical research.",
+      "Maintaining academic freedom is of paramount importance to the faculty.",
+      "Patient safety is of paramount importance when approving new procedures."
+    ],
+    "conversation": {
+      "question": "What matters most in clinical trials?",
+      "answer": "Data integrity is of paramount importance. Without reliable records, the entire study loses credibility."
+    }
+  },
+  {
+    "expression": "juxtapose",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "ipa": "/ˈdʒʌkstəpoʊz/",
+    "meaningEn": "to place two things close together to highlight their differences or similarities",
+    "meaningVi": "đặt cạnh nhau để so sánh, đối chiếu",
+    "examples": [
+      "The report juxtaposes urban and rural outcomes side by side.",
+      "She juxtaposed the two policy models in her presentation.",
+      "The study juxtaposes pre-reform and post-reform data to show the shift."
+    ],
+    "conversation": {
+      "question": "How did you structure the comparison in the report?",
+      "answer": "We juxtaposed urban and rural outcomes side by side. That made the disparity much easier to see."
+    }
+  },
+  {
+    "expression": "underscore",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "ipa": "/ˌʌndərˈskɔːr/",
+    "meaningEn": "to emphasize the importance or truth of something",
+    "meaningVi": "nhấn mạnh, làm nổi bật",
+    "examples": [
+      "The audit underscores the need for stronger internal controls.",
+      "Her remarks underscore how fragile public trust can be.",
+      "These results underscore why we cannot delay the rollout."
+    ],
+    "conversation": {
+      "question": "Did the audit change leadership's view?",
+      "answer": "Yes, it underscores the need for stronger internal controls. That point came through clearly in the summary."
+    }
+  },
+  {
+    "expression": "avert",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "ipa": "/əˈvɜːrt/",
+    "meaningEn": "to prevent something harmful or undesirable from happening",
+    "meaningVi": "ngăn chặn, tránh được",
+    "examples": [
+      "Quick action helped avert a major service outage.",
+      "The committee proposed measures to avert further reputational damage.",
+      "Early mediation can avert costly legal disputes."
+    ],
+    "conversation": {
+      "question": "Could the team have prevented the outage?",
+      "answer": "Quick action helped avert a major service outage. Without it, the impact would have been much worse."
+    }
+  },
+  {
+    "expression": "galvanize",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "ipa": "/ˈɡælvənaɪz/",
+    "meaningEn": "to shock or inspire someone into taking action",
+    "meaningVi": "thúc đẩy hành động, kích thích",
+    "examples": [
+      "The crisis galvanized the team to rethink its priorities.",
+      "The speech galvanized support for the reform agenda.",
+      "Public pressure galvanized policymakers to act faster."
+    ],
+    "conversation": {
+      "question": "What finally moved the team to act?",
+      "answer": "The crisis galvanized the team to rethink its priorities. After that, everyone aligned on next steps."
+    }
+  },
+  {
+    "expression": "underlie",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "ipa": "/ˌʌndərˈlaɪ/",
+    "meaningEn": "to be the hidden cause or basis of something",
+    "meaningVi": "là cơ sở, nằm ở gốc rễ của",
+    "examples": [
+      "Structural bias may underlie the uneven outcomes we observed.",
+      "Several assumptions underlie the current forecasting model.",
+      "Trust issues underlie many of the coordination failures."
+    ],
+    "conversation": {
+      "question": "Why do the outcomes look so uneven?",
+      "answer": "Structural bias may underlie the uneven outcomes we observed. We need to address that before changing the process."
+    }
+  },
+  {
+    "expression": "ostensibly",
+    "category": "word",
+    "partOfSpeech": "adverb",
+    "level": "C1",
+    "ipa": "/ɒˈstensəbli/",
+    "meaningEn": "apparently or supposedly, but perhaps not actually",
+    "meaningVi": "tưởng chừng, bề ngoài có vẻ",
+    "examples": [
+      "The program was ostensibly designed to improve access.",
+      "Ostensibly, the change was about efficiency, not headcount.",
+      "The memo was ostensibly neutral, but the tone suggested otherwise."
+    ],
+    "conversation": {
+      "question": "Was the program really about access?",
+      "answer": "It was ostensibly designed to improve access, but some stakeholders think cost cutting was the real goal."
+    }
+  },
+  {
+    "expression": "pertinent",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C1",
+    "ipa": "/ˈpɜːrtnənt/",
+    "meaningEn": "relevant or applicable to a particular matter",
+    "meaningVi": "liên quan, thích hợp",
+    "examples": [
+      "Please include only pertinent details in the briefing note.",
+      "She asked several pertinent questions during the review.",
+      "The appendix contains pertinent case law for the policy debate."
+    ],
+    "conversation": {
+      "question": "Should we add more background to the briefing?",
+      "answer": "Only if it is pertinent. Please include just the details that support the decision."
+    }
+  },
+  {
+    "expression": "plausible",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C1",
+    "ipa": "/ˈplɔːzəbl/",
+    "meaningEn": "seeming reasonable or probable",
+    "meaningVi": "hợp lý, có vẻ đáng tin",
+    "examples": [
+      "That is a plausible explanation, but we need more evidence.",
+      "The team offered a plausible path to compliance.",
+      "Her timeline sounds plausible given the current constraints."
+    ],
+    "conversation": {
+      "question": "Do you buy their explanation?",
+      "answer": "It is a plausible explanation, but we need more evidence before we accept it."
+    }
+  },
+  {
+    "expression": "operationalize",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "ipa": "/ˌɒpərəʃənəlaɪz/",
+    "meaningEn": "to put a plan or theory into practical effect",
+    "meaningVi": "triển khai thực tế, chuyển lý thuyết thành hành động",
+    "examples": [
+      "We need to operationalize the strategy before the next quarter.",
+      "The working group will operationalize the new data standards.",
+      "It is one thing to agree on principles; we still have to operationalize them."
+    ],
+    "conversation": {
+      "question": "When will the strategy actually take effect?",
+      "answer": "We need to operationalize it before the next quarter. The principles are agreed; now we need owners and timelines."
+    }
+  },
+  {
+    "expression": "calibrate",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "ipa": "/ˈkælɪbreɪt/",
+    "meaningEn": "to adjust something carefully to achieve a desired standard or outcome",
+    "meaningVi": "hiệu chỉnh, điều chỉnh cho phù hợp",
+    "examples": [
+      "We should calibrate expectations before the pilot ends.",
+      "The model must be calibrated against recent market data.",
+      "Leadership calibrated the messaging after the first round of feedback."
+    ],
+    "conversation": {
+      "question": "Are stakeholders expecting too much from the pilot?",
+      "answer": "Possibly. We should calibrate expectations before the pilot ends so nobody is surprised by the results."
+    }
+  },
+  {
+    "expression": "ratify",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "ipa": "/ˈrætɪfaɪ/",
+    "meaningEn": "to formally approve or confirm an agreement or decision",
+    "meaningVi": "phê chuẩn, xác nhận chính thức",
+    "examples": [
+      "The board will ratify the agreement next week.",
+      "Member states must ratify the treaty before it takes effect.",
+      "The committee ratified the revised procurement policy."
+    ],
+    "conversation": {
+      "question": "Is the agreement final yet?",
+      "answer": "Not until the board ratifies it next week. Until then, it remains provisional."
+    }
+  },
+  {
+    "expression": "supersede",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "ipa": "/ˌsuːpərˈsiːd/",
+    "meaningEn": "to replace something older or less effective",
+    "meaningVi": "thay thế, thế chỗ",
+    "examples": [
+      "The new guideline supersedes all previous versions.",
+      "Digital records will supersede paper forms in most departments.",
+      "This policy supersedes the interim rules we adopted last year."
+    ],
+    "conversation": {
+      "question": "Which version of the guideline should we follow?",
+      "answer": "The new one supersedes all previous versions. Please archive the old document."
+    }
+  },
+  {
+    "expression": "contend",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "ipa": "/kənˈtend/",
+    "meaningEn": "to assert something as a position in an argument",
+    "meaningVi": "cho rằng, lập luận rằng",
+    "examples": [
+      "Critics contend that the policy ignores rural communities.",
+      "The authors contend that correlation does not prove causation.",
+      "She contended that the deadline was unrealistic from the start."
+    ],
+    "conversation": {
+      "question": "What is the main criticism of the policy?",
+      "answer": "Critics contend that it ignores rural communities. That concern came up repeatedly in the consultation."
+    }
+  },
+  {
+    "expression": "conflate",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "ipa": "/kənˈfleɪt/",
+    "meaningEn": "to combine two or more things into one, often mistakenly",
+    "meaningVi": "lẫn lộn, gộp chung một cách sai lầm",
+    "examples": [
+      "We should not conflate efficiency with cost cutting.",
+      "The article conflates two separate regulatory frameworks.",
+      "It is easy to conflate correlation with causation in survey data."
+    ],
+    "conversation": {
+      "question": "Is efficiency the same as cutting costs?",
+      "answer": "No, we should not conflate efficiency with cost cutting. One can improve processes without reducing quality."
+    }
+  },
+  {
+    "expression": "delve into",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C1",
+    "ipa": "/delv ˈɪntuː/",
+    "meaningEn": "to examine something in depth",
+    "meaningVi": "đi sâu vào, nghiên cứu kỹ",
+    "examples": [
+      "The panel will delve into the root causes of the delay.",
+      "We need to delve into the survey data before we publish.",
+      "She delved into the archives to verify the claim."
+    ],
+    "conversation": {
+      "question": "Will the panel just review the summary?",
+      "answer": "No, it will delve into the root causes of the delay. We expect a much deeper analysis."
+    }
+  },
+  {
+    "expression": "spell out",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C1",
+    "ipa": "/spel aʊt/",
+    "meaningEn": "to explain something clearly and in detail",
+    "meaningVi": "nêu rõ, giải thích chi tiết",
+    "examples": [
+      "The contract should spell out each party's obligations.",
+      "Can you spell out the criteria for eligibility?",
+      "The director spelled out the consequences of noncompliance."
+    ],
+    "conversation": {
+      "question": "Are the obligations clear in the contract?",
+      "answer": "They should spell out each party's obligations. Right now, a few clauses are still too vague."
+    }
+  },
+  {
+    "expression": "piece together",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C1",
+    "ipa": "/piːs təˈɡeðər/",
+    "meaningEn": "to gradually assemble information from separate sources",
+    "meaningVi": "ghép nối, dần dần làm rõ",
+    "examples": [
+      "Investigators had to piece together events from fragmented logs.",
+      "We are still piecing together what happened during the outage.",
+      "Researchers pieced together the timeline from witness statements."
+    ],
+    "conversation": {
+      "question": "Do we already know what caused the outage?",
+      "answer": "Not fully. We are still piecing together what happened from fragmented logs and witness accounts."
+    }
+  },
+  {
+    "expression": "dovetail with",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C1",
+    "ipa": "/ˈdʌvteɪl wɪð/",
+    "meaningEn": "to fit together neatly or work well with something else",
+    "meaningVi": "khớp với, phù hợp với",
+    "examples": [
+      "The pilot should dovetail with our existing compliance program.",
+      "Her research dovetails with the department's long-term agenda.",
+      "These reforms dovetail with regional development goals."
+    ],
+    "conversation": {
+      "question": "Will the pilot conflict with compliance work?",
+      "answer": "It should dovetail with our existing compliance program. That was a key requirement from the start."
+    }
+  },
+  {
+    "expression": "phase in",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C1",
+    "ipa": "/feɪz ɪn/",
+    "meaningEn": "to introduce something gradually in stages",
+    "meaningVi": "triển khai từng giai đoạn",
+    "examples": [
+      "We will phase in the new reporting requirements over six months.",
+      "The agency plans to phase in stricter audits next year.",
+      "Training will be phased in before the system goes live."
+    ],
+    "conversation": {
+      "question": "Will the new rules apply immediately?",
+      "answer": "No, we will phase in the reporting requirements over six months so teams have time to adapt."
+    }
+  },
+  {
+    "expression": "roll out",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C1",
+    "ipa": "/roʊl aʊt/",
+    "meaningEn": "to launch or introduce something officially across an organization or market",
+    "meaningVi": "triển khai, đưa vào áp dụng",
+    "examples": [
+      "The company will roll out the platform in Q3.",
+      "We rolled out the policy after a successful pilot.",
+      "IT needs more time before we roll out the update globally."
+    ],
+    "conversation": {
+      "question": "When does the platform go live?",
+      "answer": "The company will roll it out in Q3. We are finishing the pilot this month."
+    }
+  },
+  {
+    "expression": "map out",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C1",
+    "ipa": "/mæp aʊt/",
+    "meaningEn": "to plan something in detail",
+    "meaningVi": "lập kế hoạch chi tiết, phác thảo",
+    "examples": [
+      "The task force will map out the implementation roadmap.",
+      "We mapped out three scenarios for budget cuts.",
+      "Leadership asked us to map out risks before approval."
+    ],
+    "conversation": {
+      "question": "Do we have a clear plan for implementation?",
+      "answer": "The task force will map out the implementation roadmap this week. We need milestones before we roll out."
+    }
+  },
+  {
+    "expression": "fall back on",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C1",
+    "ipa": "/fɔːl bæk ɒn/",
+    "meaningEn": "to use something as a support or alternative when other options fail",
+    "meaningVi": "dựa vào phương án dự phòng",
+    "examples": [
+      "If the API fails, the app can fall back on cached data.",
+      "Teams may have to fall back on manual processes during the migration.",
+      "We can fall back on the contingency budget if costs rise."
+    ],
+    "conversation": {
+      "question": "What happens if the API goes down?",
+      "answer": "The app can fall back on cached data. That should keep core features working for a short time."
+    }
+  },
+  {
+    "expression": "carry weight",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C1",
+    "ipa": "/ˈkæri weɪt/",
+    "meaningEn": "to be influential or taken seriously",
+    "meaningVi": "có sức nặng, được coi trọng",
+    "examples": [
+      "Her recommendation carries weight with the steering committee.",
+      "Empirical data carries more weight than anecdotal reports.",
+      "That argument carries weight only if the assumptions hold."
+    ],
+    "conversation": {
+      "question": "Will the committee listen to her recommendation?",
+      "answer": "Yes, it carries weight with the steering committee. She has led similar projects before."
+    }
+  },
+  {
+    "expression": "in the wake of",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C1",
+    "ipa": "/ɪn ðə weɪk əv/",
+    "meaningEn": "following or as a consequence of an event",
+    "meaningVi": "sau khi, trong bối cảnh hậu quả của",
+    "examples": [
+      "In the wake of the breach, the firm tightened access controls.",
+      "Regulators acted quickly in the wake of the financial scandal.",
+      "Morale dipped in the wake of the restructuring announcement."
+    ],
+    "conversation": {
+      "question": "Why did the firm change its access policy?",
+      "answer": "In the wake of the breach, it tightened access controls. That was an immediate priority."
+    }
+  },
+  {
+    "expression": "on the grounds that",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C1",
+    "ipa": "/ɒn ðə ɡraʊndz ðæt/",
+    "meaningEn": "for the reason that; because",
+    "meaningVi": "với lý do rằng, trên cơ sở rằng",
+    "examples": [
+      "The appeal was rejected on the grounds that evidence was insufficient.",
+      "They delayed the launch on the grounds that testing was incomplete.",
+      "Funding was denied on the grounds that outcomes were not measurable."
+    ],
+    "conversation": {
+      "question": "Why was the appeal rejected?",
+      "answer": "It was rejected on the grounds that the evidence was insufficient. The panel asked for more documentation."
+    }
+  },
+  {
+    "expression": "call into question",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C1",
+    "ipa": "/kɔːl ˈɪntuː ˈkwestʃən/",
+    "meaningEn": "to cause doubt about the validity or reliability of something",
+    "meaningVi": "đặt dấu hỏi, làm lung lay niềm tin",
+    "examples": [
+      "The error calls into question the integrity of the dataset.",
+      "Recent leaks call into question the confidentiality of the process.",
+      "That contradiction calls into question the entire analysis."
+    ],
+    "conversation": {
+      "question": "Should we still trust the dataset?",
+      "answer": "The error calls into question its integrity. We should audit the source files before we publish."
+    }
+  },
+  {
+    "expression": "give credence to",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C1",
+    "ipa": "/ɡɪv ˈkriːdns tuː/",
+    "meaningEn": "to make an idea or claim seem more believable",
+    "meaningVi": "làm tăng độ tin cậy, củng cố",
+    "examples": [
+      "Independent review gave credence to the team's findings.",
+      "The pilot results give credence to the proposed model.",
+      "Do not give credence to rumors without verified sources."
+    ],
+    "conversation": {
+      "question": "Did anyone validate the team's findings?",
+      "answer": "Yes, an independent review gave credence to them. That helped secure leadership support."
+    }
+  },
+  {
+    "expression": "inextricably linked",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C1",
+    "ipa": "/ˌɪnɪkˈstrɪkəbli lɪŋkt/",
+    "meaningEn": "impossible to separate or consider independently",
+    "meaningVi": "gắn liền không thể tách rời",
+    "examples": [
+      "Data quality is inextricably linked to model performance.",
+      "Equity and access are inextricably linked in this policy debate.",
+      "Trust and transparency are inextricably linked in public institutions."
+    ],
+    "conversation": {
+      "question": "Can we improve the model without fixing the data?",
+      "answer": "Not really. Data quality is inextricably linked to model performance. We have to address both."
+    }
+  },
+  {
+    "expression": "by the same token",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C1",
+    "ipa": "/baɪ ðə seɪm ˈtoʊkən/",
+    "meaningEn": "for the same reason; in the same way",
+    "meaningVi": "tương tự, cũng vậy",
+    "examples": [
+      "Speed matters, but by the same token, accuracy cannot be sacrificed.",
+      "We need flexibility; by the same token, we need clear accountability.",
+      "The policy helps urban areas, but by the same token, rural gaps remain."
+    ],
+    "conversation": {
+      "question": "Can we prioritize speed over accuracy?",
+      "answer": "Speed matters, but by the same token, accuracy cannot be sacrificed. We need both within reason."
+    }
+  },
+  {
+    "expression": "for all intents and purposes",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C1",
+    "ipa": "/fɔːr ɔːl ɪnˈtents ænd ˈpɜːrpəsɪz/",
+    "meaningEn": "in all important respects; practically speaking",
+    "meaningVi": "về cơ bản, xét mọi mặt thiết yếu",
+    "examples": [
+      "The merger is, for all intents and purposes, complete.",
+      "For all intents and purposes, the old system is retired.",
+      "The pilot succeeded, for all intents and purposes, despite minor bugs."
+    ],
+    "conversation": {
+      "question": "Is the merger officially done?",
+      "answer": "For all intents and purposes, yes. A few legal filings remain, but operations are already integrated."
+    }
+  },
+  {
+    "expression": "conducive to",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C1",
+    "ipa": "/kənˈdjuːsɪv tuː/",
+    "meaningEn": "making a particular outcome likely or easier",
+    "meaningVi": "có lợi cho, tạo điều kiện thuận lợi",
+    "examples": [
+      "A quiet workspace is conducive to deep analysis.",
+      "Clear roles are conducive to faster decision-making.",
+      "The culture was not conducive to open feedback."
+    ],
+    "conversation": {
+      "question": "Why is deep work hard in the open office?",
+      "answer": "Because a quiet workspace is conducive to deep analysis. The current layout makes focused work difficult."
+    }
+  },
+  {
+    "expression": "stakeholder engagement",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C1",
+    "ipa": "/ˈsteɪkhoʊldər ɪnˈɡeɪdʒmənt/",
+    "meaningEn": "the process of involving people affected by a decision or project",
+    "meaningVi": "sự tham gia của các bên liên quan",
+    "examples": [
+      "Stakeholder engagement improved after we held town halls.",
+      "The proposal lacks a credible stakeholder engagement plan.",
+      "Early stakeholder engagement reduced resistance to the reform."
+    ],
+    "conversation": {
+      "question": "Why did resistance drop after the town halls?",
+      "answer": "Stakeholder engagement improved once people felt heard. That was missing in the first draft of the proposal."
+    }
+  },
+  {
+    "expression": "pragmatic approach",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C1",
+    "ipa": "/præɡˈmætɪk əˈproʊtʃ/",
+    "meaningEn": "a practical way of dealing with problems based on real conditions",
+    "meaningVi": "cách tiếp cận thực dụng",
+    "examples": [
+      "We need a pragmatic approach, not an idealized blueprint.",
+      "Her pragmatic approach helped the team ship on time.",
+      "A pragmatic approach balances ambition with current capacity."
+    ],
+    "conversation": {
+      "question": "Should we wait for the perfect design?",
+      "answer": "No, we need a pragmatic approach. Let's balance ambition with what the team can deliver now."
+    }
+  },
+  {
+    "expression": "normative framework",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C1",
+    "ipa": "/ˈnɔːrmətɪv ˈfreɪmwɜːrk/",
+    "meaningEn": "a set of principles or standards that guide behavior or policy",
+    "meaningVi": "khuôn khổ chuẩn mực",
+    "examples": [
+      "The report proposes a normative framework for ethical AI use.",
+      "We lack a normative framework for cross-border data sharing.",
+      "The normative framework should align with international law."
+    ],
+    "conversation": {
+      "question": "What is missing in the AI policy debate?",
+      "answer": "A clear normative framework for ethical use. Without shared standards, enforcement will stay inconsistent."
+    }
+  },
+  {
+    "expression": "hold accountable",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C1",
+    "ipa": "/hoʊld əˈkaʊntəbl/",
+    "meaningEn": "to require someone to accept responsibility for their actions",
+    "meaningVi": "buộc chịu trách nhiệm",
+    "examples": [
+      "The charter will hold vendors accountable for service levels.",
+      "Citizens expect leaders to hold agencies accountable.",
+      "Metrics alone cannot hold teams accountable without ownership."
+    ],
+    "conversation": {
+      "question": "How will we enforce the service levels?",
+      "answer": "The charter will hold vendors accountable for them. Breaches trigger penalties and review."
+    }
+  },
+  {
+    "expression": "mount an argument",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C1",
+    "ipa": "/maʊnt ən ˈɑːrɡjumənt/",
+    "meaningEn": "to present a case or line of reasoning formally",
+    "meaningVi": "đưa ra lập luận, bày tỏ quan điểm",
+    "examples": [
+      "She mounted an argument for delaying the vote.",
+      "The brief mounts an argument based on precedent.",
+      "It is hard to mount an argument without supporting data."
+    ],
+    "conversation": {
+      "question": "Did she support delaying the vote?",
+      "answer": "Yes, she mounted an argument for delaying it until the impact assessment is complete."
+    }
+  },
+  {
+    "expression": "weigh the options",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C1",
+    "ipa": "/weɪ ði ˈɒpʃənz/",
+    "meaningEn": "to consider the advantages and disadvantages of different choices",
+    "meaningVi": "cân nhắc các lựa chọn",
+    "examples": [
+      "The board will weigh the options before approving funding.",
+      "We need time to weigh the options carefully.",
+      "Leaders weighed the options against regulatory risk."
+    ],
+    "conversation": {
+      "question": "Are we ready to approve funding today?",
+      "answer": "Not yet. The board still needs to weigh the options against regulatory risk."
+    }
+  },
+  {
+    "expression": "flag an issue",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C1",
+    "ipa": "/flæɡ ən ˈɪʃuː/",
+    "meaningEn": "to draw attention to a problem that needs action",
+    "meaningVi": "báo hiệu vấn đề, chỉ ra sự cố",
+    "examples": [
+      "Audit tools flag an issue when permissions look excessive.",
+      "She flagged an issue with the consent workflow.",
+      "Please flag an issue early rather than after launch."
+    ],
+    "conversation": {
+      "question": "How did we catch the consent problem?",
+      "answer": "She flagged an issue with the workflow during review. That saved us from a launch-day fix."
+    }
+  },
+  {
+    "expression": "systemic issue",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C1",
+    "ipa": "/sɪˈstemɪk ˈɪʃuː/",
+    "meaningEn": "a problem embedded in the structure of a system rather than a one-off fault",
+    "meaningVi": "vấn đề mang tính hệ thống",
+    "examples": [
+      "Bias in hiring may reflect a systemic issue, not isolated mistakes.",
+      "The review identified a systemic issue in approval workflows.",
+      "Fixing one bug will not solve a systemic issue in governance."
+    ],
+    "conversation": {
+      "question": "Was the hiring bias a one-off mistake?",
+      "answer": "Unlikely. It may reflect a systemic issue in how we screen and promote candidates."
+    }
+  },
+  {
+    "expression": "set a precedent",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C1",
+    "ipa": "/set ə ˈpresɪdənt/",
+    "meaningEn": "to create an example that may guide future decisions",
+    "meaningVi": "tạo tiền lệ",
+    "examples": [
+      "This ruling could set a precedent for future cases.",
+      "We should not set a precedent for bypassing review.",
+      "The settlement may set a precedent in the industry."
+    ],
+    "conversation": {
+      "question": "Could this ruling affect future cases?",
+      "answer": "Yes, it could set a precedent. That is why the legal team is watching closely."
+    }
+  },
+  {
+    "expression": "vested interest",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C1",
+    "ipa": "/ˈvestɪd ˈɪntrəst/",
+    "meaningEn": "a strong personal reason to want a particular outcome, often because of financial or political stake",
+    "meaningVi": "lợi ích riêng, quyền lợi cá nhân",
+    "examples": [
+      "Disclose anyone with a vested interest in the contract.",
+      "Lobbyists often have a vested interest in the outcome.",
+      "A vested interest can bias how evidence is interpreted."
+    ],
+    "conversation": {
+      "question": "Should we ask bidders to disclose conflicts?",
+      "answer": "Yes, anyone with a vested interest in the contract should disclose it before evaluation."
+    }
   }
 ]

@@ -60,6 +60,8 @@ npm run start
 | `npm run db:push` | Sync Prisma schema to MongoDB |
 | `npm run db:seed` | Import vocabulary from JSON files |
 | `npm run db:studio` | Open Prisma Studio to browse data |
+| `npm run vocab:check` | Validate all level JSON files and detect duplicate expressions |
+| `npm run vocab:index` | Regenerate `src/data/expressions-index.json` from level files |
 
 ## Project structure
 
@@ -92,9 +94,11 @@ prisma/
 
 Edit the level file for the CEFR band you are adding to, e.g. [`src/data/levels/b1.json`](src/data/levels/b1.json). Each file is a JSON array of entries without `id` fields — MongoDB generates ObjectIds on seed. The seed script merges all level files, validates the combined dataset, and upserts by `expression` + `level`.
 
-After editing JSON files, re-run:
+Each `expression` must be unique across all level files (case-insensitive). Before seeding:
 
 ```bash
+npm run vocab:check
+npm run vocab:index   # optional: refresh src/data/expressions-index.json
 npm run db:seed
 ```
 
@@ -177,7 +181,7 @@ Each file contains an array of entries for that level:
 
 - Write natural example sentences useful for speaking
 - Mix daily life, workplace, and opinion-style examples
-- Keep `expression` + `level` pairs unique across the entire dataset (MongoDB generates IDs)
+- Keep each `expression` unique across the entire dataset (see `npm run vocab:check`)
 - Use `category` for the vocabulary type badge and `partOfSpeech` for the grammatical label on the back
 
 ## Design system

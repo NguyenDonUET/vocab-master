@@ -11,6 +11,11 @@ import {
   PARTS_OF_SPEECH,
   VOCABULARY_CATEGORIES,
 } from '@/types/vocabulary'
+import {
+  findGlobalExpressionDuplicates,
+  findLevelExpressionDuplicates,
+  formatDuplicateReport,
+} from '@/lib/vocabulary-index'
 
 function isCefrLevel(value: unknown): value is CefrLevel {
   return typeof value === 'string' && CEFR_LEVELS.includes(value as CefrLevel)
@@ -170,16 +175,25 @@ export function validateVocabularyDataset(data: unknown): VocabularyDataset {
   }
 
   const validatedItems = items.map(validateEntry)
-  const seenKeys = new Set<string>()
 
-  for (const item of validatedItems) {
-    const key = `${item.level}::${item.expression}`
-    if (seenKeys.has(key)) {
-      throw new Error(
-        `Duplicate vocabulary entry found: ${entryLabel(item.expression, item.level)}.`,
-      )
-    }
-    seenKeys.add(key)
+  const levelDuplicates = findLevelExpressionDuplicates(validatedItems)
+  if (levelDuplicates.length > 0) {
+    throw new Error(
+      formatDuplicateReport(
+        levelDuplicates,
+        'Duplicate vocabulary entry found',
+      ),
+    )
+  }
+
+  const globalDuplicates = findGlobalExpressionDuplicates(validatedItems)
+  if (globalDuplicates.length > 0) {
+    throw new Error(
+      formatDuplicateReport(
+        globalDuplicates,
+        'Expression already used in another level',
+      ),
+    )
   }
 
   return {
