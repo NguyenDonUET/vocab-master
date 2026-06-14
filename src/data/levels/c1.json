@@ -1,6 +1,5 @@
 [
   {
-    "id": "v015",
     "expression": "compelling",
     "category": "word",
     "partOfSpeech": "adjective",
@@ -19,7 +18,6 @@
     }
   },
   {
-    "id": "v016",
     "expression": "bring to light",
     "category": "phrasal-verb",
     "partOfSpeech": "phrasal-verb",
@@ -38,7 +36,6 @@
     }
   },
   {
-    "id": "v017",
     "expression": "at the end of the day",
     "category": "fixed-expression",
     "partOfSpeech": "expression",
@@ -57,7 +54,6 @@
     }
   },
   {
-    "id": "v018",
     "expression": "draw a conclusion",
     "category": "collocation",
     "partOfSpeech": "collocation",
@@ -76,7 +72,6 @@
     }
   },
   {
-    "id": "v019",
     "expression": "mitigate",
     "category": "word",
     "partOfSpeech": "verb",

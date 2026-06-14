@@ -13,12 +13,9 @@ import { SectionLabel } from '@/components/ui/page-header'
 import { filterDeck } from '@/lib/deck'
 import type { LevelFilter } from '@/lib/deck'
 import { spacing, surface, typography } from '@/lib/design-system'
-import { getVocabularyEntries } from '@/lib/vocabulary'
 import { useStudyStore } from '@/stores/useStudyStore'
 import { cn } from '@/lib/utils'
-import { CEFR_LEVELS } from '@/types/vocabulary'
-
-const vocabulary = getVocabularyEntries()
+import { CEFR_LEVELS, type VocabularyEntry } from '@/types/vocabulary'
 
 const FILTER_OPTIONS: { value: LevelFilter; label: string }[] = [
   { value: 'all', label: 'All levels' },
@@ -33,13 +30,17 @@ function formatVocabCount(count: number, levelFilter: LevelFilter): string {
   return `${count} vocabulary ${noun} at ${levelFilter}`
 }
 
-export function LevelFilter() {
+interface LevelFilterProps {
+  entries: VocabularyEntry[]
+}
+
+export function LevelFilter({ entries }: LevelFilterProps) {
   const levelFilter = useStudyStore((state) => state.levelFilter)
   const setLevelFilter = useStudyStore((state) => state.setLevelFilter)
 
   const vocabCount = useMemo(
-    () => filterDeck(vocabulary, levelFilter).length,
-    [levelFilter],
+    () => filterDeck(entries, levelFilter).length,
+    [entries, levelFilter],
   )
 
   return (

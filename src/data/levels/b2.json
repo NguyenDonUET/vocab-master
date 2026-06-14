@@ -1,6 +1,5 @@
 [
   {
-    "id": "v010",
     "expression": "come up with",
     "category": "phrasal-verb",
     "partOfSpeech": "phrasal-verb",
@@ -19,7 +18,6 @@
     }
   },
   {
-    "id": "v011",
     "expression": "significant",
     "category": "word",
     "partOfSpeech": "adjective",
@@ -38,7 +36,6 @@
     }
   },
   {
-    "id": "v012",
     "expression": "raise concerns",
     "category": "collocation",
     "partOfSpeech": "collocation",
@@ -57,7 +54,6 @@
     }
   },
   {
-    "id": "v013",
     "expression": "on the same page",
     "category": "fixed-expression",
     "partOfSpeech": "expression",
@@ -76,7 +72,6 @@
     }
   },
   {
-    "id": "v014",
     "expression": "carry out",
     "category": "phrasal-verb",
     "partOfSpeech": "phrasal-verb",
@@ -95,7 +90,6 @@
     }
   },
   {
-    "id": "v025",
     "expression": "keep in mind",
     "category": "fixed-expression",
     "partOfSpeech": "expression",

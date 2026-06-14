@@ -20,8 +20,7 @@ export interface VocabularyConversation {
   answer: string
 }
 
-export interface VocabularyEntry {
-  id: string
+export interface VocabularyEntryInput {
   expression: string
   category: VocabularyCategory
   partOfSpeech: PartOfSpeech
@@ -33,9 +32,13 @@ export interface VocabularyEntry {
   conversation: VocabularyConversation
 }
 
+export interface VocabularyEntry extends VocabularyEntryInput {
+  id: string
+}
+
 export interface VocabularyDataset {
   version: number
-  items: VocabularyEntry[]
+  items: VocabularyEntryInput[]
 }
 
 export const CEFR_LEVELS: CefrLevel[] = ['A2', 'B1', 'B2', 'C1', 'C2']

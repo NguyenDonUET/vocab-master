@@ -6,7 +6,13 @@ export function filterDeck(
   items: VocabularyEntry[],
   levelFilter: LevelFilter,
 ): VocabularyEntry[] {
-  const sorted = [...items].sort((a, b) => a.id.localeCompare(b.id))
+  const sorted = [...items].sort((a, b) => {
+    const levelOrder = a.level.localeCompare(b.level)
+    if (levelOrder !== 0) {
+      return levelOrder
+    }
+    return a.expression.localeCompare(b.expression)
+  })
 
   if (levelFilter === 'all') {
     return sorted

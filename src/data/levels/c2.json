@@ -1,6 +1,5 @@
 [
   {
-    "id": "v020",
     "expression": "unequivocally",
     "category": "word",
     "partOfSpeech": "adverb",
@@ -19,7 +18,6 @@
     }
   },
   {
-    "id": "v021",
     "expression": "boil down to",
     "category": "phrasal-verb",
     "partOfSpeech": "phrasal-verb",
@@ -38,7 +36,6 @@
     }
   },
   {
-    "id": "v022",
     "expression": "by and large",
     "category": "fixed-expression",
     "partOfSpeech": "expression",
@@ -57,7 +54,6 @@
     }
   },
   {
-    "id": "v023",
     "expression": "gain traction",
     "category": "collocation",
     "partOfSpeech": "collocation",

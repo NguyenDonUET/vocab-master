@@ -1,0 +1,61 @@
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model VocabularyEntry {
+  id           String             @id @default(auto()) @map("_id") @db.ObjectId
+  expression   String
+  category     VocabularyCategory
+  partOfSpeech PartOfSpeech
+  level        CefrLevel
+  ipa          String
+  meaningEn    String
+  meaningVi    String
+  examples     String[]
+  conversation Conversation
+
+  @@unique([expression, level])
+  @@index([level])
+}
+
+type Conversation {
+  question String
+  answer   String
+}
+
+model UserProgress {
+  deviceId   String   @id @map("_id")
+  learnedIds String[]
+  updatedAt  DateTime @updatedAt
+  createdAt  DateTime @default(now())
+}
+
+enum CefrLevel {
+  A2
+  B1
+  B2
+  C1
+  C2
+}
+
+enum VocabularyCategory {
+  word
+  phrasal_verb     @map("phrasal-verb")
+  fixed_expression @map("fixed-expression")
+  collocation
+}
+
+enum PartOfSpeech {
+  noun
+  verb
+  adjective
+  adverb
+  phrasal_verb @map("phrasal-verb")
+  expression
+  collocation
+}

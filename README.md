@@ -1,6 +1,6 @@
 # Vocabulary Coach
 
-A web app for English learners (A2–C2) to study vocabulary, phrasal verbs, fixed expressions, and collocations with flash cards. Progress is saved locally in the browser.
+A web app for English learners (A2–C2) to study vocabulary, phrasal verbs, fixed expressions, and collocations with flash cards. Vocabulary and progress are stored in MongoDB via Prisma.
 
 ## Features
 
@@ -8,7 +8,7 @@ A web app for English learners (A2–C2) to study vocabulary, phrasal verbs, fix
 - Filter by CEFR level (A2, B1, B2, C1, C2)
 - **Study** page (`/`) for focused flash-card practice
 - **Dashboard** page (`/dashboard`) for progress stats
-- Track learned cards with local progress persistence
+- Track learned cards with per-device progress persistence
 - Keyboard shortcuts: `←` / `→` to navigate, `Space` to show or hide details
 
 ## Getting started
@@ -17,11 +17,30 @@ A web app for English learners (A2–C2) to study vocabulary, phrasal verbs, fix
 
 - Node.js 20.9+
 - npm
+- MongoDB (local instance or [MongoDB Atlas](https://www.mongodb.com/atlas))
 
 ### Install and run
 
 ```bash
 npm install
+cp .env.example .env
+```
+
+Set `DATABASE_URL` in `.env` to your MongoDB connection string:
+
+```bash
+# Local
+DATABASE_URL="mongodb://localhost:27017/learn-vocab"
+
+# Atlas
+DATABASE_URL="mongodb+srv://<user>:<password>@<cluster>.mongodb.net/learn-vocab?retryWrites=true&w=majority"
+```
+
+Push the schema and seed vocabulary data:
+
+```bash
+npm run db:push
+npm run db:seed
 npm run dev
 ```
 
@@ -34,32 +53,50 @@ npm run build
 npm run start
 ```
 
+### Database commands
+
+| Command | Description |
+| ------- | ----------- |
+| `npm run db:push` | Sync Prisma schema to MongoDB |
+| `npm run db:seed` | Import vocabulary from JSON files |
+| `npm run db:studio` | Open Prisma Studio to browse data |
+
 ## Project structure
 
 ```
 src/
 ├── app/
+│   ├── actions/      # Server Actions (progress writes)
 │   ├── layout.tsx    # Root layout and metadata
-│   ├── page.tsx      # Study route (/)
+│   ├── page.tsx      # Study route (/) — server data fetch
 │   └── dashboard/
 │       └── page.tsx  # Dashboard route (/dashboard)
 ├── components/
 │   ├── pages/        # Study and dashboard page components
 │   ├── flashcard/    # Flash card UI
 │   ├── filters/      # CEFR level filter
-│   ├── progress/     # Progress panel
+│   ├── progress/     # Progress panel and hydration
 │   └── ui/           # shadcn/ui primitives
 ├── data/
-│   └── levels/       # Vocabulary by CEFR level (a2.json … c2.json)
+│   └── levels/       # Vocabulary seed source (a2.json … c2.json)
 ├── hooks/            # Derived state hooks
-├── lib/              # Utilities, deck logic, vocabulary loader
+├── lib/              # Prisma client, vocabulary, progress, device ID
 ├── stores/           # Zustand stores
 └── types/            # TypeScript types
+prisma/
+├── schema.prisma     # MongoDB models
+└── seed.ts           # JSON → MongoDB import script
 ```
 
 ## Adding vocabulary
 
-Edit the level file for the CEFR band you are adding to, e.g. [`src/data/levels/b1.json`](src/data/levels/b1.json). Each file is a JSON array of entries. The app merges all level files on load and validates the combined dataset; invalid data throws in development.
+Edit the level file for the CEFR band you are adding to, e.g. [`src/data/levels/b1.json`](src/data/levels/b1.json). Each file is a JSON array of entries without `id` fields — MongoDB generates ObjectIds on seed. The seed script merges all level files, validates the combined dataset, and upserts by `expression` + `level`.
+
+After editing JSON files, re-run:
+
+```bash
+npm run db:seed
+```
 
 ### Level files
 
@@ -85,7 +122,6 @@ Each file contains an array of entries for that level:
 
 | Field | Type | Required | Description |
 | ----- | ---- | -------- | ----------- |
-| `id` | string | yes | Unique ID (e.g. `"v026"`) |
 | `expression` | string | yes | The word or phrase shown on the card front |
 | `category` | string | yes | Vocabulary type (see allowed values) |
 | `partOfSpeech` | string | yes | Grammatical label shown on the card back |
@@ -118,7 +154,6 @@ Each file contains an array of entries for that level:
 
 ```json
 {
-  "id": "v001",
   "expression": "take responsibility",
   "category": "fixed-expression",
   "partOfSpeech": "expression",
@@ -130,7 +165,11 @@ Each file contains an array of entries for that level:
     "You should take responsibility for your mistakes.",
     "As a team lead, she takes responsibility for the project's success.",
     "I think everyone should take responsibility for their own learning."
-  ]
+  ],
+  "conversation": {
+    "question": "Who should fix this mistake?",
+    "answer": "I think everyone should take responsibility for their own learning."
+  }
 }
 ```
 
@@ -138,7 +177,7 @@ Each file contains an array of entries for that level:
 
 - Write natural example sentences useful for speaking
 - Mix daily life, workplace, and opinion-style examples
-- Keep `id` values unique across the entire dataset
+- Keep `expression` + `level` pairs unique across the entire dataset (MongoDB generates IDs)
 - Use `category` for the vocabulary type badge and `partOfSpeech` for the grammatical label on the back
 
 ## Design system
@@ -154,9 +193,9 @@ All UI follows [`.cursor/rules/ui-ux-standards.mdc`](.cursor/rules/ui-ux-standar
 
 - Next.js 16 (App Router) + React + TypeScript
 - Tailwind CSS + shadcn/ui
-- Zustand (study state + persisted progress)
-- JSON vocabulary data (no backend)
+- Zustand (study state + optimistic progress UI)
+- Prisma + MongoDB (vocabulary content and progress)
 
 ## Progress storage
 
-Learned card IDs are stored in `localStorage` under the key `learn-vocab-progress`. Clearing browser storage resets progress.
+Learned card IDs are stored in MongoDB per anonymous device. A `learn-vocab-device-id` cookie identifies each browser; clearing cookies creates a new identity with empty progress. No login is required.

@@ -1,33 +1,54 @@
+import { markLearnedAction, resetProgressAction } from '@/app/actions/progress'
 import { create } from 'zustand'
-import { persist } from 'zustand/middleware'
 
 interface ProgressState {
   learnedIds: string[]
+  hydrated: boolean
 
-  markLearned: (id: string) => void
+  hydrate: (learnedIds: string[]) => void
+  markLearned: (id: string) => Promise<void>
   isLearned: (id: string) => boolean
-  resetProgress: () => void
+  resetProgress: () => Promise<void>
 }
 
-export const useProgressStore = create<ProgressState>()(
-  persist(
-    (set, get) => ({
-      learnedIds: [],
+export const useProgressStore = create<ProgressState>((set, get) => ({
+  learnedIds: [],
+  hydrated: false,
 
-      markLearned: (id) =>
-        set((state) =>
-          state.learnedIds.includes(id)
-            ? state
-            : { learnedIds: [...state.learnedIds, id] },
-        ),
-
-      isLearned: (id) => get().learnedIds.includes(id),
-
-      resetProgress: () => set({ learnedIds: [] }),
+  hydrate: (learnedIds) =>
+    set({
+      learnedIds,
+      hydrated: true,
     }),
-    {
-      name: 'learn-vocab-progress',
-      partialize: (state) => ({ learnedIds: state.learnedIds }),
-    },
-  ),
-)
+
+  markLearned: async (id) => {
+    const previousIds = get().learnedIds
+
+    if (previousIds.includes(id)) {
+      return
+    }
+
+    set({ learnedIds: [...previousIds, id] })
+
+    try {
+      const learnedIds = await markLearnedAction(id)
+      set({ learnedIds })
+    } catch {
+      set({ learnedIds: previousIds })
+    }
+  },
+
+  isLearned: (id) => get().learnedIds.includes(id),
+
+  resetProgress: async () => {
+    const previousIds = get().learnedIds
+
+    set({ learnedIds: [] })
+
+    try {
+      await resetProgressAction()
+    } catch {
+      set({ learnedIds: previousIds })
+    }
+  },
+}))

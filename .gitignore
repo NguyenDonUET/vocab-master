@@ -23,3 +23,8 @@ dist-ssr
 *.sln
 *.sw?
 node_modules
+
+# Environment
+.env
+.env.local
+.env.*.local

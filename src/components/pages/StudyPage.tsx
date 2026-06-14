@@ -3,19 +3,23 @@
 import { EmptyDeckState } from '@/components/flashcard/EmptyDeckState'
 import { FlashCard } from '@/components/flashcard/FlashCard'
 import { LevelFilter } from '@/components/filters/LevelFilter'
+import { ProgressHydrator } from '@/components/progress/ProgressHydrator'
 import { useFilteredDeck } from '@/hooks/useFilteredDeck'
 import { useStudyKeyboardShortcuts } from '@/hooks/useStudyKeyboardShortcuts'
 import { spacing, surfaces, typography } from '@/lib/design-system'
-import { getVocabularyEntries } from '@/lib/vocabulary'
 import { useStudyStore } from '@/stores/useStudyStore'
 import { cn } from '@/lib/utils'
+import type { VocabularyEntry } from '@/types/vocabulary'
 
-const vocabulary = getVocabularyEntries()
+interface StudyPageProps {
+  entries: VocabularyEntry[]
+  initialLearnedIds: string[]
+}
 
-export function StudyPage() {
+export function StudyPage({ entries, initialLearnedIds }: StudyPageProps) {
   const levelFilter = useStudyStore((state) => state.levelFilter)
   const { currentCard, deck, currentIndex, canGoNext, canGoPrev } =
-    useFilteredDeck(vocabulary)
+    useFilteredDeck(entries)
 
   useStudyKeyboardShortcuts({
     deckLength: deck.length,
@@ -26,7 +30,8 @@ export function StudyPage() {
 
   return (
     <div className={surfaces.page}>
-      <LevelFilter />
+      <ProgressHydrator initialLearnedIds={initialLearnedIds} />
+      <LevelFilter entries={entries} />
 
       {currentCard ? (
         <div className={cn('w-full', spacing.section)}>

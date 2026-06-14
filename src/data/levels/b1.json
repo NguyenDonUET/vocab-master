@@ -1,97 +1,1784 @@
 [
   {
-    "id": "v005",
-    "expression": "take responsibility",
+    "expression": "keep in mind",
     "category": "fixed-expression",
     "partOfSpeech": "expression",
     "level": "B1",
-    "ipa": "/teɪk rɪˌspɒnsəˈbɪləti/",
-    "meaningEn": "to accept that you are accountable for something",
-    "meaningVi": "chịu trách nhiệm",
+    "ipa": "/kiːp ɪn maɪnd/",
+    "meaningEn": "to remember or consider something",
+    "meaningVi": "ghi nhớ, cân nhắc",
     "examples": [
-      "You should take responsibility for your mistakes.",
-      "As a team lead, she takes responsibility for the project's success.",
-      "I think everyone should take responsibility for their own learning."
+      "Keep in mind that the deadline is Friday.",
+      "Please keep in mind that users may have slow internet.",
+      "Keep in mind that clear communication saves time."
     ],
     "conversation": {
-      "question": "That bug was your mistake, right?",
-      "answer": "Yes, I'll take responsibility for it. I'll fix it and update the team today."
+      "question": "Should we release it today?",
+      "answer": "Yes, but keep in mind that QA has not tested it yet."
     }
   },
   {
-    "id": "v006",
-    "expression": "figure out",
+    "expression": "come up with",
     "category": "phrasal-verb",
     "partOfSpeech": "phrasal-verb",
     "level": "B1",
-    "ipa": "/ˈfɪɡə aʊt/",
-    "meaningEn": "to understand or solve something by thinking",
-    "meaningVi": "tìm ra, giải quyết được",
+    "ipa": "/kʌm ʌp wɪð/",
+    "meaningEn": "to think of an idea or plan",
+    "meaningVi": "nghĩ ra, đề xuất",
     "examples": [
-      "Can you help me figure out this math problem?",
-      "We need to figure out why the app is crashing in production.",
-      "I'm trying to figure out the best way to explain this to the client."
+      "Can you come up with a better title?",
+      "The team came up with a simple solution.",
+      "I need to come up with examples for my presentation."
     ],
     "conversation": {
-      "question": "The app keeps crashing in production.",
-      "answer": "We're trying to figure out why. I'll check the logs and report back."
+      "question": "Do we have any ideas for the homepage?",
+      "answer": "Not yet, but I'll come up with a few options today."
     }
   },
   {
-    "id": "v007",
-    "expression": "reliable",
-    "category": "word",
-    "partOfSpeech": "adjective",
-    "level": "B1",
-    "ipa": "/rɪˈlaɪəbl/",
-    "meaningEn": "able to be trusted to do what is needed",
-    "meaningVi": "đáng tin cậy",
-    "examples": [
-      "She is a reliable friend who always shows up on time.",
-      "We need a reliable supplier for our components.",
-      "In my opinion, being reliable is more important than being flashy."
-    ],
-    "conversation": {
-      "question": "Can we trust Linh to handle the delivery?",
-      "answer": "Absolutely. She's reliable and always shows up on time."
-    }
-  },
-  {
-    "id": "v008",
-    "expression": "pay attention",
-    "category": "collocation",
-    "partOfSpeech": "collocation",
-    "level": "B1",
-    "ipa": "/peɪ əˈtenʃn/",
-    "meaningEn": "to watch, listen to, or consider something carefully",
-    "meaningVi": "chú ý",
-    "examples": [
-      "Please pay attention during the safety briefing.",
-      "Managers should pay attention to how their team members feel.",
-      "I wasn't paying attention, so I missed the key point."
-    ],
-    "conversation": {
-      "question": "Sorry, what was the key point again?",
-      "answer": "I wasn't paying attention either. Let's rewatch the safety briefing."
-    }
-  },
-  {
-    "id": "v009",
-    "expression": "in the long run",
+    "expression": "make sense",
     "category": "fixed-expression",
     "partOfSpeech": "expression",
     "level": "B1",
-    "ipa": "/ɪn ðə lɒŋ rʌn/",
-    "meaningEn": "over a long period of time in the future",
-    "meaningVi": "về lâu dài",
+    "ipa": "/meɪk sens/",
+    "meaningEn": "to be clear, logical, or easy to understand",
+    "meaningVi": "hợp lý, dễ hiểu",
     "examples": [
-      "Exercise is good for you in the long run.",
-      "Cutting corners may save money now, but it hurts in the long run.",
-      "I believe learning English will help my career in the long run."
+      "Your explanation makes sense.",
+      "This folder structure makes sense for a small app.",
+      "It makes sense to practice speaking every day."
     ],
     "conversation": {
-      "question": "Is this training worth the time?",
-      "answer": "Yes. Learning English will help your career in the long run."
+      "question": "Should we split this component?",
+      "answer": "Yes, it makes sense because it is getting too large."
+    }
+  },
+  {
+    "expression": "deal with",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B1",
+    "ipa": "/diːl wɪð/",
+    "meaningEn": "to handle or manage a problem or situation",
+    "meaningVi": "xử lý, đối phó",
+    "examples": [
+      "I need to deal with some emails first.",
+      "The app should deal with empty data safely.",
+      "Good leaders know how to deal with pressure."
+    ],
+    "conversation": {
+      "question": "Can you fix the login issue?",
+      "answer": "Yes, I'll deal with it after the standup."
+    }
+  },
+  {
+    "expression": "point out",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B1",
+    "ipa": "/pɔɪnt aʊt/",
+    "meaningEn": "to mention or show something important",
+    "meaningVi": "chỉ ra, nêu ra",
+    "examples": [
+      "She pointed out a mistake in my report.",
+      "The reviewer pointed out a missing test case.",
+      "I want to point out one risk before we continue."
+    ],
+    "conversation": {
+      "question": "Did anyone notice the bug?",
+      "answer": "Yes, Huy pointed it out during review."
+    }
+  },
+  {
+    "expression": "take into account",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B2",
+    "ipa": "/teɪk ˈɪntu əˈkaʊnt/",
+    "meaningEn": "to consider something when making a decision",
+    "meaningVi": "tính đến, cân nhắc",
+    "examples": [
+      "We should take cost into account.",
+      "The design should take accessibility into account.",
+      "When planning your career, take your strengths into account."
+    ],
+    "conversation": {
+      "question": "Can we finish it this week?",
+      "answer": "Maybe, but we need to take QA time into account."
+    }
+  },
+  {
+    "expression": "highly likely",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/ˈhaɪli ˈlaɪkli/",
+    "meaningEn": "very probable",
+    "meaningVi": "rất có khả năng",
+    "examples": [
+      "It is highly likely to rain tonight.",
+      "The bug is highly likely related to caching.",
+      "It is highly likely that practice will improve your speaking."
+    ],
+    "conversation": {
+      "question": "Will the client ask for changes?",
+      "answer": "Yes, it's highly likely after the demo."
+    }
+  },
+  {
+    "expression": "significant improvement",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/sɪɡˈnɪfɪkənt ɪmˈpruːvmənt/",
+    "meaningEn": "a large or important improvement",
+    "meaningVi": "sự cải thiện đáng kể",
+    "examples": [
+      "There has been a significant improvement in his English.",
+      "The new design is a significant improvement.",
+      "Daily review can lead to significant improvement over time."
+    ],
+    "conversation": {
+      "question": "Is the new version better?",
+      "answer": "Yes, there is a significant improvement in loading speed."
+    }
+  },
+  {
+    "expression": "minor issue",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B1",
+    "ipa": "/ˈmaɪnər ˈɪʃuː/",
+    "meaningEn": "a small problem",
+    "meaningVi": "vấn đề nhỏ",
+    "examples": [
+      "It is just a minor issue.",
+      "We found a minor issue in the UI.",
+      "A minor issue can become serious if ignored."
+    ],
+    "conversation": {
+      "question": "Is this bug serious?",
+      "answer": "No, it's a minor issue. I can fix it quickly."
+    }
+  },
+  {
+    "expression": "major concern",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/ˈmeɪdʒər kənˈsɜːrn/",
+    "meaningEn": "an important worry or problem",
+    "meaningVi": "mối lo lớn",
+    "examples": [
+      "Security is a major concern.",
+      "Performance is a major concern for this page.",
+      "Time management is a major concern for many learners."
+    ],
+    "conversation": {
+      "question": "Can we ignore mobile layout?",
+      "answer": "No, responsiveness is a major concern."
+    }
+  },
+  {
+    "expression": "get used to",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B1",
+    "ipa": "/ɡet juːst tuː/",
+    "meaningEn": "to become familiar with something",
+    "meaningVi": "quen với",
+    "examples": [
+      "You'll get used to the new schedule.",
+      "It takes time to get used to a large codebase.",
+      "I'm getting used to speaking English in meetings."
+    ],
+    "conversation": {
+      "question": "Is Cursor hard to use?",
+      "answer": "A little at first, but you'll get used to it."
+    }
+  },
+  {
+    "expression": "bring up",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B1",
+    "ipa": "/brɪŋ ʌp/",
+    "meaningEn": "to mention a topic",
+    "meaningVi": "đề cập đến",
+    "examples": [
+      "She brought up an interesting point.",
+      "I will bring up the API issue in the meeting.",
+      "Don't be afraid to bring up your ideas."
+    ],
+    "conversation": {
+      "question": "Should I mention the delay?",
+      "answer": "Yes, bring it up clearly in the meeting."
+    }
+  },
+  {
+    "expression": "break down",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B1",
+    "ipa": "/breɪk daʊn/",
+    "meaningEn": "to divide something into smaller parts or explain simply",
+    "meaningVi": "chia nhỏ, giải thích từng phần",
+    "examples": [
+      "Let's break down the problem.",
+      "The mentor broke down the architecture step by step.",
+      "I break down new vocabulary into meaning, form, and examples."
+    ],
+    "conversation": {
+      "question": "This task feels too big.",
+      "answer": "Let's break it down into smaller tickets."
+    }
+  },
+  {
+    "expression": "follow up",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B1",
+    "ipa": "/ˈfɒloʊ ʌp/",
+    "meaningEn": "to contact someone again or continue after something",
+    "meaningVi": "theo dõi, hỏi tiếp",
+    "examples": [
+      "I'll follow up with you tomorrow.",
+      "Please follow up with QA after the fix.",
+      "A good learner follows up on mistakes."
+    ],
+    "conversation": {
+      "question": "Did Mike reply?",
+      "answer": "Not yet. I'll follow up later today."
+    }
+  },
+  {
+    "expression": "look into",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B1",
+    "ipa": "/lʊk ˈɪntuː/",
+    "meaningEn": "to investigate or examine something",
+    "meaningVi": "xem xét, điều tra",
+    "examples": [
+      "I'll look into the problem.",
+      "Can you look into the slow page load?",
+      "You should look into better ways to practice speaking."
+    ],
+    "conversation": {
+      "question": "Why is the build failing?",
+      "answer": "I'm not sure. I'll look into it now."
+    }
+  },
+  {
+    "expression": "set up",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "A2",
+    "ipa": "/set ʌp/",
+    "meaningEn": "to prepare or arrange something for use",
+    "meaningVi": "thiết lập",
+    "examples": [
+      "I set up my desk every morning.",
+      "We need to set up the project first.",
+      "She set up a study plan for English."
+    ],
+    "conversation": {
+      "question": "Is the project ready?",
+      "answer": "Almost. I still need to set up Tailwind."
+    }
+  },
+  {
+    "expression": "run into",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B1",
+    "ipa": "/rʌn ˈɪntuː/",
+    "meaningEn": "to experience a problem unexpectedly",
+    "meaningVi": "gặp phải",
+    "examples": [
+      "We ran into a problem during testing.",
+      "I ran into a TypeScript error.",
+      "Learners often run into pronunciation problems."
+    ],
+    "conversation": {
+      "question": "Did the deployment succeed?",
+      "answer": "Not yet. We ran into a build issue."
+    }
+  },
+  {
+    "expression": "work around",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/wɜːrk əˈraʊnd/",
+    "meaningEn": "to find a temporary way to avoid a problem",
+    "meaningVi": "tìm cách xử lý tạm",
+    "examples": [
+      "We found a workaround for the bug.",
+      "The team worked around the API limitation.",
+      "Sometimes you need to work around your schedule to keep learning."
+    ],
+    "conversation": {
+      "question": "Can we fix it today?",
+      "answer": "Maybe not, but we can work around it for now."
+    }
+  },
+  {
+    "expression": "come across",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B1",
+    "ipa": "/kʌm əˈkrɔːs/",
+    "meaningEn": "to find or meet something by chance",
+    "meaningVi": "tình cờ gặp/thấy",
+    "examples": [
+      "I came across a useful article.",
+      "I came across this bug while testing.",
+      "You may come across many new expressions in meetings."
+    ],
+    "conversation": {
+      "question": "Where did you find this phrase?",
+      "answer": "I came across it in a podcast."
+    }
+  },
+  {
+    "expression": "go through",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B1",
+    "ipa": "/ɡoʊ θruː/",
+    "meaningEn": "to review, examine, or experience something",
+    "meaningVi": "xem qua, trải qua",
+    "examples": [
+      "Let's go through the document together.",
+      "I went through the PR comments this morning.",
+      "When learning words, go through examples carefully."
+    ],
+    "conversation": {
+      "question": "Can you explain the ticket?",
+      "answer": "Sure, let's go through it step by step."
+    }
+  },
+  {
+    "expression": "get across",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/ɡet əˈkrɔːs/",
+    "meaningEn": "to communicate an idea clearly",
+    "meaningVi": "truyền đạt rõ ràng",
+    "examples": [
+      "He got his point across clearly.",
+      "The design should get the main message across.",
+      "Good examples help you get your ideas across."
+    ],
+    "conversation": {
+      "question": "Was my explanation clear?",
+      "answer": "Yes, you got your point across well."
+    }
+  },
+  {
+    "expression": "put together",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B1",
+    "ipa": "/pʊt təˈɡeðər/",
+    "meaningEn": "to create or organize something by combining parts",
+    "meaningVi": "tập hợp, chuẩn bị",
+    "examples": [
+      "I put together a list of ideas.",
+      "She put together a quick demo.",
+      "I put together examples to practice speaking."
+    ],
+    "conversation": {
+      "question": "Do we have a report?",
+      "answer": "Not yet, but I'll put one together."
+    }
+  },
+  {
+    "expression": "take over",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/teɪk ˈoʊvər/",
+    "meaningEn": "to start controlling or being responsible for something",
+    "meaningVi": "tiếp quản",
+    "examples": [
+      "She will take over the project next week.",
+      "I took over the frontend task after Huy left.",
+      "A good handoff helps someone take over smoothly."
+    ],
+    "conversation": {
+      "question": "Who will handle the task?",
+      "answer": "I'll take over from here."
+    }
+  },
+  {
+    "expression": "hand over",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/hænd ˈoʊvər/",
+    "meaningEn": "to give responsibility to someone else",
+    "meaningVi": "bàn giao",
+    "examples": [
+      "I need to hand over my tasks before vacation.",
+      "The developer handed over the feature to QA.",
+      "Clear notes make it easier to hand over work."
+    ],
+    "conversation": {
+      "question": "Are you still working on the ticket?",
+      "answer": "No, I'll hand it over to QA today."
+    }
+  },
+  {
+    "expression": "keep track of",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B1",
+    "ipa": "/kiːp træk əv/",
+    "meaningEn": "to record or remember information",
+    "meaningVi": "theo dõi",
+    "examples": [
+      "I use an app to keep track of expenses.",
+      "We need to keep track of user progress.",
+      "Keep track of new words you learn every day."
+    ],
+    "conversation": {
+      "question": "How do you remember vocab?",
+      "answer": "I keep track of it in my review app."
+    }
+  },
+  {
+    "expression": "stay on top of",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B2",
+    "ipa": "/steɪ ɒn tɒp əv/",
+    "meaningEn": "to manage something well and not fall behind",
+    "meaningVi": "theo sát, kiểm soát tốt",
+    "examples": [
+      "She stays on top of her tasks.",
+      "We need to stay on top of production bugs.",
+      "Daily review helps you stay on top of vocabulary."
+    ],
+    "conversation": {
+      "question": "Are you behind on the project?",
+      "answer": "No, I'm staying on top of it."
+    }
+  },
+  {
+    "expression": "be aware of",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B1",
+    "ipa": "/bi əˈwer əv/",
+    "meaningEn": "to know that something exists or matters",
+    "meaningVi": "nhận thức được",
+    "examples": [
+      "Be aware of your tone when speaking.",
+      "Developers should be aware of accessibility issues.",
+      "Be aware of common pronunciation mistakes."
+    ],
+    "conversation": {
+      "question": "Should we worry about mobile users?",
+      "answer": "Yes, we should be aware of their experience."
+    }
+  },
+  {
+    "expression": "as a result",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B1",
+    "ipa": "/æz ə rɪˈzʌlt/",
+    "meaningEn": "because of something that happened",
+    "meaningVi": "kết quả là",
+    "examples": [
+      "He practiced daily; as a result, he improved.",
+      "The API was slow; as a result, the page loaded late.",
+      "I reviewed vocabulary every night; as a result, I remembered more words."
+    ],
+    "conversation": {
+      "question": "Did the new cache help?",
+      "answer": "Yes, as a result, the page feels much faster."
+    }
+  },
+  {
+    "expression": "on the other hand",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B1",
+    "ipa": "/ɒn ði ˈʌðər hænd/",
+    "meaningEn": "used to show a different or opposite idea",
+    "meaningVi": "mặt khác",
+    "examples": [
+      "The tool is powerful. On the other hand, it can be expensive.",
+      "Remote work is flexible. On the other hand, communication is harder.",
+      "AI helps learning. On the other hand, you still need practice."
+    ],
+    "conversation": {
+      "question": "Should we use a complex solution?",
+      "answer": "It is scalable. On the other hand, it may slow us down."
+    }
+  },
+  {
+    "expression": "from my perspective",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B2",
+    "ipa": "/frəm maɪ pərˈspektɪv/",
+    "meaningEn": "used to introduce your opinion",
+    "meaningVi": "theo quan điểm của tôi",
+    "examples": [
+      "From my perspective, the plan is realistic.",
+      "From my perspective, the UI is too complex.",
+      "From my perspective, speaking practice is more useful than memorizing lists."
+    ],
+    "conversation": {
+      "question": "Do you agree with this approach?",
+      "answer": "From my perspective, yes, but we should simplify it."
+    }
+  },
+  {
+    "expression": "I would argue that",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C1",
+    "ipa": "/aɪ wʊd ˈɑːrɡjuː ðæt/",
+    "meaningEn": "used to give a strong but thoughtful opinion",
+    "meaningVi": "tôi cho rằng",
+    "examples": [
+      "I would argue that consistency matters more than intensity.",
+      "I would argue that clean architecture saves time later.",
+      "I would argue that examples are essential for vocabulary learning."
+    ],
+    "conversation": {
+      "question": "Is speed the most important thing?",
+      "answer": "I would argue that reliability is more important."
+    }
+  },
+  {
+    "expression": "it depends on",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B1",
+    "ipa": "/ɪt dɪˈpendz ɒn/",
+    "meaningEn": "used to say the answer changes based on conditions",
+    "meaningVi": "điều đó phụ thuộc vào",
+    "examples": [
+      "It depends on your schedule.",
+      "It depends on the project requirements.",
+      "It depends on how often you review the words."
+    ],
+    "conversation": {
+      "question": "Should we use Zustand?",
+      "answer": "It depends on the complexity of the state."
+    }
+  },
+  {
+    "expression": "be supposed to",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B1",
+    "ipa": "/bi səˈpoʊzd tuː/",
+    "meaningEn": "to be expected or required to do something",
+    "meaningVi": "được cho là, phải",
+    "examples": [
+      "You are supposed to submit it today.",
+      "The button is supposed to open a modal.",
+      "This app is supposed to help you review vocabulary."
+    ],
+    "conversation": {
+      "question": "Why is this hidden?",
+      "answer": "It is supposed to be hidden until the user clicks Show."
+    }
+  },
+  {
+    "expression": "in terms of",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B1",
+    "ipa": "/ɪn tɜːrmz əv/",
+    "meaningEn": "used to talk about a specific aspect",
+    "meaningVi": "về mặt",
+    "examples": [
+      "In terms of cost, this option is better.",
+      "In terms of performance, this component needs improvement.",
+      "In terms of speaking, examples matter a lot."
+    ],
+    "conversation": {
+      "question": "Which tool is better?",
+      "answer": "In terms of coding speed, Cursor is stronger."
+    }
+  },
+  {
+    "expression": "due to",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B1",
+    "ipa": "/duː tuː/",
+    "meaningEn": "because of",
+    "meaningVi": "do, vì",
+    "examples": [
+      "The flight was delayed due to bad weather.",
+      "The page is slow due to large images.",
+      "I missed practice due to a busy schedule."
+    ],
+    "conversation": {
+      "question": "Why did the test fail?",
+      "answer": "It failed due to a missing mock."
+    }
+  },
+  {
+    "expression": "in addition",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B1",
+    "ipa": "/ɪn əˈdɪʃn/",
+    "meaningEn": "used to add another idea",
+    "meaningVi": "ngoài ra",
+    "examples": [
+      "The app is useful. In addition, it is easy to use.",
+      "We fixed the bug. In addition, we added tests.",
+      "In addition, you should practice speaking with examples."
+    ],
+    "conversation": {
+      "question": "Did you update the UI?",
+      "answer": "Yes. In addition, I improved the empty state."
+    }
+  },
+  {
+    "expression": "for instance",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B1",
+    "ipa": "/fər ˈɪnstəns/",
+    "meaningEn": "for example",
+    "meaningVi": "ví dụ như",
+    "examples": [
+      "Some habits are useful; for instance, daily review.",
+      "Frontend tools change quickly; for instance, React has new patterns.",
+      "Use practical phrases; for instance, 'from my perspective'."
+    ],
+    "conversation": {
+      "question": "Can you give an example?",
+      "answer": "For instance, you can use this phrase in meetings."
+    }
+  },
+  {
+    "expression": "in contrast",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B2",
+    "ipa": "/ɪn ˈkɒntræst/",
+    "meaningEn": "used to compare differences",
+    "meaningVi": "trái lại",
+    "examples": [
+      "This solution is simple. In contrast, the old one was complex.",
+      "React is flexible. In contrast, some frameworks are more opinionated.",
+      "Memorizing is passive. In contrast, speaking practice is active."
+    ],
+    "conversation": {
+      "question": "Is this design the same?",
+      "answer": "No, in contrast, it is much cleaner."
+    }
+  },
+  {
+    "expression": "to some extent",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B2",
+    "ipa": "/tuː səm ɪkˈstent/",
+    "meaningEn": "partly, but not completely",
+    "meaningVi": "ở một mức độ nào đó",
+    "examples": [
+      "I agree to some extent.",
+      "AI can help to some extent, but you need practice.",
+      "The issue affects performance to some extent."
+    ],
+    "conversation": {
+      "question": "Do you think Cursor can replace learning?",
+      "answer": "To some extent, it helps, but you still need to understand the code."
+    }
+  },
+  {
+    "expression": "roughly speaking",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B2",
+    "ipa": "/ˈrʌfli ˈspiːkɪŋ/",
+    "meaningEn": "used to give an approximate explanation",
+    "meaningVi": "nói một cách đại khái",
+    "examples": [
+      "Roughly speaking, it takes two weeks.",
+      "Roughly speaking, the component has three responsibilities.",
+      "Roughly speaking, B2 means you can discuss many topics clearly."
+    ],
+    "conversation": {
+      "question": "How long will this take?",
+      "answer": "Roughly speaking, one or two days."
+    }
+  },
+  {
+    "expression": "substantial",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C1",
+    "ipa": "/səbˈstænʃl/",
+    "meaningEn": "large in amount, value, or importance",
+    "meaningVi": "đáng kể, lớn",
+    "examples": [
+      "They made substantial progress.",
+      "The refactor requires substantial effort.",
+      "A substantial vocabulary helps you express ideas better."
+    ],
+    "conversation": {
+      "question": "Is this change small?",
+      "answer": "No, it is a substantial change."
+    }
+  },
+  {
+    "expression": "straightforward",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "ipa": "/ˌstreɪtˈfɔːrwərd/",
+    "meaningEn": "simple and easy to understand",
+    "meaningVi": "đơn giản, dễ hiểu",
+    "examples": [
+      "The instructions are straightforward.",
+      "This component is straightforward to test.",
+      "A straightforward example is easier to remember."
+    ],
+    "conversation": {
+      "question": "Is the setup difficult?",
+      "answer": "No, it's pretty straightforward."
+    }
+  },
+  {
+    "expression": "accurate",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "B1",
+    "ipa": "/ˈækjərət/",
+    "meaningEn": "correct and exact",
+    "meaningVi": "chính xác",
+    "examples": [
+      "The answer is accurate.",
+      "We need accurate user data.",
+      "Accurate pronunciation helps speaking sound clearer."
+    ],
+    "conversation": {
+      "question": "Is this translation correct?",
+      "answer": "Yes, it looks accurate."
+    }
+  },
+  {
+    "expression": "consistent",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "ipa": "/kənˈsɪstənt/",
+    "meaningEn": "happening in the same way over time",
+    "meaningVi": "nhất quán, đều đặn",
+    "examples": [
+      "Consistent practice is important.",
+      "The UI should be consistent across pages.",
+      "Consistent review helps vocabulary stick."
+    ],
+    "conversation": {
+      "question": "How do I improve speaking?",
+      "answer": "Be consistent and practice a little every day."
+    }
+  },
+  {
+    "expression": "flexible",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "B1",
+    "ipa": "/ˈfleksəbl/",
+    "meaningEn": "able to change easily according to needs",
+    "meaningVi": "linh hoạt",
+    "examples": [
+      "My schedule is flexible.",
+      "The layout should be flexible on mobile.",
+      "A flexible learning plan is easier to maintain."
+    ],
+    "conversation": {
+      "question": "Can we change the meeting time?",
+      "answer": "Yes, I'm flexible this afternoon."
+    }
+  },
+  {
+    "expression": "efficient",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "ipa": "/ɪˈfɪʃnt/",
+    "meaningEn": "working well without wasting time or energy",
+    "meaningVi": "hiệu quả",
+    "examples": [
+      "This method is efficient.",
+      "The new algorithm is more efficient.",
+      "Reviewing with flashcards is an efficient way to learn."
+    ],
+    "conversation": {
+      "question": "Should we automate this?",
+      "answer": "Yes, it would be more efficient."
+    }
+  },
+  {
+    "expression": "essential",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "B1",
+    "ipa": "/ɪˈsenʃl/",
+    "meaningEn": "very important or necessary",
+    "meaningVi": "cần thiết",
+    "examples": [
+      "Sleep is essential for health.",
+      "Testing is essential before release.",
+      "Examples are essential for speaking practice."
+    ],
+    "conversation": {
+      "question": "Do we need this feature?",
+      "answer": "Yes, it's essential for the MVP."
+    }
+  },
+  {
+    "expression": "valuable",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "B1",
+    "ipa": "/ˈvæljuəbl/",
+    "meaningEn": "useful, important, or worth a lot",
+    "meaningVi": "có giá trị",
+    "examples": [
+      "Your feedback is valuable.",
+      "Code review is valuable for learning.",
+      "Speaking practice is valuable if you want real fluency."
+    ],
+    "conversation": {
+      "question": "Was the meeting useful?",
+      "answer": "Yes, we got valuable feedback."
+    }
+  },
+  {
+    "expression": "challenging",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "B1",
+    "ipa": "/ˈtʃælɪndʒɪŋ/",
+    "meaningEn": "difficult but interesting",
+    "meaningVi": "đầy thử thách",
+    "examples": [
+      "The task is challenging.",
+      "Debugging production issues can be challenging.",
+      "Learning collocations is challenging but useful."
+    ],
+    "conversation": {
+      "question": "Is the project easy?",
+      "answer": "Not really, but it is challenging in a good way."
+    }
+  },
+  {
+    "expression": "practical",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "B1",
+    "ipa": "/ˈpræktɪkl/",
+    "meaningEn": "useful in real situations",
+    "meaningVi": "thực tế, hữu dụng",
+    "examples": [
+      "This is practical advice.",
+      "We need a practical solution.",
+      "Use practical examples when learning vocabulary."
+    ],
+    "conversation": {
+      "question": "Should I memorize random words?",
+      "answer": "No, focus on practical expressions first."
+    }
+  },
+  {
+    "expression": "properly",
+    "category": "word",
+    "partOfSpeech": "adverb",
+    "level": "B1",
+    "ipa": "/ˈprɒpərli/",
+    "meaningEn": "in a correct or suitable way",
+    "meaningVi": "một cách đúng đắn",
+    "examples": [
+      "Please install it properly.",
+      "The form should validate properly.",
+      "You need to review words properly, not just read them once."
+    ],
+    "conversation": {
+      "question": "Is the app working?",
+      "answer": "Not properly. The filter is broken."
+    }
+  },
+  {
+    "expression": "eventually",
+    "category": "word",
+    "partOfSpeech": "adverb",
+    "level": "B1",
+    "ipa": "/ɪˈventʃuəli/",
+    "meaningEn": "in the end, after some time",
+    "meaningVi": "cuối cùng thì",
+    "examples": [
+      "Eventually, you will improve.",
+      "The bug was eventually fixed.",
+      "If you practice daily, you will eventually speak more naturally."
+    ],
+    "conversation": {
+      "question": "Did you solve it?",
+      "answer": "Yes, eventually I found the root cause."
+    }
+  },
+  {
+    "expression": "gradually",
+    "category": "word",
+    "partOfSpeech": "adverb",
+    "level": "B1",
+    "ipa": "/ˈɡrædʒuəli/",
+    "meaningEn": "slowly over a period of time",
+    "meaningVi": "dần dần",
+    "examples": [
+      "Your English will gradually improve.",
+      "We gradually migrated the old components.",
+      "Vocabulary grows gradually through review."
+    ],
+    "conversation": {
+      "question": "How can I reach B2?",
+      "answer": "Gradually build your vocabulary and speaking confidence."
+    }
+  },
+  {
+    "expression": "mostly",
+    "category": "word",
+    "partOfSpeech": "adverb",
+    "level": "A2",
+    "ipa": "/ˈmoʊstli/",
+    "meaningEn": "mainly or usually",
+    "meaningVi": "chủ yếu là",
+    "examples": [
+      "I mostly work from home.",
+      "The app is mostly finished.",
+      "I mostly learn vocabulary through examples."
+    ],
+    "conversation": {
+      "question": "Is the feature done?",
+      "answer": "Mostly, but I still need to add tests."
+    }
+  },
+  {
+    "expression": "clearly",
+    "category": "word",
+    "partOfSpeech": "adverb",
+    "level": "A2",
+    "ipa": "/ˈklɪrli/",
+    "meaningEn": "in a way that is easy to understand",
+    "meaningVi": "rõ ràng",
+    "examples": [
+      "Please speak clearly.",
+      "The error message should explain the problem clearly.",
+      "Try to express your opinion clearly."
+    ],
+    "conversation": {
+      "question": "Did I explain it well?",
+      "answer": "Yes, you explained it clearly."
+    }
+  },
+  {
+    "expression": "briefly",
+    "category": "word",
+    "partOfSpeech": "adverb",
+    "level": "B1",
+    "ipa": "/ˈbriːfli/",
+    "meaningEn": "using few words or for a short time",
+    "meaningVi": "ngắn gọn",
+    "examples": [
+      "Can you explain it briefly?",
+      "Briefly, the issue is caused by state mismatch.",
+      "Briefly review new words every morning."
+    ],
+    "conversation": {
+      "question": "Can you summarize the ticket?",
+      "answer": "Sure, I'll explain it briefly."
+    }
+  },
+  {
+    "expression": "recently",
+    "category": "word",
+    "partOfSpeech": "adverb",
+    "level": "A2",
+    "ipa": "/ˈriːsntli/",
+    "meaningEn": "not long ago",
+    "meaningVi": "gần đây",
+    "examples": [
+      "I recently started using Cursor.",
+      "We recently updated the design system.",
+      "I recently learned some useful expressions."
+    ],
+    "conversation": {
+      "question": "Did you change the code?",
+      "answer": "Yes, I recently refactored this file."
+    }
+  },
+  {
+    "expression": "probably",
+    "category": "word",
+    "partOfSpeech": "adverb",
+    "level": "A2",
+    "ipa": "/ˈprɒbəbli/",
+    "meaningEn": "used when something is likely",
+    "meaningVi": "có lẽ, có thể",
+    "examples": [
+      "It will probably rain.",
+      "This bug is probably related to caching.",
+      "You will probably remember it better with examples."
+    ],
+    "conversation": {
+      "question": "Is this the cause?",
+      "answer": "Probably, but we should check the logs."
+    }
+  },
+  {
+    "expression": "currently",
+    "category": "word",
+    "partOfSpeech": "adverb",
+    "level": "B1",
+    "ipa": "/ˈkʌrəntli/",
+    "meaningEn": "at the present time",
+    "meaningVi": "hiện tại",
+    "examples": [
+      "I'm currently working on a side project.",
+      "The feature is currently behind a flag.",
+      "I'm currently reviewing B1 vocabulary."
+    ],
+    "conversation": {
+      "question": "Are you available?",
+      "answer": "Not now. I'm currently in a meeting."
+    }
+  },
+  {
+    "expression": "especially",
+    "category": "word",
+    "partOfSpeech": "adverb",
+    "level": "B1",
+    "ipa": "/ɪˈspeʃəli/",
+    "meaningEn": "more than usual or more than others",
+    "meaningVi": "đặc biệt là",
+    "examples": [
+      "I enjoy reading, especially about technology.",
+      "This issue matters especially on mobile.",
+      "Speaking examples are especially useful for learners."
+    ],
+    "conversation": {
+      "question": "Is this important?",
+      "answer": "Yes, especially for new users."
+    }
+  },
+  {
+    "expression": "require effort",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B1",
+    "ipa": "/rɪˈkwaɪər ˈefərt/",
+    "meaningEn": "to need work, time, or energy",
+    "meaningVi": "đòi hỏi nỗ lực",
+    "examples": [
+      "Learning English requires effort.",
+      "Building a clean app requires effort.",
+      "Improving speaking requires effort and patience."
+    ],
+    "conversation": {
+      "question": "Is this skill easy to learn?",
+      "answer": "Not exactly. It requires effort."
+    }
+  },
+  {
+    "expression": "make progress",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B1",
+    "ipa": "/meɪk ˈprɑːɡres/",
+    "meaningEn": "to improve or move forward",
+    "meaningVi": "tiến bộ",
+    "examples": [
+      "You are making progress.",
+      "The team made progress on the feature.",
+      "I make progress when I review vocabulary daily."
+    ],
+    "conversation": {
+      "question": "Am I improving?",
+      "answer": "Yes, you are making progress every week."
+    }
+  },
+  {
+    "expression": "build confidence",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B1",
+    "ipa": "/bɪld ˈkɒnfɪdəns/",
+    "meaningEn": "to become more confident over time",
+    "meaningVi": "xây dựng sự tự tin",
+    "examples": [
+      "Practice helps build confidence.",
+      "Small wins build confidence in coding.",
+      "Speaking with examples can build confidence."
+    ],
+    "conversation": {
+      "question": "I'm nervous in meetings.",
+      "answer": "Practice short answers to build confidence."
+    }
+  },
+  {
+    "expression": "express ideas",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B1",
+    "ipa": "/ɪkˈspres aɪˈdɪəz/",
+    "meaningEn": "to communicate thoughts clearly",
+    "meaningVi": "diễn đạt ý tưởng",
+    "examples": [
+      "She can express ideas clearly.",
+      "Good vocabulary helps you express ideas at work.",
+      "I want to express ideas naturally in English."
+    ],
+    "conversation": {
+      "question": "Why learn collocations?",
+      "answer": "They help you express ideas more naturally."
+    }
+  },
+  {
+    "expression": "reach a goal",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B1",
+    "ipa": "/riːtʃ ə ɡoʊl/",
+    "meaningEn": "to achieve something you want",
+    "meaningVi": "đạt mục tiêu",
+    "examples": [
+      "You can reach your goal with practice.",
+      "We reached our sprint goal.",
+      "To reach a language goal, you need a clear plan."
+    ],
+    "conversation": {
+      "question": "Can I get to B2 this year?",
+      "answer": "Yes, if you practice consistently, you can reach that goal."
+    }
+  },
+  {
+    "expression": "improve fluency",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/ɪmˈpruːv ˈfluːənsi/",
+    "meaningEn": "to speak more smoothly and naturally",
+    "meaningVi": "cải thiện độ trôi chảy",
+    "examples": [
+      "Reading aloud can improve fluency.",
+      "Using real examples improves fluency.",
+      "I practice daily to improve fluency."
+    ],
+    "conversation": {
+      "question": "How can I speak better?",
+      "answer": "Use common phrases to improve fluency."
+    }
+  },
+  {
+    "expression": "natural expression",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/ˈnætʃrəl ɪkˈspreʃn/",
+    "meaningEn": "a phrase that sounds normal to native speakers",
+    "meaningVi": "cách diễn đạt tự nhiên",
+    "examples": [
+      "This is a natural expression.",
+      "Try to learn natural expressions, not just single words.",
+      "Using natural expressions makes your speaking smoother."
+    ],
+    "conversation": {
+      "question": "Does this sentence sound okay?",
+      "answer": "Yes, it's a natural expression."
+    }
+  },
+  {
+    "expression": "common mistake",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B1",
+    "ipa": "/ˈkɒmən mɪˈsteɪk/",
+    "meaningEn": "a mistake many people make",
+    "meaningVi": "lỗi phổ biến",
+    "examples": [
+      "This is a common mistake.",
+      "A common mistake is forgetting loading states.",
+      "Using only single words is a common mistake in vocabulary learning."
+    ],
+    "conversation": {
+      "question": "Why does this sound unnatural?",
+      "answer": "It's a common mistake with collocations."
+    }
+  },
+  {
+    "expression": "clear explanation",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B1",
+    "ipa": "/klɪr ˌekspləˈneɪʃn/",
+    "meaningEn": "an easy-to-understand explanation",
+    "meaningVi": "lời giải thích rõ ràng",
+    "examples": [
+      "Thanks for the clear explanation.",
+      "The PR needs a clear explanation.",
+      "A clear explanation helps learners remember new words."
+    ],
+    "conversation": {
+      "question": "Did my answer help?",
+      "answer": "Yes, it was a clear explanation."
+    }
+  },
+  {
+    "expression": "strong opinion",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/strɔːŋ əˈpɪnjən/",
+    "meaningEn": "a firm or confident belief",
+    "meaningVi": "ý kiến mạnh mẽ",
+    "examples": [
+      "She has a strong opinion about remote work.",
+      "The designer had a strong opinion on spacing.",
+      "I have a strong opinion that examples improve speaking."
+    ],
+    "conversation": {
+      "question": "Do you agree?",
+      "answer": "Yes, and I have a strong opinion about this."
+    }
+  },
+  {
+    "expression": "reasonable approach",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/ˈriːznəbl əˈproʊtʃ/",
+    "meaningEn": "a sensible way to do something",
+    "meaningVi": "cách tiếp cận hợp lý",
+    "examples": [
+      "That is a reasonable approach.",
+      "Using JSON first is a reasonable approach for an MVP.",
+      "A reasonable approach is to learn by level and context."
+    ],
+    "conversation": {
+      "question": "Should we add a backend now?",
+      "answer": "No, JSON files are a reasonable approach for the MVP."
+    }
+  },
+  {
+    "expression": "long-term benefit",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/ˌlɔːŋ tɜːrm ˈbenɪfɪt/",
+    "meaningEn": "an advantage that appears over a long period",
+    "meaningVi": "lợi ích dài hạn",
+    "examples": [
+      "Exercise has long-term benefits.",
+      "Clean code has long-term benefits.",
+      "Learning collocations brings long-term benefits for speaking."
+    ],
+    "conversation": {
+      "question": "Is daily review worth it?",
+      "answer": "Yes, it has a long-term benefit."
+    }
+  },
+  {
+    "expression": "short-term solution",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/ˌʃɔːrt tɜːrm səˈluːʃn/",
+    "meaningEn": "a temporary way to solve a problem",
+    "meaningVi": "giải pháp ngắn hạn",
+    "examples": [
+      "This is only a short-term solution.",
+      "Hardcoding data is a short-term solution.",
+      "Memorizing before a test is a short-term solution."
+    ],
+    "conversation": {
+      "question": "Should we use local JSON?",
+      "answer": "For now, yes. It's a short-term solution for the MVP."
+    }
+  },
+  {
+    "expression": "user-friendly",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "ipa": "/ˌjuːzər ˈfrendli/",
+    "meaningEn": "easy for users to understand and use",
+    "meaningVi": "thân thiện với người dùng",
+    "examples": [
+      "The app should be user-friendly.",
+      "A user-friendly error message helps users recover.",
+      "Your vocabulary app should feel user-friendly."
+    ],
+    "conversation": {
+      "question": "Is the form too complex?",
+      "answer": "Yes, we need to make it more user-friendly."
+    }
+  },
+  {
+    "expression": "maintainable",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "ipa": "/meɪnˈteɪnəbl/",
+    "meaningEn": "easy to change, fix, and improve over time",
+    "meaningVi": "dễ bảo trì",
+    "examples": [
+      "The code should be maintainable.",
+      "Small components are more maintainable.",
+      "A maintainable learning app needs a clear data structure."
+    ],
+    "conversation": {
+      "question": "Why split the store?",
+      "answer": "It makes the code more maintainable."
+    }
+  },
+  {
+    "expression": "scalable",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "ipa": "/ˈskeɪləbl/",
+    "meaningEn": "able to grow without major problems",
+    "meaningVi": "có khả năng mở rộng",
+    "examples": [
+      "The system is scalable.",
+      "This folder structure is scalable.",
+      "Your vocabulary data model should be scalable."
+    ],
+    "conversation": {
+      "question": "Can this support 10,000 words later?",
+      "answer": "Yes, if we design a scalable structure."
+    }
+  },
+  {
+    "expression": "readable",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "B1",
+    "ipa": "/ˈriːdəbl/",
+    "meaningEn": "easy to read and understand",
+    "meaningVi": "dễ đọc",
+    "examples": [
+      "The text is readable.",
+      "Readable code is easier to review.",
+      "Readable examples help learners remember words."
+    ],
+    "conversation": {
+      "question": "Is my code okay?",
+      "answer": "Yes, but make it more readable."
+    }
+  },
+  {
+    "expression": "reusable",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "ipa": "/ˌriːˈjuːzəbl/",
+    "meaningEn": "able to be used again in different places",
+    "meaningVi": "có thể tái sử dụng",
+    "examples": [
+      "This component is reusable.",
+      "Reusable hooks reduce duplication.",
+      "Reusable example patterns help speaking practice."
+    ],
+    "conversation": {
+      "question": "Should we create a hook?",
+      "answer": "Yes, it will make the logic reusable."
+    }
+  },
+  {
+    "expression": "predictable",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "ipa": "/prɪˈdɪktəbl/",
+    "meaningEn": "happening in a way that is expected and easy to understand",
+    "meaningVi": "có thể dự đoán",
+    "examples": [
+      "The behavior should be predictable.",
+      "Predictable state management helps debugging.",
+      "A predictable review schedule helps memory."
+    ],
+    "conversation": {
+      "question": "Why use Zustand carefully?",
+      "answer": "To keep state predictable."
+    }
+  },
+  {
+    "expression": "complexity",
+    "category": "word",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "ipa": "/kəmˈpleksəti/",
+    "meaningEn": "the state of being complicated",
+    "meaningVi": "độ phức tạp",
+    "examples": [
+      "The project has some complexity.",
+      "We should avoid unnecessary complexity.",
+      "Grammar complexity can make speaking harder."
+    ],
+    "conversation": {
+      "question": "Why not add backend now?",
+      "answer": "It adds complexity too early."
+    }
+  },
+  {
+    "expression": "trade-off",
+    "category": "word",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "ipa": "/ˈtreɪd ɔːf/",
+    "meaningEn": "a balance where you gain one thing but lose another",
+    "meaningVi": "sự đánh đổi",
+    "examples": [
+      "There is always a trade-off.",
+      "Using JSON is simple, but the trade-off is limited querying.",
+      "Learning many words fast has a trade-off: lower retention."
+    ],
+    "conversation": {
+      "question": "Should we use local storage?",
+      "answer": "Yes, but the trade-off is limited cross-device sync."
+    }
+  },
+  {
+    "expression": "edge case",
+    "category": "word",
+    "partOfSpeech": "noun",
+    "level": "B2",
+    "ipa": "/edʒ keɪs/",
+    "meaningEn": "an unusual situation that may cause problems",
+    "meaningVi": "trường hợp đặc biệt",
+    "examples": [
+      "This is an edge case.",
+      "We need to handle edge cases in the filter.",
+      "A learner may know a word but forget its usage; that's an edge case."
+    ],
+    "conversation": {
+      "question": "Should we test empty data?",
+      "answer": "Yes, it's an important edge case."
+    }
+  },
+  {
+    "expression": "root cause",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/ruːt kɔːz/",
+    "meaningEn": "the main reason a problem happens",
+    "meaningVi": "nguyên nhân gốc rễ",
+    "examples": [
+      "We need to find the root cause.",
+      "The root cause was a missing dependency.",
+      "The root cause of slow progress may be lack of review."
+    ],
+    "conversation": {
+      "question": "Why did this fail?",
+      "answer": "The root cause is incorrect state update."
+    }
+  },
+  {
+    "expression": "technical debt",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C1",
+    "ipa": "/ˈteknɪkl det/",
+    "meaningEn": "extra work created by quick or poor technical decisions",
+    "meaningVi": "nợ kỹ thuật",
+    "examples": [
+      "The project has technical debt.",
+      "Ignoring tests creates technical debt.",
+      "A messy vocabulary schema can become technical debt."
+    ],
+    "conversation": {
+      "question": "Should we clean this now?",
+      "answer": "Yes, otherwise it becomes technical debt."
+    }
+  },
+  {
+    "expression": "single source of truth",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C1",
+    "ipa": "/ˈsɪŋɡl sɔːrs əv truːθ/",
+    "meaningEn": "one reliable place where information is stored",
+    "meaningVi": "nguồn thông tin chính xác duy nhất",
+    "examples": [
+      "The JSON file is the single source of truth.",
+      "The store should not duplicate server data without reason.",
+      "A vocabulary item should have one single source of truth."
+    ],
+    "conversation": {
+      "question": "Where should the level data live?",
+      "answer": "The vocabulary JSON should be the single source of truth."
+    }
+  },
+  {
+    "expression": "separation of concerns",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C1",
+    "ipa": "/ˌsepəˈreɪʃn əv kənˈsɜːrnz/",
+    "meaningEn": "keeping different responsibilities in separate parts of code",
+    "meaningVi": "tách biệt trách nhiệm",
+    "examples": [
+      "Good architecture uses separation of concerns.",
+      "UI components should not contain too much business logic.",
+      "Separation of concerns makes the app easier to extend."
+    ],
+    "conversation": {
+      "question": "Why create a repository layer?",
+      "answer": "For better separation of concerns."
+    }
+  },
+  {
+    "expression": "source of confusion",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/sɔːrs əv kənˈfjuːʒn/",
+    "meaningEn": "something that makes people confused",
+    "meaningVi": "nguồn gây nhầm lẫn",
+    "examples": [
+      "The old label was a source of confusion.",
+      "Inconsistent naming is a source of confusion.",
+      "Similar phrases can be a source of confusion for learners."
+    ],
+    "conversation": {
+      "question": "Why do users click the wrong button?",
+      "answer": "The button label is a source of confusion."
+    }
+  },
+  {
+    "expression": "learning curve",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/ˈlɜːrnɪŋ kɜːrv/",
+    "meaningEn": "the time and effort needed to learn something new",
+    "meaningVi": "độ khó ban đầu khi học",
+    "examples": [
+      "Cursor has a learning curve.",
+      "TypeScript has a learning curve for beginners.",
+      "Collocations have a learning curve, but they are worth it."
+    ],
+    "conversation": {
+      "question": "Is Zustand hard?",
+      "answer": "Not too hard, but there is a small learning curve."
+    }
+  },
+  {
+    "expression": "best practice",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/best ˈpræktɪs/",
+    "meaningEn": "a recommended and effective way to do something",
+    "meaningVi": "phương pháp tốt nhất",
+    "examples": [
+      "This is a common best practice.",
+      "Writing tests is a best practice.",
+      "Reviewing vocabulary with examples is a best practice."
+    ],
+    "conversation": {
+      "question": "Should we validate JSON data?",
+      "answer": "Yes, that's a best practice."
+    }
+  },
+  {
+    "expression": "rule of thumb",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C1",
+    "ipa": "/ruːl əv θʌm/",
+    "meaningEn": "a simple practical rule that is usually useful",
+    "meaningVi": "quy tắc kinh nghiệm",
+    "examples": [
+      "As a rule of thumb, keep components small.",
+      "A good rule of thumb is to review new words within 24 hours.",
+      "As a rule of thumb, avoid premature optimization."
+    ],
+    "conversation": {
+      "question": "How often should I review?",
+      "answer": "As a rule of thumb, review difficult words more often."
+    }
+  },
+  {
+    "expression": "premature optimization",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C1",
+    "ipa": "/ˌpriːməˈtʃʊr ˌɒptɪmaɪˈzeɪʃn/",
+    "meaningEn": "improving performance too early before it is needed",
+    "meaningVi": "tối ưu hóa quá sớm",
+    "examples": [
+      "Avoid premature optimization.",
+      "Adding caching now may be premature optimization.",
+      "Trying to memorize C2 words first can be premature optimization."
+    ],
+    "conversation": {
+      "question": "Should we add virtualization now?",
+      "answer": "No, that may be premature optimization."
+    }
+  },
+  {
+    "expression": "go the extra mile",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C1",
+    "ipa": "/ɡoʊ ði ˈekstrə maɪl/",
+    "meaningEn": "to do more than expected",
+    "meaningVi": "nỗ lực hơn mức yêu cầu",
+    "examples": [
+      "She always goes the extra mile.",
+      "The developer went the extra mile and added tests.",
+      "If you go the extra mile, your English will improve faster."
+    ],
+    "conversation": {
+      "question": "Why is she trusted?",
+      "answer": "Because she always goes the extra mile."
+    }
+  },
+  {
+    "expression": "raise the bar",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C1",
+    "ipa": "/reɪz ðə bɑːr/",
+    "meaningEn": "to set a higher standard",
+    "meaningVi": "nâng tiêu chuẩn",
+    "examples": [
+      "This project raises the bar.",
+      "Good documentation raises the bar for the team.",
+      "Practicing with real conversations raises the bar for vocabulary learning."
+    ],
+    "conversation": {
+      "question": "Why add conversations to each word?",
+      "answer": "It raises the bar for practical learning."
+    }
+  },
+  {
+    "expression": "cut corners",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B2",
+    "ipa": "/kʌt ˈkɔːrnərz/",
+    "meaningEn": "to do something badly or cheaply to save time or money",
+    "meaningVi": "làm qua loa, cắt giảm chất lượng",
+    "examples": [
+      "Don't cut corners on safety.",
+      "We shouldn't cut corners with testing.",
+      "If you cut corners while learning, you may forget quickly."
+    ],
+    "conversation": {
+      "question": "Can we skip validation?",
+      "answer": "No, we shouldn't cut corners."
+    }
+  },
+  {
+    "expression": "move forward",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B1",
+    "ipa": "/muːv ˈfɔːrwərd/",
+    "meaningEn": "to make progress or continue",
+    "meaningVi": "tiến lên, tiếp tục",
+    "examples": [
+      "Let's move forward with the plan.",
+      "We can move forward after QA approves it.",
+      "To improve English, keep moving forward even slowly."
+    ],
+    "conversation": {
+      "question": "Should we wait?",
+      "answer": "No, let's move forward with the MVP."
+    }
+  },
+  {
+    "expression": "fall behind",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B1",
+    "ipa": "/fɔːl bɪˈhaɪnd/",
+    "meaningEn": "to make less progress than expected",
+    "meaningVi": "tụt lại phía sau",
+    "examples": [
+      "Don't fall behind in class.",
+      "The project fell behind schedule.",
+      "If you stop reviewing, you may fall behind."
+    ],
+    "conversation": {
+      "question": "Are we on track?",
+      "answer": "Not really. We're starting to fall behind."
+    }
+  },
+  {
+    "expression": "catch up",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B1",
+    "ipa": "/kætʃ ʌp/",
+    "meaningEn": "to reach the same level after being behind",
+    "meaningVi": "bắt kịp",
+    "examples": [
+      "I need to catch up on lessons.",
+      "We need to catch up with the sprint plan.",
+      "I missed practice yesterday, so I need to catch up today."
+    ],
+    "conversation": {
+      "question": "Did you finish the tasks?",
+      "answer": "Not yet, but I'll catch up tonight."
+    }
+  },
+  {
+    "expression": "stand out",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/stænd aʊt/",
+    "meaningEn": "to be easily noticed because of being special or better",
+    "meaningVi": "nổi bật",
+    "examples": [
+      "Her portfolio stands out.",
+      "Clean UI can make your app stand out.",
+      "Using natural expressions helps your speaking stand out."
+    ],
+    "conversation": {
+      "question": "How can I improve my resume?",
+      "answer": "Build projects that stand out."
+    }
+  },
+  {
+    "expression": "step up",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/step ʌp/",
+    "meaningEn": "to take action or improve effort when needed",
+    "meaningVi": "chủ động hơn, tăng cường",
+    "examples": [
+      "He stepped up during the crisis.",
+      "The team stepped up before the deadline.",
+      "You need to step up your speaking practice."
+    ],
+    "conversation": {
+      "question": "Who will handle the urgent bug?",
+      "answer": "I'll step up and take it."
     }
   }
 ]
