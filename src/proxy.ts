@@ -3,7 +3,7 @@ import type { NextRequest } from 'next/server'
 
 import { DEVICE_ID_COOKIE, DEVICE_ID_HEADER } from '@/lib/device-id'
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   let deviceId = request.cookies.get(DEVICE_ID_COOKIE)?.value
   const requestHeaders = new Headers(request.headers)
 
