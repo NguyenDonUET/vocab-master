@@ -1,0 +1,97 @@
+[
+  {
+    "id": "v001",
+    "expression": "essential",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "A2",
+    "ipa": "/ɪˈsenʃl/",
+    "meaningEn": "absolutely necessary or extremely important",
+    "meaningVi": "thiết yếu, cần thiết",
+    "examples": [
+      "Water is essential for life.",
+      "Good communication skills are essential in this role.",
+      "I think sleep is essential if you want to stay focused."
+    ],
+    "conversation": {
+      "question": "Is sleep really that important for studying?",
+      "answer": "Yes, sleep is essential if you want to stay focused. Even one bad night can hurt your memory."
+    }
+  },
+  {
+    "id": "v002",
+    "expression": "put off",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "A2",
+    "ipa": "/pʊt ɒf/",
+    "meaningEn": "to delay doing something until a later time",
+    "meaningVi": "hoãn lại, trì hoãn",
+    "examples": [
+      "Don't put off your homework until Sunday.",
+      "We had to put off the meeting because of a client issue.",
+      "I keep putting off calling the bank, but I should do it today."
+    ],
+    "conversation": {
+      "question": "Did you call the bank yet?",
+      "answer": "Not yet. I keep putting it off, but I should do it today."
+    }
+  },
+  {
+    "id": "v003",
+    "expression": "by the way",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "A2",
+    "ipa": "/baɪ ðə weɪ/",
+    "meaningEn": "used to introduce a new subject or add information",
+    "meaningVi": "nhân tiện, à mà",
+    "examples": [
+      "By the way, did you finish the report?",
+      "I'll send the file now. By the way, the deadline moved to Friday.",
+      "Nice to see you. By the way, I liked your presentation yesterday."
+    ],
+    "conversation": {
+      "question": "Thanks for sending the file.",
+      "answer": "No problem. By the way, the deadline moved to Friday, so we still have time."
+    }
+  },
+  {
+    "id": "v004",
+    "expression": "make a decision",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "A2",
+    "ipa": "/meɪk ə dɪˈsɪʒn/",
+    "meaningEn": "to choose something after thinking about it",
+    "meaningVi": "đưa ra quyết định",
+    "examples": [
+      "I need to make a decision by tonight.",
+      "Our manager made a decision to hire two more developers.",
+      "It's hard to make a decision when we don't have enough data."
+    ],
+    "conversation": {
+      "question": "We don't have enough data yet.",
+      "answer": "I know, but we still need to make a decision by tonight. Let's use what we have."
+    }
+  },
+  {
+    "id": "v024",
+    "expression": "look forward to",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "A2",
+    "ipa": "/lʊk ˈfɔːwəd tuː/",
+    "meaningEn": "to feel pleased about something that is going to happen",
+    "meaningVi": "mong chờ, mong đợi",
+    "examples": [
+      "I look forward to the weekend.",
+      "We look forward to working with your team on this project.",
+      "I'm looking forward to hearing your thoughts on the proposal."
+    ],
+    "conversation": {
+      "question": "Are you excited about the new project?",
+      "answer": "Yes, I look forward to working with your team. I think it'll be a great experience."
+    }
+  }
+]

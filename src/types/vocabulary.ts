@@ -15,6 +15,11 @@ export type PartOfSpeech =
   | 'expression'
   | 'collocation'
 
+export interface VocabularyConversation {
+  question: string
+  answer: string
+}
+
 export interface VocabularyEntry {
   id: string
   expression: string
@@ -25,6 +30,7 @@ export interface VocabularyEntry {
   meaningEn: string
   meaningVi: string
   examples: [string, string, string]
+  conversation: VocabularyConversation
 }
 
 export interface VocabularyDataset {

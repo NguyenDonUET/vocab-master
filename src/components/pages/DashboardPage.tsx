@@ -1,3 +1,5 @@
+'use client'
+
 import { LevelFilter } from '@/components/filters/LevelFilter'
 import { ProgressPanel } from '@/components/progress/ProgressPanel'
 import { PageHeader } from '@/components/ui/page-header'

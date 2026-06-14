@@ -2,6 +2,7 @@ import type {
   CefrLevel,
   PartOfSpeech,
   VocabularyCategory,
+  VocabularyConversation,
   VocabularyDataset,
   VocabularyEntry,
 } from '@/types/vocabulary'
@@ -10,7 +11,26 @@ import {
   PARTS_OF_SPEECH,
   VOCABULARY_CATEGORIES,
 } from '@/types/vocabulary'
-import rawDataset from '@/data/vocabulary.json'
+import a2Items from '@/data/levels/a2.json'
+import b1Items from '@/data/levels/b1.json'
+import b2Items from '@/data/levels/b2.json'
+import c1Items from '@/data/levels/c1.json'
+import c2Items from '@/data/levels/c2.json'
+
+const DATASET_VERSION = 1
+
+const itemsByLevel: Record<CefrLevel, unknown[]> = {
+  A2: a2Items,
+  B1: b1Items,
+  B2: b2Items,
+  C1: c1Items,
+  C2: c2Items,
+}
+
+const rawDataset = {
+  version: DATASET_VERSION,
+  items: CEFR_LEVELS.flatMap((level) => itemsByLevel[level]),
+}
 
 function isCefrLevel(value: unknown): value is CefrLevel {
   return typeof value === 'string' && CEFR_LEVELS.includes(value as CefrLevel)
@@ -30,6 +50,43 @@ function isPartOfSpeech(value: unknown): value is PartOfSpeech {
   )
 }
 
+function countSentences(text: string): number {
+  return text.split(/[.!?]+/).filter((part) => part.trim().length > 0).length
+}
+
+function validateConversation(
+  value: unknown,
+  id: string,
+): VocabularyConversation {
+  if (!value || typeof value !== 'object') {
+    throw new Error(`Entry "${id}" must include a conversation object.`)
+  }
+
+  const record = value as Record<string, unknown>
+  const question = record.question
+  const answer = record.answer
+
+  if (typeof question !== 'string' || question.trim().length === 0) {
+    throw new Error(`Entry "${id}" has an invalid conversation.question.`)
+  }
+
+  if (typeof answer !== 'string' || answer.trim().length === 0) {
+    throw new Error(`Entry "${id}" has an invalid conversation.answer.`)
+  }
+
+  const answerSentences = countSentences(answer)
+  if (answerSentences < 1 || answerSentences > 3) {
+    throw new Error(
+      `Entry "${id}" conversation.answer must contain 1 to 3 sentences.`,
+    )
+  }
+
+  return {
+    question: question.trim(),
+    answer: answer.trim(),
+  }
+}
+
 function validateEntry(entry: unknown, index: number): VocabularyEntry {
   if (!entry || typeof entry !== 'object') {
     throw new Error(`Vocabulary entry at index ${index} must be an object.`)
@@ -45,6 +102,7 @@ function validateEntry(entry: unknown, index: number): VocabularyEntry {
   const meaningEn = record.meaningEn
   const meaningVi = record.meaningVi
   const examples = record.examples
+  const conversation = record.conversation
 
   if (typeof id !== 'string' || id.trim().length === 0) {
     throw new Error(`Entry at index ${index} has an invalid id.`)
@@ -86,6 +144,8 @@ function validateEntry(entry: unknown, index: number): VocabularyEntry {
     throw new Error(`Entry "${id}" has invalid example sentences.`)
   }
 
+  const validatedConversation = validateConversation(conversation, id)
+
   return {
     id,
     expression,
@@ -96,6 +156,7 @@ function validateEntry(entry: unknown, index: number): VocabularyEntry {
     meaningEn,
     meaningVi,
     examples: [examples[0], examples[1], examples[2]],
+    conversation: validatedConversation,
   }
 }
 
@@ -139,7 +200,7 @@ export function loadVocabulary(): VocabularyDataset {
     const message =
       error instanceof Error ? error.message : 'Unknown validation error.'
 
-    if (import.meta.env.DEV) {
+    if (process.env.NODE_ENV === 'development') {
       console.error('[vocabulary] Failed to load dataset:', message)
     }
 

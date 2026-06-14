@@ -1,3 +1,5 @@
+'use client'
+
 import { ChevronLeft, ChevronRight, Eye, EyeOff } from 'lucide-react'
 
 import { Button } from '@/components/ui/button'

@@ -1,23 +1,28 @@
+'use client'
+
 import { Menu, X } from 'lucide-react'
+import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import { useEffect, useRef, useState } from 'react'
 import { createPortal } from 'react-dom'
-import { NavLink } from 'react-router-dom'
 
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { interactive, typography } from '@/lib/design-system'
 import { cn } from '@/lib/utils'
 
-const navLinkClass = ({ isActive }: { isActive: boolean }) =>
-  cn(
+function navLinkClass(isActive: boolean) {
+  return cn(
     'flex min-h-11 w-full items-center rounded-md px-4 text-base font-medium',
     interactive.transition,
     isActive
       ? 'bg-primary text-primary-foreground'
       : 'bg-muted/50 text-foreground hover:bg-accent hover:text-accent-foreground',
   )
+}
 
 export function MobileNav() {
+  const pathname = usePathname()
   const [open, setOpen] = useState(false)
   const closeButtonRef = useRef<HTMLButtonElement>(null)
 
@@ -64,12 +69,20 @@ export function MobileNav() {
             </div>
 
             <div className="flex flex-1 flex-col gap-2 overflow-y-auto p-4">
-              <NavLink to="/" end className={navLinkClass} onClick={close}>
+              <Link
+                href="/"
+                className={navLinkClass(pathname === '/')}
+                onClick={close}
+              >
                 Study
-              </NavLink>
-              <NavLink to="/dashboard" className={navLinkClass} onClick={close}>
+              </Link>
+              <Link
+                href="/dashboard"
+                className={navLinkClass(pathname === '/dashboard')}
+                onClick={close}
+              >
                 Dashboard
-              </NavLink>
+              </Link>
 
               <div className="mt-auto pt-4">
                 <Badge variant="secondary">A2–C2</Badge>

@@ -1,19 +1,25 @@
-import { Link, NavLink } from 'react-router-dom'
+'use client'
+
+import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 
 import { MobileNav } from '@/components/layout/MobileNav'
 import { Badge } from '@/components/ui/badge'
 import { control, interactive, typography } from '@/lib/design-system'
 import { cn } from '@/lib/utils'
 
-const navLinkClass = ({ isActive }: { isActive: boolean }) =>
-  cn('ds-nav-link', isActive ? 'ds-nav-link-active' : 'ds-nav-link-inactive')
+function navLinkClass(isActive: boolean) {
+  return cn('ds-nav-link', isActive ? 'ds-nav-link-active' : 'ds-nav-link-inactive')
+}
 
 export function AppHeader() {
+  const pathname = usePathname()
+
   return (
     <header className="sticky top-0 z-40 border-b border-border/60 bg-background/95 backdrop-blur-sm">
       <div className="mx-auto flex h-14 w-full max-w-7xl items-center justify-between gap-3 px-4 md:gap-4 md:px-6">
         <Link
-          to="/"
+          href="/"
           className={cn(
             'flex min-w-0 items-center gap-2',
             typography.sectionTitle,
@@ -35,18 +41,18 @@ export function AppHeader() {
 
         <div className="flex items-center gap-2 md:gap-4">
           <nav
-            className={cn(
-              'hidden items-center gap-1 border border-border/60 bg-card p-1 lg:flex',
-              control.radius,
-            )}
+            className="hidden items-center gap-6 lg:flex"
             aria-label="Main navigation"
           >
-            <NavLink to="/" end className={navLinkClass}>
+            <Link href="/" className={navLinkClass(pathname === '/')}>
               Study
-            </NavLink>
-            <NavLink to="/dashboard" className={navLinkClass}>
+            </Link>
+            <Link
+              href="/dashboard"
+              className={navLinkClass(pathname === '/dashboard')}
+            >
               Dashboard
-            </NavLink>
+            </Link>
           </nav>
           <Badge variant="secondary" className="hidden sm:inline-flex">
             A2–C2

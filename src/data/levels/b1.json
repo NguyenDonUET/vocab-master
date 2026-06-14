@@ -1,0 +1,97 @@
+[
+  {
+    "id": "v005",
+    "expression": "take responsibility",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B1",
+    "ipa": "/teɪk rɪˌspɒnsəˈbɪləti/",
+    "meaningEn": "to accept that you are accountable for something",
+    "meaningVi": "chịu trách nhiệm",
+    "examples": [
+      "You should take responsibility for your mistakes.",
+      "As a team lead, she takes responsibility for the project's success.",
+      "I think everyone should take responsibility for their own learning."
+    ],
+    "conversation": {
+      "question": "That bug was your mistake, right?",
+      "answer": "Yes, I'll take responsibility for it. I'll fix it and update the team today."
+    }
+  },
+  {
+    "id": "v006",
+    "expression": "figure out",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B1",
+    "ipa": "/ˈfɪɡə aʊt/",
+    "meaningEn": "to understand or solve something by thinking",
+    "meaningVi": "tìm ra, giải quyết được",
+    "examples": [
+      "Can you help me figure out this math problem?",
+      "We need to figure out why the app is crashing in production.",
+      "I'm trying to figure out the best way to explain this to the client."
+    ],
+    "conversation": {
+      "question": "The app keeps crashing in production.",
+      "answer": "We're trying to figure out why. I'll check the logs and report back."
+    }
+  },
+  {
+    "id": "v007",
+    "expression": "reliable",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "B1",
+    "ipa": "/rɪˈlaɪəbl/",
+    "meaningEn": "able to be trusted to do what is needed",
+    "meaningVi": "đáng tin cậy",
+    "examples": [
+      "She is a reliable friend who always shows up on time.",
+      "We need a reliable supplier for our components.",
+      "In my opinion, being reliable is more important than being flashy."
+    ],
+    "conversation": {
+      "question": "Can we trust Linh to handle the delivery?",
+      "answer": "Absolutely. She's reliable and always shows up on time."
+    }
+  },
+  {
+    "id": "v008",
+    "expression": "pay attention",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B1",
+    "ipa": "/peɪ əˈtenʃn/",
+    "meaningEn": "to watch, listen to, or consider something carefully",
+    "meaningVi": "chú ý",
+    "examples": [
+      "Please pay attention during the safety briefing.",
+      "Managers should pay attention to how their team members feel.",
+      "I wasn't paying attention, so I missed the key point."
+    ],
+    "conversation": {
+      "question": "Sorry, what was the key point again?",
+      "answer": "I wasn't paying attention either. Let's rewatch the safety briefing."
+    }
+  },
+  {
+    "id": "v009",
+    "expression": "in the long run",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B1",
+    "ipa": "/ɪn ðə lɒŋ rʌn/",
+    "meaningEn": "over a long period of time in the future",
+    "meaningVi": "về lâu dài",
+    "examples": [
+      "Exercise is good for you in the long run.",
+      "Cutting corners may save money now, but it hurts in the long run.",
+      "I believe learning English will help my career in the long run."
+    ],
+    "conversation": {
+      "question": "Is this training worth the time?",
+      "answer": "Yes. Learning English will help your career in the long run."
+    }
+  }
+]

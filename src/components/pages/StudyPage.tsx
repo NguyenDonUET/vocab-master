@@ -1,9 +1,11 @@
+'use client'
+
 import { EmptyDeckState } from '@/components/flashcard/EmptyDeckState'
 import { FlashCard } from '@/components/flashcard/FlashCard'
 import { LevelFilter } from '@/components/filters/LevelFilter'
 import { useFilteredDeck } from '@/hooks/useFilteredDeck'
 import { useStudyKeyboardShortcuts } from '@/hooks/useStudyKeyboardShortcuts'
-import {  spacing, surfaces, typography } from '@/lib/design-system'
+import { spacing, surfaces, typography } from '@/lib/design-system'
 import { getVocabularyEntries } from '@/lib/vocabulary'
 import { useStudyStore } from '@/stores/useStudyStore'
 import { cn } from '@/lib/utils'

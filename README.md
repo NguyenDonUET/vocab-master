@@ -15,7 +15,7 @@ A web app for English learners (A2–C2) to study vocabulary, phrasal verbs, fix
 
 ### Prerequisites
 
-- Node.js 18+
+- Node.js 20.9+
 - npm
 
 ### Install and run
@@ -25,13 +25,13 @@ npm install
 npm run dev
 ```
 
-Open the URL shown in the terminal (usually `http://localhost:5173`).
+Open the URL shown in the terminal (usually `http://localhost:3000`).
 
 ### Build for production
 
 ```bash
 npm run build
-npm run preview
+npm run start
 ```
 
 ## Project structure
@@ -39,16 +39,18 @@ npm run preview
 ```
 src/
 ├── app/
-│   ├── pages/        # Study and dashboard routes
-│   ├── App.tsx       # Router setup
-│   └── main.tsx
+│   ├── layout.tsx    # Root layout and metadata
+│   ├── page.tsx      # Study route (/)
+│   └── dashboard/
+│       └── page.tsx  # Dashboard route (/dashboard)
 ├── components/
+│   ├── pages/        # Study and dashboard page components
 │   ├── flashcard/    # Flash card UI
 │   ├── filters/      # CEFR level filter
 │   ├── progress/     # Progress panel
 │   └── ui/           # shadcn/ui primitives
 ├── data/
-│   └── vocabulary.json
+│   └── levels/       # Vocabulary by CEFR level (a2.json … c2.json)
 ├── hooks/            # Derived state hooks
 ├── lib/              # Utilities, deck logic, vocabulary loader
 ├── stores/           # Zustand stores
@@ -57,15 +59,26 @@ src/
 
 ## Adding vocabulary
 
-Edit [`src/data/vocabulary.json`](src/data/vocabulary.json). Each entry must follow the schema below. The app validates data on load and throws in development if anything is invalid.
+Edit the level file for the CEFR band you are adding to, e.g. [`src/data/levels/b1.json`](src/data/levels/b1.json). Each file is a JSON array of entries. The app merges all level files on load and validates the combined dataset; invalid data throws in development.
 
-### Dataset wrapper
+### Level files
+
+```
+src/data/levels/
+├── a2.json
+├── b1.json
+├── b2.json
+├── c1.json
+└── c2.json
+```
+
+Each file contains an array of entries for that level:
 
 ```json
-{
-  "version": 1,
-  "items": [ /* entries */ ]
-}
+[
+  { /* entry */ },
+  { /* entry */ }
+]
 ```
 
 ### Entry schema
@@ -81,6 +94,9 @@ Edit [`src/data/vocabulary.json`](src/data/vocabulary.json). Each entry must fol
 | `meaningEn` | string | yes | English definition |
 | `meaningVi` | string | yes | Vietnamese translation |
 | `examples` | string[3] | yes | Exactly three example sentences |
+| `conversation` | object | yes | Short chat-style Q&A using the expression |
+| `conversation.question` | string | yes | A natural question in conversation |
+| `conversation.answer` | string | yes | A natural reply (1–3 sentences) that uses the expression |
 
 ### Allowed values
 
@@ -136,7 +152,7 @@ All UI follows [`.cursor/rules/ui-ux-standards.mdc`](.cursor/rules/ui-ux-standar
 
 ## Tech stack
 
-- React + TypeScript + Vite
+- Next.js 16 (App Router) + React + TypeScript
 - Tailwind CSS + shadcn/ui
 - Zustand (study state + persisted progress)
 - JSON vocabulary data (no backend)

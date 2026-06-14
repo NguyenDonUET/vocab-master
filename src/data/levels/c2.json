@@ -1,0 +1,78 @@
+[
+  {
+    "id": "v020",
+    "expression": "unequivocally",
+    "category": "word",
+    "partOfSpeech": "adverb",
+    "level": "C2",
+    "ipa": "/ˌʌnɪˈkwɪvəkli/",
+    "meaningEn": "in a way that leaves no doubt",
+    "meaningVi": "rõ ràng, dứt khoát",
+    "examples": [
+      "The CEO stated unequivocally that quality comes first.",
+      "The data unequivocally supports the new approach.",
+      "I can say unequivocally that this was the right hire."
+    ],
+    "conversation": {
+      "question": "Is quality really the top priority here?",
+      "answer": "The CEO stated unequivocally that quality comes first. I can say the same from my side."
+    }
+  },
+  {
+    "id": "v021",
+    "expression": "boil down to",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C2",
+    "ipa": "/bɔɪl daʊn tuː/",
+    "meaningEn": "to be summarized as the main point",
+    "meaningVi": "quy về, tóm lại là",
+    "examples": [
+      "The problem boils down to poor communication.",
+      "For me, the decision boils down to long-term impact.",
+      "Most debates about tooling boil down to team preference."
+    ],
+    "conversation": {
+      "question": "Why did the project fail?",
+      "answer": "It boils down to poor communication. Everything else was manageable."
+    }
+  },
+  {
+    "id": "v022",
+    "expression": "by and large",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C2",
+    "ipa": "/baɪ ənd lɑːdʒ/",
+    "meaningEn": "on the whole; generally speaking",
+    "meaningVi": "nhìn chung, đa phần",
+    "examples": [
+      "By and large, the rollout went smoothly.",
+      "By and large, employees supported the new remote policy.",
+      "I think, by and large, we've made solid progress this quarter."
+    ],
+    "conversation": {
+      "question": "How did the rollout go overall?",
+      "answer": "By and large, it went smoothly. There were minor issues, but nothing major."
+    }
+  },
+  {
+    "id": "v023",
+    "expression": "gain traction",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C2",
+    "ipa": "/ɡeɪn ˈtrækʃn/",
+    "meaningEn": "to become more popular, accepted, or successful",
+    "meaningVi": "được chấp nhận rộng rãi, có tiến triển",
+    "examples": [
+      "The feature started to gain traction after the demo.",
+      "Our proposal is gaining traction with senior leadership.",
+      "I think this idea will gain traction once users see the benefits."
+    ],
+    "conversation": {
+      "question": "Is leadership interested in our proposal?",
+      "answer": "Yes, it's gaining traction with senior leadership. I think they'll approve phase two soon."
+    }
+  }
+]

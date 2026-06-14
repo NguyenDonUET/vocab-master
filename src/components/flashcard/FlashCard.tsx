@@ -1,3 +1,5 @@
+'use client'
+
 import { CardActions } from '@/components/flashcard/CardActions'
 import { CardBack } from '@/components/flashcard/CardBack'
 import { CardFront } from '@/components/flashcard/CardFront'

@@ -50,6 +50,28 @@ export function CardBack({ entry }: CardBackProps) {
           ))}
         </ol>
       </div>
+
+      <div className={surface.inset}>
+        <SectionLabel>Q&A</SectionLabel>
+        <div className={cn('mt-4', spacing.section)}>
+          <div className="flex justify-start">
+            <div className="max-w-[90%] rounded-2xl rounded-tl-sm border border-border/60 bg-muted/60 px-4 py-3">
+              <p className="mb-1 text-xs font-semibold text-muted-foreground">Alex</p>
+              <p className={cn(typography.body, 'text-foreground')}>
+                {entry.conversation.question}
+              </p>
+            </div>
+          </div>
+          <div className="flex justify-end">
+            <div className="max-w-[90%] rounded-2xl rounded-tr-sm border border-primary/20 bg-primary/10 px-4 py-3">
+              <p className="mb-1 text-xs font-semibold text-muted-foreground">Sam</p>
+              <p className={cn(typography.body, 'text-foreground')}>
+                {entry.conversation.answer}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

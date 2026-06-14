@@ -1,0 +1,116 @@
+[
+  {
+    "id": "v010",
+    "expression": "come up with",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/kʌm ʌp wɪð/",
+    "meaningEn": "to think of an idea, plan, or solution",
+    "meaningVi": "nghĩ ra, đưa ra ý tưởng",
+    "examples": [
+      "We need to come up with a better plan.",
+      "She came up with a creative solution during the brainstorming session.",
+      "I couldn't come up with a good answer during the interview."
+    ],
+    "conversation": {
+      "question": "We need a better plan by Friday.",
+      "answer": "I'll try to come up with something during tomorrow's brainstorming session."
+    }
+  },
+  {
+    "id": "v011",
+    "expression": "significant",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "B2",
+    "ipa": "/sɪɡˈnɪfɪkənt/",
+    "meaningEn": "large or important enough to be noticed",
+    "meaningVi": "đáng kể, quan trọng",
+    "examples": [
+      "There was a significant improvement in her speaking skills.",
+      "The update caused a significant drop in page load time.",
+      "I think this is a significant step toward our goal."
+    ],
+    "conversation": {
+      "question": "Did the update make a difference?",
+      "answer": "Yes, there was a significant drop in page load time. Users noticed it right away."
+    }
+  },
+  {
+    "id": "v012",
+    "expression": "raise concerns",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "B2",
+    "ipa": "/reɪz kənˈsɜːnz/",
+    "meaningEn": "to express worries about something",
+    "meaningVi": "bày tỏ lo ngại",
+    "examples": [
+      "Several employees raised concerns about the new policy.",
+      "I'd like to raise concerns about the project timeline.",
+      "Customers raised concerns about data privacy after the update."
+    ],
+    "conversation": {
+      "question": "Any issues with the new policy?",
+      "answer": "A few employees raised concerns about flexibility. HR is reviewing them now."
+    }
+  },
+  {
+    "id": "v013",
+    "expression": "on the same page",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B2",
+    "ipa": "/ɒn ðə seɪm peɪdʒ/",
+    "meaningEn": "in agreement about something",
+    "meaningVi": "cùng hiểu, cùng quan điểm",
+    "examples": [
+      "Let's make sure we're on the same page before the meeting.",
+      "The design and engineering teams are finally on the same page.",
+      "I want to check that we're on the same page about the priorities."
+    ],
+    "conversation": {
+      "question": "Design and engineering still disagree.",
+      "answer": "Let's meet first. I want to make sure we're on the same page about priorities."
+    }
+  },
+  {
+    "id": "v014",
+    "expression": "carry out",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "B2",
+    "ipa": "/ˈkæri aʊt/",
+    "meaningEn": "to do or complete a task or plan",
+    "meaningVi": "thực hiện, tiến hành",
+    "examples": [
+      "The lab will carry out tests tomorrow.",
+      "Our team carried out a full review of the codebase.",
+      "We need to carry out the plan carefully to avoid mistakes."
+    ],
+    "conversation": {
+      "question": "When will the lab start testing?",
+      "answer": "They'll carry out tests tomorrow. We should have results by Wednesday."
+    }
+  },
+  {
+    "id": "v025",
+    "expression": "keep in mind",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "B2",
+    "ipa": "/kiːp ɪn maɪnd/",
+    "meaningEn": "to remember something important when making a decision",
+    "meaningVi": "ghi nhớ, lưu ý",
+    "examples": [
+      "Keep in mind that the store closes at 9 p.m.",
+      "Keep in mind our budget when you suggest new features.",
+      "I want to keep in mind that not everyone learns at the same pace."
+    ],
+    "conversation": {
+      "question": "Can we add more features before launch?",
+      "answer": "Keep in mind our budget is tight. Let's focus on what we can ship now."
+    }
+  }
+]

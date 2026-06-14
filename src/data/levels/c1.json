@@ -1,0 +1,97 @@
+[
+  {
+    "id": "v015",
+    "expression": "compelling",
+    "category": "word",
+    "partOfSpeech": "adjective",
+    "level": "C1",
+    "ipa": "/kəmˈpelɪŋ/",
+    "meaningEn": "evoking interest or attention in a powerful way",
+    "meaningVi": "thuyết phục, hấp dẫn",
+    "examples": [
+      "She gave a compelling argument during the debate.",
+      "The case study presents a compelling reason to refactor the service.",
+      "I find his perspective compelling, even though I disagree with parts of it."
+    ],
+    "conversation": {
+      "question": "Did her argument change your mind?",
+      "answer": "Yes, she gave a compelling argument. I still disagree on details, but the main point stands."
+    }
+  },
+  {
+    "id": "v016",
+    "expression": "bring to light",
+    "category": "phrasal-verb",
+    "partOfSpeech": "phrasal-verb",
+    "level": "C1",
+    "ipa": "/brɪŋ tuː laɪt/",
+    "meaningEn": "to make new information known",
+    "meaningVi": "phơi bày, làm sáng tỏ",
+    "examples": [
+      "The audit brought several issues to light.",
+      "Her research brought to light gaps in our onboarding process.",
+      "The interview brought to light concerns we hadn't considered."
+    ],
+    "conversation": {
+      "question": "What did the audit find?",
+      "answer": "It brought several issues to light. None are critical, but we need to fix them soon."
+    }
+  },
+  {
+    "id": "v017",
+    "expression": "at the end of the day",
+    "category": "fixed-expression",
+    "partOfSpeech": "expression",
+    "level": "C1",
+    "ipa": "/æt ði end əv ðə deɪ/",
+    "meaningEn": "when everything is considered",
+    "meaningVi": "rốt cuộc, cuối cùng thì",
+    "examples": [
+      "At the end of the day, what matters is customer trust.",
+      "We can debate tools, but at the end of the day, delivery speed counts.",
+      "At the end of the day, I think we made the right call."
+    ],
+    "conversation": {
+      "question": "Should we switch tools or keep the current stack?",
+      "answer": "We can debate that, but at the end of the day, delivery speed counts most."
+    }
+  },
+  {
+    "id": "v018",
+    "expression": "draw a conclusion",
+    "category": "collocation",
+    "partOfSpeech": "collocation",
+    "level": "C1",
+    "ipa": "/drɔː ə kənˈkluːʒn/",
+    "meaningEn": "to decide something based on evidence or reasoning",
+    "meaningVi": "đưa ra kết luận",
+    "examples": [
+      "It's too early to draw a conclusion from one test.",
+      "After reviewing the metrics, we drew a conclusion about user retention.",
+      "I don't want to draw a conclusion without hearing both sides."
+    ],
+    "conversation": {
+      "question": "Can we decide after one A/B test?",
+      "answer": "It's too early to draw a conclusion from one test. Let's wait for more data."
+    }
+  },
+  {
+    "id": "v019",
+    "expression": "mitigate",
+    "category": "word",
+    "partOfSpeech": "verb",
+    "level": "C1",
+    "ipa": "/ˈmɪtɪɡeɪt/",
+    "meaningEn": "to make something less harmful, serious, or painful",
+    "meaningVi": "giảm thiểu, làm dịu",
+    "examples": [
+      "We added caching to mitigate performance issues.",
+      "The team proposed steps to mitigate security risks.",
+      "I think transparency can mitigate a lot of misunderstandings."
+    ],
+    "conversation": {
+      "question": "How do we reduce these performance issues?",
+      "answer": "We added caching to mitigate them. The team also proposed steps for security risks."
+    }
+  }
+]

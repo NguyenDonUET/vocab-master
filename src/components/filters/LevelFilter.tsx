@@ -1,3 +1,7 @@
+'use client'
+
+import { useMemo } from 'react'
+
 import {
   Select,
   SelectContent,
@@ -6,20 +10,37 @@ import {
   SelectValue,
 } from '@/components/ui/select'
 import { SectionLabel } from '@/components/ui/page-header'
+import { filterDeck } from '@/lib/deck'
 import type { LevelFilter } from '@/lib/deck'
 import { spacing, surface, typography } from '@/lib/design-system'
+import { getVocabularyEntries } from '@/lib/vocabulary'
 import { useStudyStore } from '@/stores/useStudyStore'
 import { cn } from '@/lib/utils'
 import { CEFR_LEVELS } from '@/types/vocabulary'
+
+const vocabulary = getVocabularyEntries()
 
 const FILTER_OPTIONS: { value: LevelFilter; label: string }[] = [
   { value: 'all', label: 'All levels' },
   ...CEFR_LEVELS.map((level) => ({ value: level, label: level })),
 ]
 
+function formatVocabCount(count: number, levelFilter: LevelFilter): string {
+  const noun = count === 1 ? 'item' : 'items'
+  if (levelFilter === 'all') {
+    return `${count} vocabulary ${noun}`
+  }
+  return `${count} vocabulary ${noun} at ${levelFilter}`
+}
+
 export function LevelFilter() {
   const levelFilter = useStudyStore((state) => state.levelFilter)
   const setLevelFilter = useStudyStore((state) => state.setLevelFilter)
+
+  const vocabCount = useMemo(
+    () => filterDeck(vocabulary, levelFilter).length,
+    [levelFilter],
+  )
 
   return (
     <div
@@ -34,6 +55,9 @@ export function LevelFilter() {
         <label htmlFor="level-filter" className={typography.label}>
           CEFR level
         </label>
+        <p className={typography.body}>
+          {formatVocabCount(vocabCount, levelFilter)}
+        </p>
       </div>
       <Select
         value={levelFilter}
