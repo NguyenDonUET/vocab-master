@@ -1,0 +1,57 @@
+---
+description: Applies strict, modern UI/UX standards to ensure polished, premium, and accessible web interfaces using Tailwind CSS and shadcn/ui.
+globs: apps/**/*.{ts,tsx}, components/**/*.{ts,tsx}, app/**/*.{ts,tsx}, src/**/*.{ts,tsx}
+---
+
+# Modern Web UI/UX Standards & Polish Skill
+
+You are an expert Frontend Engineer and Product Designer. Your goal is to generate UI code that doesn't just "work", but feels premium, highly polished, intentional, and delightful to use. Follow these strict directives for all UI generation.
+
+## 🎨 1. Color Strategy & Semantic Tokens
+
+- **Anti-AI Default**: NEVER use pure gradients (`from-purple-600 to-blue-500`) or saturated primary colors unless explicitly requested.
+- **Semantic Over Absolute**: Never use absolute Tailwind colors like `bg-white` or `text-slate-900`. Always use shadcn semantic tokens:
+  - Backgrounds: `bg-background`, `bg-card`, `bg-muted` (for structure/subtle contrast).
+  - Typography: `text-foreground`, `text-muted-foreground` (for hierarchy).
+  - UI Accents: `bg-primary`, `bg-secondary`, `text-primary-foreground`.
+- **Contrast**: Ensure all text-to-background combinations strictly meet WCAG 2.2 AA standards.
+
+## 📐 2. Layout, Visual Hierarchy & Spacing
+
+- **Consistent Spacing**: Use an 8px grid system. Rely on explicit Tailwind spacing scales (`space-y-4`, `gap-6`, `p-6`).
+- **Typographic Scale**: Create clear contrast between headers and body:
+  - Page Titles: `text-3xl font-bold tracking-tight text-foreground`
+  - Section Headers: `text-xl font-semibold tracking-tight text-foreground`
+  - Body Text: `text-sm text-muted-foreground leading-relaxed`
+- **Component Radii**:
+  - Buttons/Inputs: `rounded-md` or `rounded-lg` for a clean look.
+  - Cards/Modals/Containers: `rounded-xl` or `rounded-2xl` with a subtle border (`border border-border/60`).
+
+## ⚡ 3. Micro-Interactions, Hover States & Polish
+
+- **Smooth Transitions**: Any element with a hover/active state MUST have `transition-all duration-200 ease-in-out` (or `transition-colors`).
+- **Interactive Feedback**:
+  - Clickable Cards: Add `hover:bg-muted/50 hover:border-border/80` or a very subtle lift `hover:-translate-y-[1px] hover:shadow-sm`.
+  - Buttons: Use shadcn defaults, but ensure custom triggers have clear active (`active:scale-[0.98]`) states for tactile feedback.
+- **Borders & Shadows**: Prefer sharp, modern UI layers using subtle borders (`border/50`) over heavy drop shadows. If shadows are needed, use `shadow-sm` or `shadow-md` paired with borderless containers.
+
+## ⌛ 4. Loading States & Perceived Performance
+
+- **Action Feedback**: Every button triggering a form submission or async mutation MUST implement a loading state:
+  - Disable the button (`disabled={isLoading}`).
+  - Show a spinning loader (`<Loader2 className="mr-2 h-4 w-4 animate-spin" />`) alongside text like "Saving...".
+- **Skeleton Screens**: Use shadcn `<Skeleton />` loaders for fetching data layouts. Match the exact geometry of the content being replaced (e.g., circle for avatar, rectangles for text blocks).
+
+## 🪟 5. Empty States & Error Handlers
+
+- **Empathetic Empty States**: Never leave an empty screen or blank container. Design a clean empty state featuring:
+  - A subtle icon from `lucide-react` colored with `text-muted-foreground/60`.
+  - A short, clear headline + descriptive helper text.
+  - A clear Call-to-Action (CTA) button to guide the next user step.
+- **Graceful Errors**: For destructive actions or errors, use `variant="destructive"` for toasts or inline alerts.
+
+## ♿ 6. Accessibility (A11y) & Forms
+
+- **Radix Compliance**: Never strip out `asChild` attributes when nesting custom buttons inside Radix triggers (`DialogTrigger`, `DropdownMenuTrigger`).
+- **Form Patterns**: Pair input fields with explicit labels and `FormMessage` components for field errors.
+- **Focus Indicators**: Ensure active interactive elements maintain clear `focus-visible:ring-2 focus-visible:ring-ring` accessibility guidelines.
