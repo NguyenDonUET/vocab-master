@@ -1,6 +1,7 @@
 'use client'
 
 import { Circle, Layers } from 'lucide-react'
+import Link from 'next/link'
 import { useCallback, useMemo, useState } from 'react'
 
 import { Badge } from '@/components/ui/badge'
@@ -23,12 +24,13 @@ import type { CefrLevel, VocabularyEntry } from '@/types/vocabulary'
 import {
   getTestParts,
   TEST_QUESTIONS_PER_PART,
+  type AvailableTestLevel,
   type VocabularyTest,
   type VocabularyTestQuestion,
 } from '@/types/vocabulary-test'
 
 interface TestPageProps {
-  level: CefrLevel
+  level: AvailableTestLevel
   test: VocabularyTest | null
   entriesById: Record<string, VocabularyEntry>
 }
@@ -81,7 +83,7 @@ function getChoiceClassName(
     return 'border-destructive/60 text-foreground'
   }
 
-  return 'opacity-70'
+  return ''
 }
 
 function PartPicker({
@@ -96,11 +98,18 @@ function PartPicker({
   return (
     <Card>
       <CardHeader>
-        <CardTitle>Choose a test part</CardTitle>
-        <CardDescription>
-          {level} vocabulary is split into {parts.length} parts of up to{' '}
-          {TEST_QUESTIONS_PER_PART} questions each.
-        </CardDescription>
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
+          <div className="space-y-1">
+            <CardTitle>Choose a test part</CardTitle>
+            <CardDescription>
+              {level} vocabulary is split into {parts.length} parts of up to{' '}
+              {TEST_QUESTIONS_PER_PART} questions each.
+            </CardDescription>
+          </div>
+          <Button variant="outline" asChild className="shrink-0">
+            <Link href="/test">Change level</Link>
+          </Button>
+        </div>
       </CardHeader>
       <CardContent>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
@@ -174,7 +183,7 @@ function QuestionCard({
   )
 
   useTestKeyboardShortcuts({
-    choiceCount: question.choices.length,
+    choiceCount: question.choices?.length ?? 0,
     answerState,
     onSelectChoice: handleSelect,
     onNext,
@@ -210,7 +219,7 @@ function QuestionCard({
           {question.prompt}
         </div>
         <div className="grid gap-3">
-          {question.choices.map((choice, choiceIndex) => (
+          {(question.choices ?? []).map((choice, choiceIndex) => (
             <Button
               key={`${question.vocabularyId}-${choice}`}
               type="button"
@@ -219,6 +228,7 @@ function QuestionCard({
               onClick={() => handleSelect(choiceIndex)}
               className={cn(
                 'h-auto min-h-14 cursor-pointer justify-start whitespace-normal px-4 py-4 text-left md:min-h-12',
+                'disabled:opacity-100',
                 getChoiceClassName(
                   choiceIndex,
                   selectedIndex,
@@ -261,12 +271,14 @@ function QuestionCard({
 }
 
 function TestSummary({
+  level,
   partNumber,
   correctCount,
   totalQuestions,
   onRetryPart,
   onChoosePart,
 }: {
+  level: CefrLevel
   partNumber: number
   correctCount: number
   totalQuestions: number
@@ -278,7 +290,9 @@ function TestSummary({
   return (
     <Card>
       <CardHeader>
-        <CardTitle>Part {partNumber} complete</CardTitle>
+        <CardTitle>
+          {level} · Part {partNumber} complete
+        </CardTitle>
         <CardDescription>
           Your score is shown below. Results are not saved.
         </CardDescription>
@@ -298,12 +312,15 @@ function TestSummary({
         </div>
         <Progress value={scorePercent} />
       </CardContent>
-      <CardFooter className="flex flex-col gap-2 sm:flex-row">
+      <CardFooter className="flex flex-col gap-2 sm:flex-row sm:flex-wrap">
         <Button onClick={onRetryPart} className="w-full sm:w-auto">
           Try again
         </Button>
         <Button variant="outline" onClick={onChoosePart} className="w-full sm:w-auto">
           Choose another part
+        </Button>
+        <Button variant="outline" asChild className="w-full sm:w-auto">
+          <Link href="/test">Change level</Link>
         </Button>
       </CardFooter>
     </Card>
@@ -359,19 +376,22 @@ export function TestPage({ level, test, entriesById }: TestPageProps) {
     return (
       <div className={spacing.page}>
         <PageHeader
-          title="Vocabulary test"
+          title={`${level} vocabulary test`}
           description="Multiple-choice practice by CEFR level."
         />
         <div className={cn(surface.muted, 'px-4 py-12 text-center md:px-6 md:py-16')}>
           <Circle className="mx-auto size-5 text-muted-foreground/60" />
           <p className={cn(typography.sectionTitle, 'mt-4')}>No test available</p>
           <p className={typography.body}>
-            Generate the {level} test content first with{' '}
+            Generate the {level} test with{' '}
             <code className="rounded bg-muted px-1.5 py-0.5 text-foreground">
-              npm run test:generate
+              npm run test:generate {level}
             </code>
             .
           </p>
+          <Button variant="outline" asChild className="mt-4">
+            <Link href="/test">Back to levels</Link>
+          </Button>
         </div>
       </div>
     )
@@ -380,7 +400,7 @@ export function TestPage({ level, test, entriesById }: TestPageProps) {
   return (
     <div className={spacing.page}>
       <PageHeader
-        title="Vocabulary test"
+        title={`${level} vocabulary test`}
         description={`Multiple-choice practice for ${level} vocabulary using example sentences.`}
       />
 
@@ -388,6 +408,7 @@ export function TestPage({ level, test, entriesById }: TestPageProps) {
         <PartPicker level={level} parts={parts} onSelectPart={handleSelectPart} />
       ) : isComplete ? (
         <TestSummary
+          level={level}
           partNumber={selectedPart}
           correctCount={correctCount}
           totalQuestions={questions.length}

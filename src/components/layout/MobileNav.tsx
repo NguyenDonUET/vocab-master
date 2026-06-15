@@ -23,6 +23,7 @@ function navLinkClass(isActive: boolean) {
 
 export function MobileNav() {
   const pathname = usePathname()
+  const isTestRoute = pathname === '/test' || pathname.startsWith('/test/')
   const [open, setOpen] = useState(false)
   const closeButtonRef = useRef<HTMLButtonElement>(null)
 
@@ -85,7 +86,7 @@ export function MobileNav() {
               </Link>
               <Link
                 href="/test"
-                className={navLinkClass(pathname === '/test')}
+                className={navLinkClass(isTestRoute)}
                 onClick={close}
               >
                 Test

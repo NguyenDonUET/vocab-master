@@ -7,7 +7,7 @@ import {
 import type { CefrLevel } from '../src/types/vocabulary'
 
 const prisma = new PrismaClient()
-const SUPPORTED_LEVELS: CefrLevel[] = ['B1']
+const SUPPORTED_LEVELS: CefrLevel[] = ['B1', 'B2']
 
 async function main() {
   const levelArg = process.argv[2] as CefrLevel | undefined

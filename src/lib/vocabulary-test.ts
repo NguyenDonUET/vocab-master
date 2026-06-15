@@ -9,13 +9,13 @@ import type { VocabularyTest, VocabularyTestQuestion } from '@/types/vocabulary-
 function toVocabularyTest(row: PrismaVocabularyTest): VocabularyTest {
   return {
     level: row.level,
-    questions: row.questions.map(
+    questions: (row.questions ?? []).map(
       (question): VocabularyTestQuestion => ({
         vocabularyId: question.vocabularyId,
         expression: question.expression,
         prompt: question.prompt,
         exampleIndex: question.exampleIndex,
-        choices: [...question.choices],
+        choices: [...(question.choices ?? [])],
         correctIndex: question.correctIndex,
       }),
     ),

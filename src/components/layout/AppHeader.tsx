@@ -14,6 +14,7 @@ function navLinkClass(isActive: boolean) {
 
 export function AppHeader() {
   const pathname = usePathname()
+  const isTestRoute = pathname === '/test' || pathname.startsWith('/test/')
 
   return (
     <header className="sticky top-0 z-40 border-b border-border/60 bg-background/95 backdrop-blur-sm">
@@ -53,7 +54,7 @@ export function AppHeader() {
             >
               Dashboard
             </Link>
-            <Link href="/test" className={navLinkClass(pathname === '/test')}>
+            <Link href="/test" className={navLinkClass(isTestRoute)}>
               Test
             </Link>
           </nav>

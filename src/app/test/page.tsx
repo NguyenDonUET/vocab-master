@@ -1,18 +1,15 @@
 import { getVocabularyTest } from '@/lib/vocabulary-test'
-import { getVocabularyEntries } from '@/lib/vocabulary'
-import { TestPage } from '@/components/pages/TestPage'
-
-const TEST_LEVEL = 'B1' as const
+import { TestIndexPage } from '@/components/pages/TestIndexPage'
+import { AVAILABLE_TEST_LEVELS } from '@/types/vocabulary-test'
 
 export default async function Page() {
-  const [test, entries] = await Promise.all([
-    getVocabularyTest(TEST_LEVEL),
-    getVocabularyEntries(),
-  ])
-
-  const entriesById = Object.fromEntries(entries.map((entry) => [entry.id, entry]))
-
-  return (
-    <TestPage level={TEST_LEVEL} test={test} entriesById={entriesById} />
+  const tests = await Promise.all(
+    AVAILABLE_TEST_LEVELS.map((level) => getVocabularyTest(level)),
   )
+
+  const testsByLevel = Object.fromEntries(
+    AVAILABLE_TEST_LEVELS.map((level, index) => [level, tests[index]]),
+  ) as Record<(typeof AVAILABLE_TEST_LEVELS)[number], Awaited<ReturnType<typeof getVocabularyTest>>>
+
+  return <TestIndexPage testsByLevel={testsByLevel} />
 }
