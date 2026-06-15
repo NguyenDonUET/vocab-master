@@ -21,18 +21,26 @@ interface ProgressPanelProps {
 
 export function ProgressPanel({ entries }: ProgressPanelProps) {
   const levelFilter = useStudyStore((state) => state.levelFilter)
+  const learnedFilter = useStudyStore((state) => state.learnedFilter)
   const { total, learned, remaining, completionPercent } =
     useProgressStats(entries)
+
+  const filterDescription = [
+    levelFilter === 'all' ? 'All CEFR levels' : `Filtered to ${levelFilter} only`,
+    learnedFilter === 'all'
+      ? null
+      : learnedFilter === 'unlearned'
+        ? 'unlearned only'
+        : 'learned only',
+  ]
+    .filter(Boolean)
+    .join(' · ')
 
   return (
     <Card>
       <CardHeader>
         <CardTitle>Study progress</CardTitle>
-        <CardDescription>
-          {levelFilter === 'all'
-            ? 'All CEFR levels'
-            : `Filtered to ${levelFilter} only`}
-        </CardDescription>
+        <CardDescription>{filterDescription}</CardDescription>
       </CardHeader>
       <CardContent className={spacing.section}>
         <div className={cn('grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4', spacing.inline)}>

@@ -28,7 +28,12 @@ export function FlashCard({
       <CardContent className="space-y-4 px-4 pb-4 md:space-y-6 md:px-6 md:pb-6">
         <CardFront entry={entry} />
         <div className="flex w-full justify-stretch border-t border-border/60 pt-4 sm:justify-end">
-          <MarkLearnedButton entryId={entry.id} className="w-full sm:w-auto" />
+          <MarkLearnedButton
+            entryId={entry.id}
+            deckLength={deckLength}
+            canGoNext={canGoNext}
+            className="w-full sm:w-auto"
+          />
         </div>
         {isRevealed && <CardBack entry={entry} />}
       </CardContent>

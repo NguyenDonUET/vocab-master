@@ -1,17 +1,20 @@
 import { useEffect, useMemo } from 'react'
 
 import { filterDeck } from '@/lib/deck'
+import { useProgressStore } from '@/stores/useProgressStore'
 import { useStudyStore } from '@/stores/useStudyStore'
 import type { VocabularyEntry } from '@/types/vocabulary'
 
 export function useFilteredDeck(entries: VocabularyEntry[]) {
   const levelFilter = useStudyStore((state) => state.levelFilter)
+  const learnedFilter = useStudyStore((state) => state.learnedFilter)
+  const learnedIds = useProgressStore((state) => state.learnedIds)
   const currentIndex = useStudyStore((state) => state.currentIndex)
   const setCurrentIndex = useStudyStore((state) => state.setCurrentIndex)
 
   const deck = useMemo(
-    () => filterDeck(entries, levelFilter),
-    [entries, levelFilter],
+    () => filterDeck(entries, levelFilter, learnedFilter, learnedIds),
+    [entries, levelFilter, learnedFilter, learnedIds],
   )
 
   useEffect(() => {

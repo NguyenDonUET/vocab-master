@@ -1,4 +1,8 @@
-import { markLearnedAction, resetProgressAction } from '@/app/actions/progress'
+import {
+  markLearnedAction,
+  resetProgressAction,
+  unmarkLearnedAction,
+} from '@/app/actions/progress'
 import { create } from 'zustand'
 
 interface ProgressState {
@@ -7,6 +11,7 @@ interface ProgressState {
 
   hydrate: (learnedIds: string[]) => void
   markLearned: (id: string) => Promise<void>
+  unmarkLearned: (id: string) => Promise<void>
   isLearned: (id: string) => boolean
   resetProgress: () => Promise<void>
 }
@@ -32,6 +37,23 @@ export const useProgressStore = create<ProgressState>((set, get) => ({
 
     try {
       const learnedIds = await markLearnedAction(id)
+      set({ learnedIds })
+    } catch {
+      set({ learnedIds: previousIds })
+    }
+  },
+
+  unmarkLearned: async (id) => {
+    const previousIds = get().learnedIds
+
+    if (!previousIds.includes(id)) {
+      return
+    }
+
+    set({ learnedIds: previousIds.filter((learnedId) => learnedId !== id) })
+
+    try {
+      const learnedIds = await unmarkLearnedAction(id)
       set({ learnedIds })
     } catch {
       set({ learnedIds: previousIds })

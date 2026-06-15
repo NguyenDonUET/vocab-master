@@ -1,10 +1,13 @@
 import type { CefrLevel, VocabularyEntry } from '@/types/vocabulary'
 
 export type LevelFilter = CefrLevel | 'all'
+export type LearnedFilter = 'all' | 'unlearned' | 'learned'
 
 export function filterDeck(
   items: VocabularyEntry[],
   levelFilter: LevelFilter,
+  learnedFilter: LearnedFilter = 'all',
+  learnedIds: string[] = [],
 ): VocabularyEntry[] {
   const sorted = [...items].sort((a, b) => {
     const levelOrder = a.level.localeCompare(b.level)
@@ -14,11 +17,22 @@ export function filterDeck(
     return a.expression.localeCompare(b.expression)
   })
 
-  if (levelFilter === 'all') {
-    return sorted
+  const levelFiltered =
+    levelFilter === 'all'
+      ? sorted
+      : sorted.filter((item) => item.level === levelFilter)
+
+  if (learnedFilter === 'all') {
+    return levelFiltered
   }
 
-  return sorted.filter((item) => item.level === levelFilter)
+  const learnedSet = new Set(learnedIds)
+
+  if (learnedFilter === 'learned') {
+    return levelFiltered.filter((item) => learnedSet.has(item.id))
+  }
+
+  return levelFiltered.filter((item) => !learnedSet.has(item.id))
 }
 
 export interface ProgressStats {

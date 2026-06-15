@@ -1,13 +1,15 @@
 import { create } from 'zustand'
 
-import type { LevelFilter } from '@/lib/deck'
+import type { LevelFilter, LearnedFilter } from '@/lib/deck'
 
 interface StudyState {
   levelFilter: LevelFilter
+  learnedFilter: LearnedFilter
   currentIndex: number
   isRevealed: boolean
 
   setLevelFilter: (level: LevelFilter) => void
+  setLearnedFilter: (filter: LearnedFilter) => void
   setCurrentIndex: (index: number) => void
   nextCard: (deckLength: number) => void
   prevCard: () => void
@@ -18,11 +20,15 @@ interface StudyState {
 
 export const useStudyStore = create<StudyState>((set) => ({
   levelFilter: 'all',
+  learnedFilter: 'all',
   currentIndex: 0,
   isRevealed: false,
 
   setLevelFilter: (level) =>
     set({ levelFilter: level, currentIndex: 0, isRevealed: false }),
+
+  setLearnedFilter: (filter) =>
+    set({ learnedFilter: filter, currentIndex: 0, isRevealed: false }),
 
   setCurrentIndex: (index) => set({ currentIndex: index, isRevealed: false }),
 

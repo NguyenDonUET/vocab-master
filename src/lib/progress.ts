@@ -39,6 +39,36 @@ export async function markLearned(
   return progress.learnedIds
 }
 
+export async function unmarkLearned(
+  deviceId: string,
+  entryId: string,
+): Promise<string[]> {
+  const existing = await prisma.userProgress.findUnique({
+    where: { deviceId },
+    select: { learnedIds: true },
+  })
+
+  if (!existing?.learnedIds.includes(entryId)) {
+    return existing?.learnedIds ?? []
+  }
+
+  const learnedIds = existing.learnedIds.filter((id) => id !== entryId)
+
+  const progress = await prisma.userProgress.upsert({
+    where: { deviceId },
+    create: {
+      deviceId,
+      learnedIds: [],
+    },
+    update: {
+      learnedIds,
+    },
+    select: { learnedIds: true },
+  })
+
+  return progress.learnedIds
+}
+
 export async function resetProgress(deviceId: string): Promise<void> {
   await prisma.userProgress.upsert({
     where: { deviceId },

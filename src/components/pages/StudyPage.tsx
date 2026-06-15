@@ -18,6 +18,7 @@ interface StudyPageProps {
 
 export function StudyPage({ entries, initialLearnedIds }: StudyPageProps) {
   const levelFilter = useStudyStore((state) => state.levelFilter)
+  const learnedFilter = useStudyStore((state) => state.learnedFilter)
   const { currentCard, deck, currentIndex, canGoNext, canGoPrev } =
     useFilteredDeck(entries)
 
@@ -50,7 +51,10 @@ export function StudyPage({ entries, initialLearnedIds }: StudyPageProps) {
           />
         </div>
       ) : (
-        <EmptyDeckState levelFilter={levelFilter} />
+        <EmptyDeckState
+          levelFilter={levelFilter}
+          learnedFilter={learnedFilter}
+        />
       )}
     </div>
   )
