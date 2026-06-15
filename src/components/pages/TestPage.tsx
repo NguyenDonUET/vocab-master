@@ -16,7 +16,14 @@ import {
 } from '@/components/ui/card'
 import { Progress } from '@/components/ui/progress'
 import { PageHeader, SectionLabel } from '@/components/ui/page-header'
-import { getLevelBadgeClass, interactive, kbdClass, spacing, surface, typography } from '@/lib/design-system'
+import {
+  getLevelBadgeClass,
+  interactive,
+  kbdClass,
+  spacing,
+  surface,
+  typography,
+} from '@/lib/design-system'
 import { formatPartOfSpeechLabel } from '@/lib/labels'
 import { useTestKeyboardShortcuts } from '@/hooks/useTestKeyboardShortcuts'
 import { cn } from '@/lib/utils'
@@ -208,14 +215,21 @@ function QuestionCard({
         <CardDescription>
           Choose the expression that best completes the sentence.{' '}
           <span className="text-muted-foreground/80">
-            <kbd className={kbdClass()}>A</kbd>–<kbd className={kbdClass()}>D</kbd> or{' '}
-            <kbd className={kbdClass()}>1</kbd>–<kbd className={kbdClass()}>4</kbd> to answer,{' '}
+            <kbd className={kbdClass()}>A</kbd>–
+            <kbd className={kbdClass()}>D</kbd> or{' '}
+            <kbd className={kbdClass()}>1</kbd>–
+            <kbd className={kbdClass()}>4</kbd> to answer,{' '}
             <kbd className={kbdClass()}>Enter</kbd> for next.
           </span>
         </CardDescription>
       </CardHeader>
       <CardContent className={spacing.section}>
-        <div className={cn(surface.inset, 'text-base leading-relaxed text-foreground')}>
+        <div
+          className={cn(
+            surface.inset,
+            'text-base leading-relaxed text-foreground',
+          )}
+        >
           {question.prompt}
         </div>
         <div className="grid gap-3">
@@ -316,7 +330,11 @@ function TestSummary({
         <Button onClick={onRetryPart} className="w-full sm:w-auto">
           Try again
         </Button>
-        <Button variant="outline" onClick={onChoosePart} className="w-full sm:w-auto">
+        <Button
+          variant="outline"
+          onClick={onChoosePart}
+          className="w-full sm:w-auto"
+        >
           Choose another part
         </Button>
         <Button variant="outline" asChild className="w-full sm:w-auto">
@@ -379,9 +397,16 @@ export function TestPage({ level, test, entriesById }: TestPageProps) {
           title={`${level} vocabulary test`}
           description="Multiple-choice practice by CEFR level."
         />
-        <div className={cn(surface.muted, 'px-4 py-12 text-center md:px-6 md:py-16')}>
+        <div
+          className={cn(
+            surface.muted,
+            'px-4 py-12 text-center md:px-6 md:py-16',
+          )}
+        >
           <Circle className="mx-auto size-5 text-muted-foreground/60" />
-          <p className={cn(typography.sectionTitle, 'mt-4')}>No test available</p>
+          <p className={cn(typography.sectionTitle, 'mt-4')}>
+            No test available
+          </p>
           <p className={typography.body}>
             Generate the {level} test with{' '}
             <code className="rounded bg-muted px-1.5 py-0.5 text-foreground">
@@ -405,7 +430,11 @@ export function TestPage({ level, test, entriesById }: TestPageProps) {
       />
 
       {selectedPart === null ? (
-        <PartPicker level={level} parts={parts} onSelectPart={handleSelectPart} />
+        <PartPicker
+          level={level}
+          parts={parts}
+          onSelectPart={handleSelectPart}
+        />
       ) : isComplete ? (
         <TestSummary
           level={level}

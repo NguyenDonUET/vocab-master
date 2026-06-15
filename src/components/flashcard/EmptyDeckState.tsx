@@ -67,8 +67,13 @@ export function EmptyDeckState({
 }: EmptyDeckStateProps) {
   const setLevelFilter = useStudyStore((state) => state.setLevelFilter)
   const setLearnedFilter = useStudyStore((state) => state.setLearnedFilter)
-  const { title, message, icon: Icon, showResetLevel, showResetProgress } =
-    getEmptyStateContent(levelFilter, learnedFilter)
+  const {
+    title,
+    message,
+    icon: Icon,
+    showResetLevel,
+    showResetProgress,
+  } = getEmptyStateContent(levelFilter, learnedFilter)
 
   return (
     <div
@@ -95,9 +100,15 @@ export function EmptyDeckState({
           {showResetProgress && (
             <Button
               variant="outline"
-              onClick={() => setLearnedFilter(learnedFilter === 'learned' ? 'all' : 'learned')}
+              onClick={() =>
+                setLearnedFilter(
+                  learnedFilter === 'learned' ? 'all' : 'learned',
+                )
+              }
             >
-              {learnedFilter === 'learned' ? 'Show all words' : 'Review learned words'}
+              {learnedFilter === 'learned'
+                ? 'Show all words'
+                : 'Review learned words'}
             </Button>
           )}
         </div>

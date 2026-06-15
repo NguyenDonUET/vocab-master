@@ -23,7 +23,10 @@ function isEditableTarget(target: EventTarget | null): boolean {
   )
 }
 
-function getChoiceIndexFromKey(key: string, choiceCount: number): number | null {
+function getChoiceIndexFromKey(
+  key: string,
+  choiceCount: number,
+): number | null {
   const lower = key.toLowerCase()
 
   if (lower >= '1' && lower <= '9') {

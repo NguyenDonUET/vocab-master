@@ -9,7 +9,10 @@ export default async function Page() {
 
   const testsByLevel = Object.fromEntries(
     AVAILABLE_TEST_LEVELS.map((level, index) => [level, tests[index]]),
-  ) as Record<(typeof AVAILABLE_TEST_LEVELS)[number], Awaited<ReturnType<typeof getVocabularyTest>>>
+  ) as Record<
+    (typeof AVAILABLE_TEST_LEVELS)[number],
+    Awaited<ReturnType<typeof getVocabularyTest>>
+  >
 
   return <TestIndexPage testsByLevel={testsByLevel} />
 }

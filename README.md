@@ -55,13 +55,13 @@ npm run start
 
 ### Database commands
 
-| Command | Description |
-| ------- | ----------- |
-| `npm run db:push` | Sync Prisma schema to MongoDB |
-| `npm run db:seed` | Import vocabulary from JSON files |
-| `npm run db:studio` | Open Prisma Studio to browse data |
+| Command               | Description                                                    |
+| --------------------- | -------------------------------------------------------------- |
+| `npm run db:push`     | Sync Prisma schema to MongoDB                                  |
+| `npm run db:seed`     | Import vocabulary from JSON files                              |
+| `npm run db:studio`   | Open Prisma Studio to browse data                              |
 | `npm run vocab:check` | Validate all level JSON files and detect duplicate expressions |
-| `npm run vocab:index` | Regenerate `src/data/expressions-index.json` from level files |
+| `npm run vocab:index` | Regenerate `src/data/expressions-index.json` from level files  |
 
 ## Project structure
 
@@ -117,26 +117,30 @@ Each file contains an array of entries for that level:
 
 ```json
 [
-  { /* entry */ },
-  { /* entry */ }
+  {
+    /* entry */
+  },
+  {
+    /* entry */
+  }
 ]
 ```
 
 ### Entry schema
 
-| Field | Type | Required | Description |
-| ----- | ---- | -------- | ----------- |
-| `expression` | string | yes | The word or phrase shown on the card front |
-| `category` | string | yes | Vocabulary type (see allowed values) |
-| `partOfSpeech` | string | yes | Grammatical label shown on the card back |
-| `level` | string | yes | CEFR level: `A2`, `B1`, `B2`, `C1`, or `C2` |
-| `ipa` | string | yes | IPA pronunciation |
-| `meaningEn` | string | yes | English definition |
-| `meaningVi` | string | yes | Vietnamese translation |
-| `examples` | string[3] | yes | Exactly three example sentences |
-| `conversation` | object | yes | Short chat-style Q&A using the expression |
-| `conversation.question` | string | yes | A natural question in conversation |
-| `conversation.answer` | string | yes | A natural reply (1–3 sentences) that uses the expression |
+| Field                   | Type      | Required | Description                                              |
+| ----------------------- | --------- | -------- | -------------------------------------------------------- |
+| `expression`            | string    | yes      | The word or phrase shown on the card front               |
+| `category`              | string    | yes      | Vocabulary type (see allowed values)                     |
+| `partOfSpeech`          | string    | yes      | Grammatical label shown on the card back                 |
+| `level`                 | string    | yes      | CEFR level: `A2`, `B1`, `B2`, `C1`, or `C2`              |
+| `ipa`                   | string    | yes      | IPA pronunciation                                        |
+| `meaningEn`             | string    | yes      | English definition                                       |
+| `meaningVi`             | string    | yes      | Vietnamese translation                                   |
+| `examples`              | string[3] | yes      | Exactly three example sentences                          |
+| `conversation`          | object    | yes      | Short chat-style Q&A using the expression                |
+| `conversation.question` | string    | yes      | A natural question in conversation                       |
+| `conversation.answer`   | string    | yes      | A natural reply (1–3 sentences) that uses the expression |
 
 ### Allowed values
 

@@ -4,7 +4,13 @@ import { Circle, Layers } from 'lucide-react'
 import Link from 'next/link'
 
 import { PageHeader } from '@/components/ui/page-header'
-import { getLevelBadgeClass, interactive, spacing, surface, typography } from '@/lib/design-system'
+import {
+  getLevelBadgeClass,
+  interactive,
+  spacing,
+  surface,
+  typography,
+} from '@/lib/design-system'
 import { cn } from '@/lib/utils'
 import {
   AVAILABLE_TEST_LEVELS,
@@ -30,9 +36,16 @@ export function TestIndexPage({ testsByLevel }: TestIndexPageProps) {
           title="Vocabulary test"
           description="Multiple-choice practice by CEFR level."
         />
-        <div className={cn(surface.muted, 'px-4 py-12 text-center md:px-6 md:py-16')}>
+        <div
+          className={cn(
+            surface.muted,
+            'px-4 py-12 text-center md:px-6 md:py-16',
+          )}
+        >
           <Circle className="mx-auto size-5 text-muted-foreground/60" />
-          <p className={cn(typography.sectionTitle, 'mt-4')}>No tests available</p>
+          <p className={cn(typography.sectionTitle, 'mt-4')}>
+            No tests available
+          </p>
           <p className={typography.body}>
             Generate test content first with{' '}
             <code className="rounded bg-muted px-1.5 py-0.5 text-foreground">

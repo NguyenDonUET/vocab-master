@@ -15,8 +15,15 @@ interface CardFrontProps {
 
 export function CardFront({ entry }: CardFrontProps) {
   return (
-    <div className={cn('flex flex-col items-center text-center', spacing.section)}>
-      <div className={cn('flex flex-wrap items-center justify-center pt-4', spacing.tight)}>
+    <div
+      className={cn('flex flex-col items-center text-center', spacing.section)}
+    >
+      <div
+        className={cn(
+          'flex flex-wrap items-center justify-center pt-4',
+          spacing.tight,
+        )}
+      >
         <Badge
           variant="outline"
           className={cn('font-semibold', getLevelBadgeClass(entry.level))}

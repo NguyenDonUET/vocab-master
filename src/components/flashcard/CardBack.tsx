@@ -40,7 +40,12 @@ export function CardBack({ entry }: CardBackProps) {
           {entry.examples.map((example, index) => (
             <li
               key={index}
-              className={cn('flex', spacing.inline, typography.body, 'text-foreground')}
+              className={cn(
+                'flex',
+                spacing.inline,
+                typography.body,
+                'text-foreground',
+              )}
             >
               <span className="flex size-6 shrink-0 items-center justify-center rounded-md bg-muted text-xs font-semibold text-muted-foreground">
                 {index + 1}
@@ -56,7 +61,9 @@ export function CardBack({ entry }: CardBackProps) {
         <div className={cn('mt-4', spacing.section)}>
           <div className="flex justify-start">
             <div className="max-w-[90%] rounded-2xl rounded-tl-sm border border-border/60 bg-muted/60 px-4 py-3">
-              <p className="mb-1 text-xs font-semibold text-muted-foreground">Alex</p>
+              <p className="mb-1 text-xs font-semibold text-muted-foreground">
+                Alex
+              </p>
               <p className={cn(typography.body, 'text-foreground')}>
                 {entry.conversation.question}
               </p>
@@ -64,7 +71,9 @@ export function CardBack({ entry }: CardBackProps) {
           </div>
           <div className="flex justify-end">
             <div className="max-w-[90%] rounded-2xl rounded-tr-sm border border-primary/20 bg-primary/10 px-4 py-3">
-              <p className="mb-1 text-xs font-semibold text-muted-foreground">Sam</p>
+              <p className="mb-1 text-xs font-semibold text-muted-foreground">
+                Sam
+              </p>
               <p className={cn(typography.body, 'text-foreground')}>
                 {entry.conversation.answer}
               </p>

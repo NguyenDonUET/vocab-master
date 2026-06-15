@@ -4,7 +4,10 @@ import type { VocabularyTest as PrismaVocabularyTest } from '@prisma/client'
 
 import { prisma } from '@/lib/prisma'
 import type { CefrLevel } from '@/types/vocabulary'
-import type { VocabularyTest, VocabularyTestQuestion } from '@/types/vocabulary-test'
+import type {
+  VocabularyTest,
+  VocabularyTestQuestion,
+} from '@/types/vocabulary-test'
 
 function toVocabularyTest(row: PrismaVocabularyTest): VocabularyTest {
   return {
@@ -137,7 +140,9 @@ export async function generateVocabularyTest({
   }
 }
 
-export async function upsertVocabularyTest(test: VocabularyTest): Promise<void> {
+export async function upsertVocabularyTest(
+  test: VocabularyTest,
+): Promise<void> {
   await prisma.vocabularyTest.upsert({
     where: { level: test.level },
     create: {

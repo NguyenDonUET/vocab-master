@@ -1,9 +1,14 @@
 import type { CefrLevel } from '@/types/vocabulary'
 
-export const AVAILABLE_TEST_LEVELS = ['B1', 'B2'] as const satisfies readonly CefrLevel[]
+export const AVAILABLE_TEST_LEVELS = [
+  'B1',
+  'B2',
+] as const satisfies readonly CefrLevel[]
 export type AvailableTestLevel = (typeof AVAILABLE_TEST_LEVELS)[number]
 
-export function isAvailableTestLevel(level: string): level is AvailableTestLevel {
+export function isAvailableTestLevel(
+  level: string,
+): level is AvailableTestLevel {
   return (AVAILABLE_TEST_LEVELS as readonly string[]).includes(level)
 }
 
@@ -44,7 +49,10 @@ export function getTestParts(test: VocabularyTest): VocabularyTestPart[] {
 
   return Array.from({ length: TEST_PART_COUNT }, (_, index) => {
     const start = index * TEST_QUESTIONS_PER_PART
-    const partQuestions = questions.slice(start, start + TEST_QUESTIONS_PER_PART)
+    const partQuestions = questions.slice(
+      start,
+      start + TEST_QUESTIONS_PER_PART,
+    )
 
     return {
       partNumber: index + 1,

@@ -26,7 +26,9 @@ export function ProgressPanel({ entries }: ProgressPanelProps) {
     useProgressStats(entries)
 
   const filterDescription = [
-    levelFilter === 'all' ? 'All CEFR levels' : `Filtered to ${levelFilter} only`,
+    levelFilter === 'all'
+      ? 'All CEFR levels'
+      : `Filtered to ${levelFilter} only`,
     learnedFilter === 'all'
       ? null
       : learnedFilter === 'unlearned'
@@ -43,7 +45,12 @@ export function ProgressPanel({ entries }: ProgressPanelProps) {
         <CardDescription>{filterDescription}</CardDescription>
       </CardHeader>
       <CardContent className={spacing.section}>
-        <div className={cn('grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4', spacing.inline)}>
+        <div
+          className={cn(
+            'grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4',
+            spacing.inline,
+          )}
+        >
           <StatCard label="Total" value={total} />
           <StatCard label="Learned" value={learned} />
           <StatCard label="Remaining" value={remaining} />

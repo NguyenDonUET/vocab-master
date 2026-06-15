@@ -63,7 +63,7 @@ export function findLevelExpressionDuplicates(
 
   return [...seen.entries()]
     .filter(([, occurrences]) => occurrences.length > 1)
-    .map(([key, occurrences]) => ({
+    .map(([, occurrences]) => ({
       expression: occurrences[0].expression,
       occurrences,
     }))

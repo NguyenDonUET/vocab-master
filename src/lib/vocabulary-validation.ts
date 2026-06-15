@@ -30,8 +30,7 @@ function isVocabularyCategory(value: unknown): value is VocabularyCategory {
 
 function isPartOfSpeech(value: unknown): value is PartOfSpeech {
   return (
-    typeof value === 'string' &&
-    PARTS_OF_SPEECH.includes(value as PartOfSpeech)
+    typeof value === 'string' && PARTS_OF_SPEECH.includes(value as PartOfSpeech)
   )
 }
 

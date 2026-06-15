@@ -35,9 +35,7 @@ export const useStudyStore = create<StudyState>((set) => ({
   nextCard: (deckLength) =>
     set((state) => ({
       currentIndex:
-        deckLength === 0
-          ? 0
-          : Math.min(state.currentIndex + 1, deckLength - 1),
+        deckLength === 0 ? 0 : Math.min(state.currentIndex + 1, deckLength - 1),
       isRevealed: false,
     })),
 

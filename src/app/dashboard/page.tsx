@@ -10,7 +10,5 @@ export default async function Page() {
   ])
   const learnedIds = await getProgress(deviceId)
 
-  return (
-    <DashboardPage entries={entries} initialLearnedIds={learnedIds} />
-  )
+  return <DashboardPage entries={entries} initialLearnedIds={learnedIds} />
 }

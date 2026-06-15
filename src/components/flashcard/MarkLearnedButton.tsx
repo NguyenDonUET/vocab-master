@@ -24,7 +24,9 @@ export function MarkLearnedButton({
   const unmarkLearned = useProgressStore((state) => state.unmarkLearned)
   const nextCard = useStudyStore((state) => state.nextCard)
   const learnedFilter = useStudyStore((state) => state.learnedFilter)
-  const learned = useProgressStore((state) => state.learnedIds.includes(entryId))
+  const learned = useProgressStore((state) =>
+    state.learnedIds.includes(entryId),
+  )
 
   const handleMarkLearned = () => {
     void markLearned(entryId)
@@ -35,7 +37,9 @@ export function MarkLearnedButton({
 
   if (learned) {
     return (
-      <div className={cn('flex w-full items-center gap-2 sm:w-auto', className)}>
+      <div
+        className={cn('flex w-full items-center gap-2 sm:w-auto', className)}
+      >
         <Button variant="secondary" disabled className="flex-1 sm:flex-none">
           <Check />
           <span className="truncate">Learned</span>

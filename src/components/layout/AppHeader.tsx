@@ -9,7 +9,10 @@ import { control, interactive, typography } from '@/lib/design-system'
 import { cn } from '@/lib/utils'
 
 function navLinkClass(isActive: boolean) {
-  return cn('ds-nav-link', isActive ? 'ds-nav-link-active' : 'ds-nav-link-inactive')
+  return cn(
+    'ds-nav-link',
+    isActive ? 'ds-nav-link-active' : 'ds-nav-link-inactive',
+  )
 }
 
 export function AppHeader() {

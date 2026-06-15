@@ -1,4 +1,9 @@
-import { interactive, sectionLabelClass, surface, typography } from '@/lib/design-system'
+import {
+  interactive,
+  sectionLabelClass,
+  surface,
+  typography,
+} from '@/lib/design-system'
 import { cn } from '@/lib/utils'
 
 interface StatCardProps {

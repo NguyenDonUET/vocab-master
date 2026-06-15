@@ -56,7 +56,9 @@ export function MobileNav() {
             aria-label="Mobile navigation"
           >
             <div className="flex h-14 shrink-0 items-center justify-between gap-4 border-b border-border/60 px-4">
-              <span className={cn(typography.sectionTitle, 'text-lg')}>Menu</span>
+              <span className={cn(typography.sectionTitle, 'text-lg')}>
+                Menu
+              </span>
               <Button
                 ref={closeButtonRef}
                 variant="ghost"

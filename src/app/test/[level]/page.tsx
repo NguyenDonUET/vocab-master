@@ -21,7 +21,11 @@ export default async function Page({ params }: PageProps) {
     getVocabularyEntries(),
   ])
 
-  const entriesById = Object.fromEntries(entries.map((entry) => [entry.id, entry]))
+  const entriesById = Object.fromEntries(
+    entries.map((entry) => [entry.id, entry]),
+  )
 
-  return <TestPage key={level} level={level} test={test} entriesById={entriesById} />
+  return (
+    <TestPage key={level} level={level} test={test} entriesById={entriesById} />
+  )
 }

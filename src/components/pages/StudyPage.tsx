@@ -38,9 +38,8 @@ export function StudyPage({ entries, initialLearnedIds }: StudyPageProps) {
         <div className={cn('w-full', spacing.section)}>
           <div className="flex flex-col items-center gap-2 text-center sm:flex-row sm:items-center sm:justify-between sm:text-left">
             <p className={typography.body}>
-              Card{' '}
-              <span className={typography.label}>{currentIndex + 1}</span> of{' '}
-              <span className={typography.label}>{deck.length}</span>
+              Card <span className={typography.label}>{currentIndex + 1}</span>{' '}
+              of <span className={typography.label}>{deck.length}</span>
             </p>
           </div>
           <FlashCard

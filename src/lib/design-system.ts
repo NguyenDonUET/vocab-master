@@ -17,12 +17,10 @@ export const control = {
 
 /** Typography scale */
 export const typography = {
-  pageTitle:
-    'text-2xl font-bold tracking-tight text-foreground md:text-3xl',
+  pageTitle: 'text-2xl font-bold tracking-tight text-foreground md:text-3xl',
   sectionTitle:
     'text-lg font-semibold tracking-tight text-foreground md:text-xl',
-  cardTitle:
-    'text-lg font-semibold tracking-tight text-foreground md:text-xl',
+  cardTitle: 'text-lg font-semibold tracking-tight text-foreground md:text-xl',
   label: 'text-sm font-medium text-foreground',
   body: 'text-sm text-muted-foreground leading-relaxed',
   expression:
@@ -41,8 +39,7 @@ export const surface = {
 /** Interaction */
 export const interactive = {
   transition: 'transition-all duration-200 ease-in-out',
-  hoverSurface:
-    'hover:border-border/80 hover:bg-muted/50',
+  hoverSurface: 'hover:border-border/80 hover:bg-muted/50',
   activePress: 'active:scale-[0.98]',
 } as const
 
@@ -59,7 +56,8 @@ export const levelBadgeClass: Record<CefrLevel, string> = {
 export const categoryBadgeClass: Record<VocabularyCategory, string> = {
   word: 'border-border/60 bg-muted text-muted-foreground',
   'phrasal-verb': 'border-primary/30 bg-primary/10 text-primary',
-  'fixed-expression': 'border-secondary-foreground/20 bg-secondary text-secondary-foreground',
+  'fixed-expression':
+    'border-secondary-foreground/20 bg-secondary text-secondary-foreground',
   collocation: 'border-accent-foreground/20 bg-accent text-accent-foreground',
 }
 
