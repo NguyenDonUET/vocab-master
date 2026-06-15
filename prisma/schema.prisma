@@ -35,6 +35,22 @@ model UserProgress {
   createdAt  DateTime @default(now())
 }
 
+model VocabularyTest {
+  level     CefrLevel                @id @map("_id")
+  questions VocabularyTestQuestion[]
+  updatedAt DateTime                 @updatedAt
+  createdAt DateTime                 @default(now())
+}
+
+type VocabularyTestQuestion {
+  vocabularyId String   @db.ObjectId
+  expression   String
+  prompt       String
+  exampleIndex Int
+  choices      String[]
+  correctIndex Int
+}
+
 enum CefrLevel {
   A2
   B1

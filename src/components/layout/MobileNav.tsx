@@ -83,6 +83,13 @@ export function MobileNav() {
               >
                 Dashboard
               </Link>
+              <Link
+                href="/test"
+                className={navLinkClass(pathname === '/test')}
+                onClick={close}
+              >
+                Test
+              </Link>
 
               <div className="mt-auto pt-4">
                 <Badge variant="secondary">A2–C2</Badge>

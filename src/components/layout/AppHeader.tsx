@@ -53,6 +53,9 @@ export function AppHeader() {
             >
               Dashboard
             </Link>
+            <Link href="/test" className={navLinkClass(pathname === '/test')}>
+              Test
+            </Link>
           </nav>
           <Badge variant="secondary" className="hidden sm:inline-flex">
             A2–C2

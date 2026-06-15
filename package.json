@@ -13,6 +13,7 @@
     "db:studio": "prisma studio",
     "vocab:check": "tsx scripts/check-vocabulary.ts",
     "vocab:index": "tsx scripts/generate-vocabulary-index.ts",
+    "test:generate": "tsx scripts/generate-vocabulary-test.ts",
     "postinstall": "prisma generate"
   },
   "prisma": {
