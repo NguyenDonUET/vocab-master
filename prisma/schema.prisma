@@ -35,11 +35,26 @@ model UserProgress {
   createdAt  DateTime @default(now())
 }
 
+model TestProgress {
+  deviceId       String              @id @map("_id")
+  completedParts CompletedTestPart[]
+  updatedAt      DateTime            @updatedAt
+  createdAt      DateTime            @default(now())
+}
+
+type CompletedTestPart {
+  key            String
+  testVersion    Int
+  bestCorrect    Int?
+  totalQuestions Int?
+}
+
 model VocabularyTest {
-  level     CefrLevel                @id @map("_id")
-  questions VocabularyTestQuestion[]
-  updatedAt DateTime                 @updatedAt
-  createdAt DateTime                 @default(now())
+  level       CefrLevel                @id @map("_id")
+  testVersion Int                      @default(1)
+  questions   VocabularyTestQuestion[]
+  updatedAt   DateTime                 @updatedAt
+  createdAt   DateTime                 @default(now())
 }
 
 type VocabularyTestQuestion {

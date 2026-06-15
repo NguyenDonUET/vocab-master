@@ -12,6 +12,7 @@ import type {
 function toVocabularyTest(row: PrismaVocabularyTest): VocabularyTest {
   return {
     level: row.level,
+    testVersion: row.testVersion,
     questions: (row.questions ?? []).map(
       (question): VocabularyTestQuestion => ({
         vocabularyId: question.vocabularyId,
@@ -136,6 +137,7 @@ export async function generateVocabularyTest({
 
   return {
     level,
+    testVersion: 1,
     questions,
   }
 }
@@ -143,13 +145,22 @@ export async function generateVocabularyTest({
 export async function upsertVocabularyTest(
   test: VocabularyTest,
 ): Promise<void> {
+  const existing = await prisma.vocabularyTest.findUnique({
+    where: { level: test.level },
+    select: { testVersion: true },
+  })
+
+  const testVersion = (existing?.testVersion ?? 0) + 1
+
   await prisma.vocabularyTest.upsert({
     where: { level: test.level },
     create: {
       level: test.level,
+      testVersion: 1,
       questions: test.questions,
     },
     update: {
+      testVersion,
       questions: test.questions,
     },
   })

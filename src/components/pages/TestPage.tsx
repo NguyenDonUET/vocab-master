@@ -1,8 +1,8 @@
 'use client'
 
-import { Circle, Layers } from 'lucide-react'
+import { Check, Circle, Layers } from 'lucide-react'
 import Link from 'next/link'
-import { useCallback, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
@@ -15,6 +15,9 @@ import {
   CardTitle,
 } from '@/components/ui/card'
 import { Progress } from '@/components/ui/progress'
+import { ProgressHydrator } from '@/components/progress/ProgressHydrator'
+import { TestProgressHydrator } from '@/components/progress/TestProgressHydrator'
+import { MarkUnlearnedButton } from '@/components/test/MarkUnlearnedButton'
 import { PageHeader, SectionLabel } from '@/components/ui/page-header'
 import {
   getLevelBadgeClass,
@@ -27,6 +30,8 @@ import {
 import { formatPartOfSpeechLabel } from '@/lib/labels'
 import { useTestKeyboardShortcuts } from '@/hooks/useTestKeyboardShortcuts'
 import { cn } from '@/lib/utils'
+import type { CompletedTestPart } from '@/lib/test-progress'
+import { useTestProgressStore } from '@/stores/useTestProgressStore'
 import type { CefrLevel, VocabularyEntry } from '@/types/vocabulary'
 import {
   getTestParts,
@@ -40,6 +45,8 @@ interface TestPageProps {
   level: AvailableTestLevel
   test: VocabularyTest | null
   entriesById: Record<string, VocabularyEntry>
+  initialLearnedIds: string[]
+  initialCompletedParts: CompletedTestPart[]
 }
 
 type AnswerState = 'unanswered' | 'correct' | 'incorrect'
@@ -96,12 +103,19 @@ function getChoiceClassName(
 function PartPicker({
   level,
   parts,
+  testVersion,
   onSelectPart,
 }: {
   level: CefrLevel
   parts: ReturnType<typeof getTestParts>
+  testVersion: number
   onSelectPart: (partNumber: number) => void
 }) {
+  const getPartBestScore = useTestProgressStore(
+    (state) => state.getPartBestScore,
+  )
+  const isPartMastered = useTestProgressStore((state) => state.isPartMastered)
+
   return (
     <Card>
       <CardHeader>
@@ -120,30 +134,65 @@ function PartPicker({
       </CardHeader>
       <CardContent>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {parts.map((part) => (
-            <button
-              key={part.partNumber}
-              type="button"
-              onClick={() => onSelectPart(part.partNumber)}
-              className={cn(
-                surface.card,
-                'flex min-h-28 flex-col items-start justify-between gap-3 p-4 text-left',
-                interactive.transition,
-                interactive.hoverSurface,
-                interactive.activePress,
-                'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2',
-              )}
-            >
-              <div className="flex w-full items-center justify-between gap-2">
-                <span className={typography.label}>Part {part.partNumber}</span>
-                <Layers className="size-4 text-muted-foreground/60" />
-              </div>
-              <p className={typography.body}>
-                {part.questionCount}{' '}
-                {part.questionCount === 1 ? 'question' : 'questions'}
-              </p>
-            </button>
-          ))}
+          {parts.map((part) => {
+            const score = getPartBestScore(
+              level,
+              part.partNumber,
+              testVersion,
+              part.questionCount,
+            )
+            const mastered = isPartMastered(
+              level,
+              part.partNumber,
+              testVersion,
+              part.questionCount,
+            )
+            const attempted = score !== null && !mastered
+
+            return (
+              <button
+                key={part.partNumber}
+                type="button"
+                onClick={() => onSelectPart(part.partNumber)}
+                className={cn(
+                  surface.card,
+                  'flex min-h-28 flex-col items-start justify-between gap-3 p-4 text-left',
+                  interactive.transition,
+                  interactive.hoverSurface,
+                  interactive.activePress,
+                  mastered &&
+                    'border-2 border-level-a2/15 bg-level-a2/15 hover:border-level-a2/15 hover:bg-level-a2/15',
+                  attempted && !mastered && 'bg-muted/40',
+                  'focus-visible:outline-none focus-visible:ring-b2 focus-visible:ring-ring focus-visible:ring-offset-2',
+                )}
+              >
+                <div className="flex w-full items-center justify-between gap-2">
+                  <span className={typography.label}>
+                    Part {part.partNumber}
+                  </span>
+                  {mastered ? (
+                    <Check
+                      className="size-5 stroke-[2.5] text-level-a2"
+                      aria-label={`Part ${part.partNumber} mastered`}
+                    />
+                  ) : (
+                    <Layers className="size-4 text-muted-foreground/60" />
+                  )}
+                </div>
+                <div className="space-y-1">
+                  <p className={typography.body}>
+                    {part.questionCount}{' '}
+                    {part.questionCount === 1 ? 'question' : 'questions'}
+                  </p>
+                  {attempted && score && (
+                    <p className="text-xs font-medium text-foreground">
+                      Best: {score.bestCorrect}/{score.totalQuestions} correct
+                    </p>
+                  )}
+                </div>
+              </button>
+            )
+          })}
         </div>
       </CardContent>
     </Card>
@@ -272,13 +321,18 @@ function QuestionCard({
           </div>
           <Progress value={progressValue} />
         </div>
-        <Button
-          onClick={onNext}
-          disabled={answerState === 'unanswered'}
-          className="w-full sm:ml-auto sm:w-auto"
-        >
-          {isLastQuestion ? 'Finish part' : 'Next question'}
-        </Button>
+        <div className="flex w-full flex-col gap-2 sm:ml-auto sm:w-auto sm:flex-row">
+          {answerState === 'incorrect' && entry && (
+            <MarkUnlearnedButton entryId={question.vocabularyId} />
+          )}
+          <Button
+            onClick={onNext}
+            disabled={answerState === 'unanswered'}
+            className="w-full sm:w-auto"
+          >
+            {isLastQuestion ? 'Finish part' : 'Next question'}
+          </Button>
+        </div>
       </CardFooter>
     </Card>
   )
@@ -308,7 +362,8 @@ function TestSummary({
           {level} · Part {partNumber} complete
         </CardTitle>
         <CardDescription>
-          Your score is shown below. Results are not saved.
+          Your score is shown below. Your best score is saved — get 100% to mark
+          this part complete.
         </CardDescription>
       </CardHeader>
       <CardContent className={spacing.section}>
@@ -345,7 +400,16 @@ function TestSummary({
   )
 }
 
-export function TestPage({ level, test, entriesById }: TestPageProps) {
+export function TestPage({
+  level,
+  test,
+  entriesById,
+  initialLearnedIds,
+  initialCompletedParts,
+}: TestPageProps) {
+  const recordPartResult = useTestProgressStore(
+    (state) => state.recordPartResult,
+  )
   const [selectedPart, setSelectedPart] = useState<number | null>(null)
   const [currentIndex, setCurrentIndex] = useState(0)
   const [correctCount, setCorrectCount] = useState(0)
@@ -359,6 +423,28 @@ export function TestPage({ level, test, entriesById }: TestPageProps) {
   const questions = activePart?.questions ?? []
   const currentQuestion = questions[currentIndex]
   const isComplete = questions.length > 0 && currentIndex >= questions.length
+
+  useEffect(() => {
+    if (!isComplete || selectedPart === null || !test) {
+      return
+    }
+
+    void recordPartResult(
+      level,
+      selectedPart,
+      test.testVersion,
+      correctCount,
+      questions.length,
+    )
+  }, [
+    isComplete,
+    selectedPart,
+    level,
+    test,
+    correctCount,
+    questions.length,
+    recordPartResult,
+  ])
 
   const resetSession = () => {
     setCurrentIndex(0)
@@ -424,6 +510,8 @@ export function TestPage({ level, test, entriesById }: TestPageProps) {
 
   return (
     <div className={spacing.page}>
+      <ProgressHydrator initialLearnedIds={initialLearnedIds} />
+      <TestProgressHydrator initialCompletedParts={initialCompletedParts} />
       <PageHeader
         title={`${level} vocabulary test`}
         description={`Multiple-choice practice for ${level} vocabulary using example sentences.`}
@@ -433,6 +521,7 @@ export function TestPage({ level, test, entriesById }: TestPageProps) {
         <PartPicker
           level={level}
           parts={parts}
+          testVersion={test.testVersion}
           onSelectPart={handleSelectPart}
         />
       ) : isComplete ? (

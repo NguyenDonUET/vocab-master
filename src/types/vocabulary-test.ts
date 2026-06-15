@@ -32,6 +32,7 @@ export interface VocabularyTestQuestion {
 
 export interface VocabularyTest {
   level: CefrLevel
+  testVersion: number
   questions: VocabularyTestQuestion[]
 }
 
@@ -41,13 +42,13 @@ export interface VocabularyTestPart {
   questions: VocabularyTestQuestion[]
 }
 
-export const TEST_PART_COUNT = 5
 export const TEST_QUESTIONS_PER_PART = 20
 
 export function getTestParts(test: VocabularyTest): VocabularyTestPart[] {
   const questions = test.questions ?? []
+  const partCount = Math.ceil(questions.length / TEST_QUESTIONS_PER_PART)
 
-  return Array.from({ length: TEST_PART_COUNT }, (_, index) => {
+  return Array.from({ length: partCount }, (_, index) => {
     const start = index * TEST_QUESTIONS_PER_PART
     const partQuestions = questions.slice(
       start,
