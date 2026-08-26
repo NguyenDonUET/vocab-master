@@ -12,7 +12,6 @@ import {
   VOCABULARY_CATEGORIES,
 } from '@/types/vocabulary'
 import {
-  findGlobalExpressionDuplicates,
   findLevelExpressionDuplicates,
   formatDuplicateReport,
 } from '@/lib/vocabulary-index'
@@ -181,16 +180,6 @@ export function validateVocabularyDataset(data: unknown): VocabularyDataset {
       formatDuplicateReport(
         levelDuplicates,
         'Duplicate vocabulary entry found',
-      ),
-    )
-  }
-
-  const globalDuplicates = findGlobalExpressionDuplicates(validatedItems)
-  if (globalDuplicates.length > 0) {
-    throw new Error(
-      formatDuplicateReport(
-        globalDuplicates,
-        'Expression already used in another level',
       ),
     )
   }

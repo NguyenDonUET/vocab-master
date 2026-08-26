@@ -59,7 +59,7 @@ function LevelTestCard({
         interactive.hoverSurface,
         interactive.activePress,
         levelComplete && 'border-level-a2/30',
-        'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2',
+        'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background',
       )}
     >
       <div className="flex w-full items-center justify-between gap-2">

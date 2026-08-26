@@ -163,7 +163,7 @@ function PartPicker({
                   mastered &&
                     'border-2 border-level-a2/15 bg-level-a2/15 hover:border-level-a2/15 hover:bg-level-a2/15',
                   attempted && !mastered && 'bg-muted/40',
-                  'focus-visible:outline-none focus-visible:ring-b2 focus-visible:ring-ring focus-visible:ring-offset-2',
+                  'focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background',
                 )}
               >
                 <div className="flex w-full items-center justify-between gap-2">

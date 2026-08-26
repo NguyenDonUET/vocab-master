@@ -3,6 +3,7 @@
 import { CardActions } from '@/components/flashcard/CardActions'
 import { CardBack } from '@/components/flashcard/CardBack'
 import { CardFront } from '@/components/flashcard/CardFront'
+import { DeleteCardButton } from '@/components/flashcard/DeleteCardButton'
 import { MarkLearnedButton } from '@/components/flashcard/MarkLearnedButton'
 import { Card, CardContent, CardFooter } from '@/components/ui/card'
 import { useStudyStore } from '@/stores/useStudyStore'
@@ -13,6 +14,7 @@ interface FlashCardProps {
   deckLength: number
   canGoPrev: boolean
   canGoNext: boolean
+  onDeleted: (entryId: string) => void
 }
 
 export function FlashCard({
@@ -20,6 +22,7 @@ export function FlashCard({
   deckLength,
   canGoPrev,
   canGoNext,
+  onDeleted,
 }: FlashCardProps) {
   const isRevealed = useStudyStore((state) => state.isRevealed)
 
@@ -27,11 +30,17 @@ export function FlashCard({
     <Card className="w-full overflow-hidden">
       <CardContent className="space-y-4 px-4 pb-4 md:space-y-6 md:px-6 md:pb-6">
         <CardFront entry={entry} />
-        <div className="flex w-full justify-stretch border-t border-border/60 pt-4 sm:justify-end">
+        <div className="flex w-full flex-wrap items-start justify-between gap-3 border-t border-border/60 pt-4">
           <MarkLearnedButton
             entryId={entry.id}
             deckLength={deckLength}
             canGoNext={canGoNext}
+            className="w-full sm:w-auto"
+          />
+          <DeleteCardButton
+            entryId={entry.id}
+            expression={entry.expression}
+            onDeleted={onDeleted}
             className="w-full sm:w-auto"
           />
         </div>

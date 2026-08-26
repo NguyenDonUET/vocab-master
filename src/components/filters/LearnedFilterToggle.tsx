@@ -11,19 +11,24 @@ const LEARNED_FILTER_OPTIONS: { value: LearnedFilter; label: string }[] = [
   { value: 'learned', label: 'Learned' },
 ]
 
-export function LearnedFilterToggle() {
+interface LearnedFilterToggleProps {
+  className?: string
+}
+
+export function LearnedFilterToggle({ className }: LearnedFilterToggleProps) {
   const learnedFilter = useStudyStore((state) => state.learnedFilter)
   const setLearnedFilter = useStudyStore((state) => state.setLearnedFilter)
 
   return (
     <div
       role="group"
-      aria-label="Progress filter"
+      aria-label="Study set"
       className={cn(
         'flex w-full overflow-hidden',
         control.height,
         control.radius,
         'border border-border/60 bg-muted/30',
+        className,
       )}
     >
       {LEARNED_FILTER_OPTIONS.map((option, index) => {
@@ -39,10 +44,10 @@ export function LearnedFilterToggle() {
               'flex min-w-0 flex-1 items-center justify-center px-3 text-sm font-medium',
               interactive.transition,
               interactive.activePress,
-              'focus-visible:z-10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-1',
+              'focus-visible:z-10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-1 focus-visible:ring-offset-background',
               index > 0 && 'border-l border-border/60',
               isActive
-                ? 'bg-card text-foreground'
+                ? 'bg-primary font-semibold text-primary-foreground'
                 : 'text-muted-foreground hover:bg-muted/50 hover:text-foreground',
             )}
           >

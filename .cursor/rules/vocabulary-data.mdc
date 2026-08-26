@@ -9,8 +9,8 @@ When adding or editing vocabulary entries in `src/data/levels/*.json`:
 
 ## Uniqueness
 
-1. **Global expression uniqueness** — each `expression` may appear only once across all level files (case-insensitive). Do not reuse an expression that already exists at any CEFR level.
-2. **Level + expression uniqueness** — the same `expression` cannot appear twice within the same level.
+1. **Level + expression uniqueness** — the same `expression` cannot appear twice within the same level file (case-insensitive).
+2. **Cross-level reuse is allowed** — the same `expression` may appear at different CEFR levels (e.g. A2 and B1) with level-appropriate content.
 3. Before seeding, run `npm run vocab:check` to catch duplicates early.
 
 ## File conventions

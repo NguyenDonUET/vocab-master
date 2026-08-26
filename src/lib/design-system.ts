@@ -30,8 +30,9 @@ export const typography = {
 
 /** Surfaces & containers */
 export const surface = {
-  card: 'rounded-xl border border-border/60 bg-card shadow-sm',
-  panel: 'rounded-xl border border-border/60 bg-card p-4 shadow-sm md:p-6',
+  card: 'rounded-xl border border-border/60 bg-card shadow-[0_12px_32px_-18px_oklch(0_0_0_/_0.7)]',
+  panel:
+    'rounded-xl border border-border/60 bg-card p-4 shadow-[0_12px_32px_-18px_oklch(0_0_0_/_0.7)] md:p-6',
   muted: 'rounded-xl border border-dashed border-border/60 bg-muted/40',
   inset: 'rounded-lg border border-border/60 bg-muted/30 p-3 md:p-4',
 } as const
@@ -45,11 +46,11 @@ export const interactive = {
 
 /** CEFR level badges — semantic token tints */
 export const levelBadgeClass: Record<CefrLevel, string> = {
-  A2: 'border-level-a2/30 bg-level-a2/10 text-level-a2',
-  B1: 'border-level-b1/30 bg-level-b1/10 text-level-b1',
-  B2: 'border-level-b2/30 bg-level-b2/10 text-level-b2',
-  C1: 'border-level-c1/30 bg-level-c1/10 text-level-c1',
-  C2: 'border-level-c2/30 bg-level-c2/10 text-level-c2',
+  A2: 'border-level-a2/40 bg-level-a2/15 text-level-a2',
+  B1: 'border-level-b1/40 bg-level-b1/15 text-level-b1',
+  B2: 'border-level-b2/40 bg-level-b2/15 text-level-b2',
+  C1: 'border-level-c1/40 bg-level-c1/15 text-level-c1',
+  C2: 'border-level-c2/40 bg-level-c2/15 text-level-c2',
 }
 
 /** Category badges — semantic tokens only */

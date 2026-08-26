@@ -18,6 +18,7 @@ function isEditableTarget(target: EventTarget | null): boolean {
     target.tagName === 'INPUT' ||
     target.tagName === 'TEXTAREA' ||
     target.tagName === 'SELECT' ||
+    target.tagName === 'BUTTON' ||
     target.isContentEditable
   )
 }
@@ -33,6 +34,8 @@ export function useStudyKeyboardShortcuts({
   const reveal = useStudyStore((state) => state.reveal)
   const hide = useStudyStore((state) => state.hide)
   const isRevealed = useStudyStore((state) => state.isRevealed)
+  const isFocusMode = useStudyStore((state) => state.isFocusMode)
+  const setFocusMode = useStudyStore((state) => state.setFocusMode)
 
   useEffect(() => {
     if (!enabled) {
@@ -40,6 +43,12 @@ export function useStudyKeyboardShortcuts({
     }
 
     const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape' && isFocusMode) {
+        event.preventDefault()
+        setFocusMode(false)
+        return
+      }
+
       if (isEditableTarget(event.target)) {
         return
       }
@@ -76,9 +85,11 @@ export function useStudyKeyboardShortcuts({
     deckLength,
     enabled,
     hide,
+    isFocusMode,
     isRevealed,
     nextCard,
     prevCard,
     reveal,
+    setFocusMode,
   ])
 }

@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { Plus_Jakarta_Sans } from 'next/font/google'
 
 import { AppLayout } from '@/components/layout/AppLayout'
@@ -16,6 +16,11 @@ export const metadata: Metadata = {
   icons: {
     icon: '/icons.svg',
   },
+}
+
+export const viewport: Viewport = {
+  colorScheme: 'dark',
+  themeColor: '#0f101f',
 }
 
 export default function RootLayout({

@@ -46,7 +46,7 @@ export function MobileNav() {
         <div className="fixed inset-0 z-50 lg:hidden">
           <button
             type="button"
-            className="absolute inset-0 bg-foreground/20 backdrop-blur-[2px]"
+            className="absolute inset-0 bg-black/60 backdrop-blur-[2px]"
             aria-label="Close navigation menu"
             onClick={close}
           />

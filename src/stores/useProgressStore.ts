@@ -13,6 +13,7 @@ interface ProgressState {
   markLearned: (id: string) => Promise<void>
   unmarkLearned: (id: string) => Promise<void>
   isLearned: (id: string) => boolean
+  forgetEntry: (id: string) => void
   resetProgress: () => Promise<void>
 }
 
@@ -61,6 +62,11 @@ export const useProgressStore = create<ProgressState>((set, get) => ({
   },
 
   isLearned: (id) => get().learnedIds.includes(id),
+
+  forgetEntry: (id) =>
+    set((state) => ({
+      learnedIds: state.learnedIds.filter((learnedId) => learnedId !== id),
+    })),
 
   resetProgress: async () => {
     const previousIds = get().learnedIds

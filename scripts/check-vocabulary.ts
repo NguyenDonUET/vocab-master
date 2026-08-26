@@ -10,11 +10,16 @@ import { validateVocabularyDataset } from '../src/lib/vocabulary-validation'
 function main() {
   const dataset = validateVocabularyDataset(loadRawDataset())
   const levelDuplicates = findLevelExpressionDuplicates(dataset.items)
+  const index = buildExpressionIndex(dataset.items)
   const globalDuplicates = findGlobalExpressionDuplicates(dataset.items)
 
-  if (levelDuplicates.length === 0 && globalDuplicates.length === 0) {
+  if (levelDuplicates.length === 0) {
+    const crossLevelNote =
+      globalDuplicates.length > 0
+        ? ` (${globalDuplicates.length} expressions appear at multiple levels)`
+        : ''
     console.log(
-      `Vocabulary check passed: ${dataset.items.length} entries, ${buildExpressionIndex(dataset.items).count} unique expressions.`,
+      `Vocabulary check passed: ${dataset.items.length} entries, ${index.count} unique expressions${crossLevelNote}.`,
     )
     return
   }
@@ -27,15 +32,6 @@ function main() {
   )
   if (levelReport) {
     console.error(levelReport)
-    console.error('')
-  }
-
-  const globalReport = formatDuplicateReport(
-    globalDuplicates,
-    'Duplicate expressions across levels',
-  )
-  if (globalReport) {
-    console.error(globalReport)
     console.error('')
   }
 

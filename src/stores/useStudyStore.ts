@@ -7,6 +7,7 @@ interface StudyState {
   learnedFilter: LearnedFilter
   currentIndex: number
   isRevealed: boolean
+  isFocusMode: boolean
 
   setLevelFilter: (level: LevelFilter) => void
   setLearnedFilter: (filter: LearnedFilter) => void
@@ -16,6 +17,8 @@ interface StudyState {
   reveal: () => void
   hide: () => void
   resetReveal: () => void
+  toggleFocusMode: () => void
+  setFocusMode: (value: boolean) => void
 }
 
 export const useStudyStore = create<StudyState>((set) => ({
@@ -23,6 +26,7 @@ export const useStudyStore = create<StudyState>((set) => ({
   learnedFilter: 'all',
   currentIndex: 0,
   isRevealed: false,
+  isFocusMode: false,
 
   setLevelFilter: (level) =>
     set({ levelFilter: level, currentIndex: 0, isRevealed: false }),
@@ -50,4 +54,8 @@ export const useStudyStore = create<StudyState>((set) => ({
   hide: () => set({ isRevealed: false }),
 
   resetReveal: () => set({ isRevealed: false }),
+
+  toggleFocusMode: () => set((state) => ({ isFocusMode: !state.isFocusMode })),
+
+  setFocusMode: (value) => set({ isFocusMode: value }),
 }))
